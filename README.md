@@ -1,5 +1,5 @@
-This repo contains most entity lumps from Valve Source games, including additional things like LMP, PAT, and commentary files. Some entity lumps couldn't be included because GCFScape couldn't open them.
-* **Alien Swarm:** ❌
+This repo contains most entity lumps from Valve Source games, including additional things like LMP, PAT, and commentary files. Some entity lumps couldn't be included because I didn't have a tool on hand to open them.
+* **Alien Swarm:** ✔
 * **Counter-Strike: Source:** ✔
 * **Day of Defeat: Source:** ✔
 * **Half-Life: Source:** ✔
@@ -12,5 +12,5 @@ This repo contains most entity lumps from Valve Source games, including addition
 * **Left 4 Dead:** ✔
 * **Left 4 Dead 2:** ✔
 * **Portal**: ✔
-* **Portal 2**: Only commentary files
+* **Portal 2**: ✔
 * **Team Fortress 2:** Only lumps from non-repacked maps
