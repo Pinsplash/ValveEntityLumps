@@ -1,0 +1,69 @@
+entity
+{
+	"world_maxs" "256 256 256"
+	"world_mins" "-896 -256 0"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"maxblobcount" "250"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"classname" "worldspawn"
+	"mapversion" "20"
+	"hammerid" "1"
+}
+entity
+{
+	"origin" "-608 0 128"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 1"
+	"classname" "light"
+	"hammerid" "239"
+}
+entity
+{
+	"origin" "32 0 32"
+	"targetname" "credits_music"
+	"spawnflags" "49"
+	"radius" "1250"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "music.sp_a5_credits"
+	"health" "10"
+	"classname" "ambient_generic"
+	"hammerid" "199"
+}
+entity
+{
+	"origin" "0 0 0"
+	"angles" "0 0 0"
+	"classname" "info_player_start"
+	"hammerid" "90"
+}
+entity
+{
+	"origin" "0 0 128"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "102"
+	"OnMapSpawn" "creditsRollPortalOutroCredits0-1"
+	"OnMapSpawn" "credits_musicPlaySound1-1"
+}
+entity
+{
+	"origin" "0 0 160"
+	"targetname" "credits"
+	"classname" "env_portal_credits"
+	"hammerid" "123"
+}
+entity
+{
+	"origin" "32 0 128"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 1"
+	"classname" "light"
+	"hammerid" "178"
+}

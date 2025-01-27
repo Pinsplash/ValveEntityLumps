@@ -1,0 +1,7993 @@
+entity
+{
+	"world_maxs" "-3936 -32 1312"
+	"world_mins" "-8064 -2816 -2048"
+	"skyname" "sky_white"
+	"maxpropscreenwidth" "-1"
+	"maxblobcount" "250"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"classname" "worldspawn"
+	"mapversion" "1178"
+	"hammerid" "1"
+}
+entity
+{
+	"origin" "-5987.17 -1505.04 -661.825"
+	"style" "0"
+	"spawnflags" "0"
+	"pitch" "-87"
+	"angles" "-87 82 0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 247 217 50"
+	"_inner_cone" "1"
+	"_exponent" "1"
+	"_distance" "0"
+	"_constant_attn" "5000"
+	"_cone" "50"
+	"classname" "light_spot"
+	"hammerid" "317721"
+}
+entity
+{
+	"origin" "-6432 -1440 -1224"
+	"targetname" "relay_fling_wall_close"
+	"classname" "logic_relay"
+	"hammerid" "296081"
+	"OnTrigger" "landing_08-proxyOnProxyRelay20.1-1"
+	"OnTrigger" "landing_07-proxyOnProxyRelay20.2-1"
+	"OnTrigger" "landing_06-proxyOnProxyRelay20.3-1"
+	"OnTrigger" "landing_05-proxyOnProxyRelay20.4-1"
+	"OnTrigger" "relay_fling_wall_openCancelPending0-1"
+	"OnTrigger" "landing_09-proxyOnProxyRelay20-1"
+}
+entity
+{
+	"origin" "-6432 -1440 -1192"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "296079"
+	"OnMapSpawn" "relay_fling_wall_closeTrigger1-1"
+}
+entity
+{
+	"origin" "-6432 -1440 -1208"
+	"targetname" "relay_fling_wall_open"
+	"classname" "logic_relay"
+	"hammerid" "296077"
+	"OnTrigger" "landing_05-proxyOnProxyRelay10-1"
+	"OnTrigger" "landing_06-proxyOnProxyRelay10.1-1"
+	"OnTrigger" "landing_07-proxyOnProxyRelay10.2-1"
+	"OnTrigger" "landing_08-proxyOnProxyRelay10.3-1"
+	"OnTrigger" "relay_fling_wall_closeCancelPending0-1"
+	"OnTrigger" "landing_09-proxyOnProxyRelay10.4-1"
+}
+entity
+{
+	"origin" "-6592 -864 -1730"
+	"targetname" "catapult_block2_model"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "move_plat_sink_1"
+	"model" "models/anim_wp/telescope_arm/telescope_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"angles" "-90 270 0"
+	"classname" "prop_dynamic"
+	"hammerid" "290151"
+}
+entity
+{
+	"origin" "-6528 -864 -1730"
+	"targetname" "catapult_block1_model"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "move_plat_sink_1"
+	"model" "models/anim_wp/telescope_arm/telescope_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"angles" "-90 270 0"
+	"classname" "prop_dynamic"
+	"hammerid" "290127"
+}
+entity
+{
+	"origin" "-6544 -814 -1816"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 50"
+	"classname" "light"
+	"hammerid" "290155"
+}
+entity
+{
+	"origin" "-6528 -800 -1730"
+	"targetname" "catapult_block3_model"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "move_plat_sink_1"
+	"model" "models/anim_wp/telescope_arm/telescope_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"angles" "-90 270 0"
+	"classname" "prop_dynamic"
+	"hammerid" "290147"
+}
+entity
+{
+	"origin" "-6592 -800 -1730"
+	"targetname" "catapult_block4_model"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "move_plat_sink_1"
+	"model" "models/anim_wp/telescope_arm/telescope_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"angles" "-90 270 0"
+	"classname" "prop_dynamic"
+	"hammerid" "290136"
+}
+entity
+{
+	"model" "*1"
+	"trigger_once" "0"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-6352 -864 -1792"
+	"classname" "trigger_playerteam"
+	"hammerid" "286754"
+	"OnStartTouchBluePlayer" "!selfDisable0-1"
+	"OnStartTouchOrangePlayer" "@gladosRunScriptCodeGladosAnnouncePlayerDemerit(1,6,9)0-1"
+	"OnStartTouchBluePlayer" "@gladosRunScriptCodeGladosAnnouncePlayerDemerit(2,6,9)0-1"
+	"OnStartTouchOrangePlayer" "!selfDisable0-1"
+}
+entity
+{
+	"origin" "-6560 -832 -1724"
+	"snap_to_helper_angles" "1"
+	"radius" "64"
+	"hide_until_placed" "1"
+	"force_placement" "1"
+	"angles" "-90 270 0"
+	"classname" "info_placement_helper"
+	"hammerid" "298600"
+}
+entity
+{
+	"model" "*2"
+	"trigger_once" "0"
+	"targetname" "team_trigger_door"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-6480 -1696 -763.5"
+	"classname" "trigger_playerteam"
+	"hammerid" "303358"
+	"OnEndTouchBluePlayer" "team_door-team_proxyOnProxyRelay20-1"
+	"OnEndTouchOrangePlayer" "team_door-team_proxyOnProxyRelay40-1"
+	"OnStartTouchBluePlayer" "team_door-team_proxyOnProxyRelay10-1"
+	"OnStartTouchOrangePlayer" "team_door-team_proxyOnProxyRelay30-1"
+}
+entity
+{
+	"origin" "-6844.71 -911.837 -589.586"
+	"texturename" "effects/flashlight003"
+	"targetname" "light_shadowed_03"
+	"style" "0"
+	"spawnflags" "2"
+	"shadowquality" "1"
+	"nearz" "64"
+	"lightworld" "1"
+	"lightfov" "70"
+	"lightcolor" "255 247 217 100"
+	"farz" "1500"
+	"enableshadows" "1"
+	"colortransitiontime" "0.5"
+	"brightnessscale" "15"
+	"angles" "26.3117 323.161 11.3496"
+	"classname" "env_projectedtexture"
+	"hammerid" "319075"
+}
+entity
+{
+	"origin" "-4611.23 -312 212.61"
+	"targetname" "hint_partnerview"
+	"spawnflags" "0"
+	"range" "256"
+	"event_name" "partnerview_hint_visible"
+	"classname" "info_game_event_proxy"
+	"hammerid" "322412"
+}
+entity
+{
+	"model" "*3"
+	"trigger_once" "0"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-6400 -1392 -896"
+	"classname" "trigger_playerteam"
+	"hammerid" "296879"
+	"OnStartTouchBluePlayer" "coopman_platsSetStateBTrue0-1"
+	"OnStartTouchOrangePlayer" "coopman_platsSetStateATrue0-1"
+}
+entity
+{
+	"origin" "-7312.27 -2926.56 -1287"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "315430"
+	"OnMapSpawn" "proxyOnProxyRelay20-1"
+}
+entity
+{
+	"origin" "-5826.15 -194.373 -374.972"
+	"start_active" "1"
+	"effect_name" "water_mist_512"
+	"angles" "0 180 0"
+	"classname" "info_particle_system"
+	"hammerid" "279506"
+}
+entity
+{
+	"model" "*4"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"origin" "-6240 -1152 -1928"
+	"nodmgforce" "1"
+	"damagetype" "262144"
+	"damagemodel" "0"
+	"damagecap" "20"
+	"damage" "100"
+	"classname" "trigger_hurt"
+	"hammerid" "272192"
+}
+entity
+{
+	"model" "*5"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "319962"
+}
+entity
+{
+	"model" "*6"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "319968"
+}
+entity
+{
+	"model" "*7"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"origin" "-5912 -128 -520"
+	"nodmgforce" "1"
+	"damagetype" "262144"
+	"damagemodel" "0"
+	"damagecap" "20"
+	"damage" "100"
+	"classname" "trigger_hurt"
+	"hammerid" "279285"
+}
+entity
+{
+	"origin" "-4736 -192 -568"
+	"targetname" "launch_sound1"
+	"spawnflags" "48"
+	"radius" "1250"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "Metal_SeafloorCar.BulletImpact"
+	"health" "10"
+	"classname" "ambient_generic"
+	"hammerid" "262785"
+}
+entity
+{
+	"origin" "-6619.15 -1730.62 -856"
+	"targetname" "relay_exit_door_opened"
+	"spawnflags" "1"
+	"classname" "logic_relay"
+	"hammerid" "303531"
+	"OnTrigger" "team_trigger_doorKill0-1"
+}
+entity
+{
+	"origin" "-6489.27 -1799 -721.01"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "272219"
+	"OnMapSpawn" "crusher_entry_door_2Open1-1"
+}
+entity
+{
+	"origin" "-5984 -1328 -1536"
+	"start_active" "1"
+	"effect_name" "water_mist_512"
+	"angles" "0 180 0"
+	"classname" "info_particle_system"
+	"hammerid" "272224"
+}
+entity
+{
+	"origin" "-4991.75 -192 32"
+	"targetname" "projector_shoot_through"
+	"StartEnabled" "1"
+	"angles" "0 0 0"
+	"classname" "prop_wall_projector"
+	"hammerid" "93213"
+}
+entity
+{
+	"model" "*8"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "94220"
+}
+entity
+{
+	"origin" "-5069.17 -1058 201"
+	"targetname" "disable_initial_spawn_rl"
+	"classname" "logic_relay"
+	"hammerid" "281155"
+	"OnTrigger" "initial spawnDisable0-1"
+}
+entity
+{
+	"origin" "-5152 -224 472.581"
+	"texturename" "effects/flashlight003"
+	"targetname" "light_shadowed_02"
+	"style" "0"
+	"spawnflags" "3"
+	"shadowquality" "1"
+	"nearz" "64"
+	"lightworld" "1"
+	"lightfov" "85"
+	"lightcolor" "255 247 217 100"
+	"farz" "1300"
+	"enableshadows" "1"
+	"colortransitiontime" "0.5"
+	"brightnessscale" "7"
+	"angles" "59.4955 358.232 -19.5547"
+	"classname" "env_projectedtexture"
+	"hammerid" "312063"
+}
+entity
+{
+	"origin" "-6432 -867.966 -735.741"
+	"snap_to_helper_angles" "0"
+	"radius" "64"
+	"hide_until_placed" "1"
+	"angles" "15 90 0"
+	"classname" "info_placement_helper"
+	"hammerid" "323854"
+}
+entity
+{
+	"origin" "-4696.17 -79.5165 755.672"
+	"SunSpreadAngle" "10"
+	"pitch" "-85"
+	"angles" "0 280 0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "133 156 182 300"
+	"_AmbientScaleHDR" "1"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_ambient" "133 156 182 300"
+	"classname" "light_environment"
+	"hammerid" "311394"
+}
+entity
+{
+	"origin" "-5093.56 -224 504"
+	"style" "0"
+	"spawnflags" "0"
+	"pitch" "-64.241"
+	"angles" "-64.241 6.32028 -83.7434"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 247 217 160"
+	"_inner_cone" "1"
+	"_exponent" "1"
+	"_distance" "0"
+	"_constant_attn" "100000"
+	"_cone" "70"
+	"classname" "light_spot"
+	"hammerid" "312423"
+}
+entity
+{
+	"origin" "-6560 -193 -1020"
+	"snap_to_helper_angles" "0"
+	"radius" "74"
+	"hide_until_placed" "1"
+	"force_placement" "1"
+	"angles" "0 270 0"
+	"classname" "info_placement_helper"
+	"hammerid" "297087"
+}
+entity
+{
+	"origin" "-5058.51 -1032 327.101"
+	"targetname" "4 in"
+	"soundscape" "room04.wall_block"
+	"radius" "200"
+	"classname" "env_soundscape"
+	"hammerid" "301633"
+}
+entity
+{
+	"origin" "-5092.68 -313.573 200"
+	"targetname" "2 out"
+	"soundscape" "room02.wall_block"
+	"radius" "200"
+	"classname" "env_soundscape"
+	"hammerid" "301600"
+}
+entity
+{
+	"model" "*9"
+	"trigger_once" "0"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-5600 -192 -384"
+	"classname" "trigger_playerteam"
+	"hammerid" "286720"
+	"OnStartTouchBluePlayer" "!selfDisable0-1"
+	"OnStartTouchOrangePlayer" "@gladosRunScriptCodeGladosAnnouncePlayerDemerit(1,6,9)0-1"
+	"OnStartTouchBluePlayer" "@gladosRunScriptCodeGladosAnnouncePlayerDemerit(2,6,9)0-1"
+	"OnStartTouchOrangePlayer" "!selfDisable0-1"
+}
+entity
+{
+	"origin" "-5664 -1152 32"
+	"targetname" "projector_shoot_through"
+	"StartEnabled" "1"
+	"angles" "0 0 0"
+	"classname" "prop_wall_projector"
+	"hammerid" "267054"
+}
+entity
+{
+	"model" "*10"
+	"trigger_once" "0"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-5168 -1151.19 -256"
+	"classname" "trigger_playerteam"
+	"hammerid" "286710"
+	"OnStartTouchBluePlayer" "!selfDisable0-1"
+	"OnStartTouchOrangePlayer" "@gladosRunScriptCodeGladosAnnouncePlayerScore(1,6,9)0-1"
+	"OnStartTouchBluePlayer" "@gladosRunScriptCodeGladosAnnouncePlayerScore(2,6,9)0-1"
+	"OnStartTouchOrangePlayer" "!selfDisable0-1"
+}
+entity
+{
+	"origin" "-5098.56 -335.046 311"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "266592"
+	"OnMapSpawn" "proxy_airlockOnProxyRelay12-1"
+}
+entity
+{
+	"origin" "-4489 -185.25 -502.247"
+	"targetname" "2 in"
+	"soundscape" "room02.wall_block"
+	"radius" "200"
+	"classname" "env_soundscape"
+	"hammerid" "301534"
+}
+entity
+{
+	"origin" "-5620.61 -1159.82 376.581"
+	"style" "0"
+	"spawnflags" "0"
+	"pitch" "-73.8144"
+	"angles" "-73.8144 10.7147 71.6901"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 30"
+	"_inner_cone" "1"
+	"_exponent" "1"
+	"_distance" "512"
+	"_constant_attn" "500"
+	"_cone" "50"
+	"classname" "light_spot"
+	"hammerid" "319036"
+}
+entity
+{
+	"model" "*11"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "267056"
+}
+entity
+{
+	"model" "*12"
+	"spawnflags" "4097"
+	"origin" "-5056 -1120 256"
+	"classname" "trigger_once"
+	"hammerid" "319232"
+	"OnTrigger" "light_shadowed_03TurnOn0-1"
+}
+entity
+{
+	"origin" "-6697.91 -1271 -905.74"
+	"targetname" "coopman_plats"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "299842"
+	"OnChangeToAnyTrue" "relay_fling_wall_openTrigger0-1"
+}
+entity
+{
+	"model" "*13"
+	"trigger_once" "0"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-4496 -192 112"
+	"classname" "trigger_playerteam"
+	"hammerid" "286692"
+	"OnStartTouchBluePlayer" "!selfDisable0-1"
+	"OnStartTouchOrangePlayer" "@gladosRunScriptCodeGladosAnnouncePlayerScore(1,6,9)0-1"
+	"OnStartTouchBluePlayer" "@gladosRunScriptCodeGladosAnnouncePlayerScore(2,6,9)0-1"
+	"OnStartTouchOrangePlayer" "!selfDisable0-1"
+}
+entity
+{
+	"model" "*14"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "321733"
+}
+entity
+{
+	"origin" "-6844.57 -919.262 -581.49"
+	"style" "0"
+	"spawnflags" "0"
+	"pitch" "-22.6527"
+	"angles" "-22.6527 319.465 -108.349"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 247 217 150"
+	"_inner_cone" "1"
+	"_exponent" "1"
+	"_distance" "0"
+	"_constant_attn" "100000"
+	"_cone" "70"
+	"classname" "light_spot"
+	"hammerid" "319070"
+}
+entity
+{
+	"origin" "-5158.2 -1148.56 -119.649"
+	"style" "0"
+	"spawnflags" "0"
+	"pitch" "-64.2575"
+	"angles" "-64.2575 173.147 -91.8322"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 30"
+	"_inner_cone" "1"
+	"_exponent" "1"
+	"_distance" "0"
+	"_constant_attn" "5000"
+	"_cone" "50"
+	"classname" "light_spot"
+	"hammerid" "318957"
+}
+entity
+{
+	"model" "*15"
+	"StartDisabled" "0"
+	"spawnflags" "4097"
+	"origin" "-4708 -192 124"
+	"classname" "trigger_once"
+	"hammerid" "285923"
+	"OnTrigger" "hint_partnerviewGenerateGameEvent0-1"
+}
+entity
+{
+	"origin" "-4510.56 -191.949 -255"
+	"angles" "0 180 0"
+	"classname" "info_player_start"
+	"hammerid" "262689"
+}
+entity
+{
+	"model" "*16"
+	"upperThreshold" "0.30"
+	"targetname" "catapult1"
+	"StartDisabled" "0"
+	"spawnflags" "4105"
+	"playerSpeed" "560"
+	"physicsSpeed" "560"
+	"origin" "-4720 -192 -628"
+	"lowerThreshold" "0.15"
+	"launchDirection" "-90 0 0"
+	"entryAngleTolerance" "0.0"
+	"applyAngularImpulse" "1"
+	"AirCtrlSupressionTime" "-1.0"
+	"classname" "trigger_catapult"
+	"hammerid" "262778"
+	"OnCatapulted" "faith_plate_up-proxyOnProxyRelay30-1"
+}
+entity
+{
+	"origin" "-6432 -704 -706"
+	"style" "0"
+	"spawnflags" "0"
+	"_zero_percent_distance" "0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "183 204 218 30"
+	"_hardfalloff" "0"
+	"_fifty_percent_distance" "0"
+	"_distance" "0"
+	"_constant_attn" "0"
+	"classname" "light"
+	"hammerid" "323930"
+}
+entity
+{
+	"origin" "-5425.69 -195.835 -374.972"
+	"start_active" "1"
+	"effect_name" "water_mist_512"
+	"angles" "0 180 0"
+	"classname" "info_particle_system"
+	"hammerid" "279441"
+}
+entity
+{
+	"origin" "-6460.6 -1638.47 -744"
+	"targetname" "4 out"
+	"soundscape" "room04.wall_block"
+	"radius" "200"
+	"classname" "env_soundscape"
+	"hammerid" "301688"
+}
+entity
+{
+	"origin" "-6560 -832 -1656"
+	"_zero_percent_distance" "256"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 10"
+	"_fifty_percent_distance" "128"
+	"classname" "light"
+	"hammerid" "320975"
+}
+entity
+{
+	"origin" "-5776 -196.104 864"
+	"_zero_percent_distance" "256"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 10"
+	"_fifty_percent_distance" "128"
+	"classname" "light"
+	"hammerid" "320940"
+}
+entity
+{
+	"model" "*17"
+	"angles" "90 -0 0"
+	"origin" "-5856 -1488 -638"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "324346"
+}
+entity
+{
+	"model" "*18"
+	"angles" "90 -0 0"
+	"origin" "-6112 -1520 -638"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "325077"
+}
+entity
+{
+	"model" "*19"
+	"angles" "90 -0 0"
+	"origin" "-5984 -1488 -638"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "325808"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6440 -1440 -1152"
+	"targetname" "landing_07-ramp_close"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "326543"
+	"OnTrigger" "landing_07-robot_makeramp_01SetAnimationmakeramp_01close0-1"
+	"OnTrigger" "landing_07-robot_makeramp_02SetAnimationmakeramp_02close0-1"
+}
+entity
+{
+	"origin" "-6464 -1538 -1118"
+	"targetname" "landing_07-robot_makeramp_01"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_01open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "326545"
+}
+entity
+{
+	"model" "*20"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_07-robot_makeramp_01panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_07-robot_makeramp_01"
+	"origin" "-6464 -1504 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "326549"
+}
+entity
+{
+	"model" "*21"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_07-robot_makeramp_02panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_07-robot_makeramp_02"
+	"origin" "-6464 -1440 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "326556"
+}
+entity
+{
+	"origin" "-6464 -1538 -1118"
+	"targetname" "landing_07-robot_makeramp_02"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_02open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "326563"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6472 -1440 -1152"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "326567"
+	"OnMapSpawn" "landing_07-robot_makeramp_02panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_07-robot_makeramp_01panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_07-robot_makeramp_01SetDefaultAnimationmakeramp_01open_idle0.1-1"
+	"OnMapSpawn" "landing_07-robot_makeramp_02SetDefaultAnimationmakeramp_02open_idle0.1-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6456 -1440 -1152"
+	"targetname" "landing_07-ramp_open"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "326569"
+	"OnTrigger" "landing_07-robot_makeramp_01SetAnimationmakeramp_01open0-1"
+	"OnTrigger" "landing_07-robot_makeramp_02SetAnimationmakeramp_02open0-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6488 -1440 -1152"
+	"targetname" "landing_07-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "326571"
+	"OnProxyRelay1" "landing_07-ramp_openTrigger0-1"
+	"OnProxyRelay2" "landing_07-ramp_closeTrigger0-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6504 -1440 -1152"
+	"targetname" "landing_08-ramp_close"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "326885"
+	"OnTrigger" "landing_08-robot_makeramp_01SetAnimationmakeramp_01close0-1"
+	"OnTrigger" "landing_08-robot_makeramp_02SetAnimationmakeramp_02close0-1"
+}
+entity
+{
+	"origin" "-6528 -1538 -1118"
+	"targetname" "landing_08-robot_makeramp_01"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_01open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "326887"
+}
+entity
+{
+	"model" "*22"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_08-robot_makeramp_01panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_08-robot_makeramp_01"
+	"origin" "-6528 -1504 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "326891"
+}
+entity
+{
+	"model" "*23"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_08-robot_makeramp_02panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_08-robot_makeramp_02"
+	"origin" "-6528 -1440 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "326898"
+}
+entity
+{
+	"origin" "-6528 -1538 -1118"
+	"targetname" "landing_08-robot_makeramp_02"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_02open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "326905"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6536 -1440 -1152"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "326909"
+	"OnMapSpawn" "landing_08-robot_makeramp_02panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_08-robot_makeramp_01panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_08-robot_makeramp_01SetDefaultAnimationmakeramp_01open_idle0.1-1"
+	"OnMapSpawn" "landing_08-robot_makeramp_02SetDefaultAnimationmakeramp_02open_idle0.1-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6520 -1440 -1152"
+	"targetname" "landing_08-ramp_open"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "326911"
+	"OnTrigger" "landing_08-robot_makeramp_01SetAnimationmakeramp_01open0-1"
+	"OnTrigger" "landing_08-robot_makeramp_02SetAnimationmakeramp_02open0-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6552 -1440 -1152"
+	"targetname" "landing_08-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "326913"
+	"OnProxyRelay1" "landing_08-ramp_openTrigger0-1"
+	"OnProxyRelay2" "landing_08-ramp_closeTrigger0-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6312 -1440 -1152"
+	"targetname" "landing_05-ramp_close"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "327227"
+	"OnTrigger" "landing_05-robot_makeramp_01SetAnimationmakeramp_01close0-1"
+	"OnTrigger" "landing_05-robot_makeramp_02SetAnimationmakeramp_02close0-1"
+}
+entity
+{
+	"origin" "-6336 -1538 -1118"
+	"targetname" "landing_05-robot_makeramp_01"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_01open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "327229"
+}
+entity
+{
+	"model" "*24"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_05-robot_makeramp_01panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_05-robot_makeramp_01"
+	"origin" "-6336 -1504 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "327233"
+}
+entity
+{
+	"model" "*25"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_05-robot_makeramp_02panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_05-robot_makeramp_02"
+	"origin" "-6336 -1440 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "327240"
+}
+entity
+{
+	"origin" "-6336 -1538 -1118"
+	"targetname" "landing_05-robot_makeramp_02"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_02open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "327247"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6344 -1440 -1152"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "327251"
+	"OnMapSpawn" "landing_05-robot_makeramp_02panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_05-robot_makeramp_01panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_05-robot_makeramp_01SetDefaultAnimationmakeramp_01open_idle0.1-1"
+	"OnMapSpawn" "landing_05-robot_makeramp_02SetDefaultAnimationmakeramp_02open_idle0.1-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6328 -1440 -1152"
+	"targetname" "landing_05-ramp_open"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "327253"
+	"OnTrigger" "landing_05-robot_makeramp_01SetAnimationmakeramp_01open0-1"
+	"OnTrigger" "landing_05-robot_makeramp_02SetAnimationmakeramp_02open0-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6360 -1440 -1152"
+	"targetname" "landing_05-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "327255"
+	"OnProxyRelay1" "landing_05-ramp_openTrigger0-1"
+	"OnProxyRelay2" "landing_05-ramp_closeTrigger0-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6376 -1440 -1152"
+	"targetname" "landing_06-ramp_close"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "327569"
+	"OnTrigger" "landing_06-robot_makeramp_01SetAnimationmakeramp_01close0-1"
+	"OnTrigger" "landing_06-robot_makeramp_02SetAnimationmakeramp_02close0-1"
+}
+entity
+{
+	"origin" "-6400 -1538 -1118"
+	"targetname" "landing_06-robot_makeramp_01"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_01open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "327571"
+}
+entity
+{
+	"model" "*26"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_06-robot_makeramp_01panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_06-robot_makeramp_01"
+	"origin" "-6400 -1504 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "327575"
+}
+entity
+{
+	"model" "*27"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_06-robot_makeramp_02panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_06-robot_makeramp_02"
+	"origin" "-6400 -1440 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "327582"
+}
+entity
+{
+	"origin" "-6400 -1538 -1118"
+	"targetname" "landing_06-robot_makeramp_02"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_02open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "327589"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6408 -1440 -1152"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "327593"
+	"OnMapSpawn" "landing_06-robot_makeramp_02panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_06-robot_makeramp_01panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_06-robot_makeramp_01SetDefaultAnimationmakeramp_01open_idle0.1-1"
+	"OnMapSpawn" "landing_06-robot_makeramp_02SetDefaultAnimationmakeramp_02open_idle0.1-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6392 -1440 -1152"
+	"targetname" "landing_06-ramp_open"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "327595"
+	"OnTrigger" "landing_06-robot_makeramp_01SetAnimationmakeramp_01open0-1"
+	"OnTrigger" "landing_06-robot_makeramp_02SetAnimationmakeramp_02open0-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6424 -1440 -1152"
+	"targetname" "landing_06-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "327597"
+	"OnProxyRelay1" "landing_06-ramp_openTrigger0-1"
+	"OnProxyRelay2" "landing_06-ramp_closeTrigger0-1"
+}
+entity
+{
+	"model" "*28"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5168 -1280 -320"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "327907"
+}
+entity
+{
+	"model" "*29"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5200 -1280 -192"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "328638"
+}
+entity
+{
+	"origin" "-6515 -1792 -720"
+	"TeamToLookAt" "3"
+	"targetname" "team_door-cam_2_light1"
+	"spawnflags" "0"
+	"skin" "0"
+	"model" "models/props/security_camera.mdl"
+	"LookAtPlayerPings" "0"
+	"angles" "-0 90 0"
+	"classname" "npc_security_camera"
+	"hammerid" "329062"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6496.17 -1768.31 -738.707"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "329064"
+	"OnMapSpawn" "team_door-spr_light_shadowed_5bSetParentAttachmentlight0-1"
+	"OnMapSpawn" "team_door-spr_light_shadowed_4bSetParentAttachmentlight0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6400 -1776 -773.166"
+	"targetname" "team_door-relay_orange_in"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "330055"
+	"OnTrigger" "team_door-coopman_airlock_successSetStateATrue0-1"
+	"OnTrigger" "team_door-spr_light_shadowed_5bShowSprite0-1"
+	"OnTrigger" "team_door-textog_orangeSetTextureIndex10-1"
+	"OnTrigger" "team_door-snd_airlock_button_dnPlaySound0-1"
+	"OnTrigger" "team_door-cam_2_light1Enable0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6463.77 -1792.7 -856"
+	"targetname" "team_door-coopman_airlock_success"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "330102"
+	"OnChangeToAllTrue" "team_door-exit_door-proxyOnProxyRelay101"
+	"OnChangeToAllTrue" "team_door-relay_orange_outKill01"
+	"OnChangeToAllTrue" "team_door-spr_light_shadowed_4bKill01"
+	"OnChangeToAllTrue" "team_door-spr_light_shadowed_5bKill01"
+	"OnChangeToAllTrue" "team_door-relay_blue_outKill01"
+	"OnChangeToAllTrue" "team_door-coopman_airlock_successKill0.011"
+	"OnChangeToAllTrue" "team_door-???Trigger01"
+}
+entity
+{
+	"model" "*30"
+	"angles" "-0 -90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "team_door-brush_blue"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-6482 -1804 -720"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "330123"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6418.17 -1784 -727.588"
+	"targetname" "team_door-team_proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "333292"
+	"OnProxyRelay1" "team_door-relay_blue_inTrigger0-1"
+	"OnProxyRelay2" "team_door-relay_blue_outTrigger0-1"
+	"OnProxyRelay3" "team_door-relay_orange_inTrigger0-1"
+	"OnProxyRelay4" "team_door-relay_orange_outTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6512 -1776 -760"
+	"targetname" "team_door-textog_orange"
+	"target" "team_door-brush_orange"
+	"classname" "env_texturetoggle"
+	"hammerid" "330151"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6472.89 -1766.92 -856"
+	"volstart" "0"
+	"targetname" "team_door-snd_airlock_button_up"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "Portal.button_up"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "330177"
+}
+entity
+{
+	"model" "*31"
+	"angles" "-0 -90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "team_door-brush_orange"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-6446 -1804 -720"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "330134"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6400 -1776 -789.166"
+	"targetname" "team_door-relay_orange_out"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "330053"
+	"OnTrigger" "team_door-coopman_airlock_successSetStateAFalse0-1"
+	"OnTrigger" "team_door-spr_light_shadowed_5bHideSprite0-1"
+	"OnTrigger" "team_door-textog_orangeSetTextureIndex00-1"
+	"OnTrigger" "team_door-snd_airlock_button_upPlaySound0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6464 -1728 -816"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 243 221 15"
+	"classname" "light"
+	"hammerid" "333480"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6528.14 -1776 -773.166"
+	"targetname" "team_door-relay_blue_in"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "330012"
+	"OnTrigger" "team_door-spr_light_shadowed_4bShowSprite0-1"
+	"OnTrigger" "team_door-coopman_airlock_successSetStateBTrue0-1"
+	"OnTrigger" "team_door-textog_blueSetTextureIndex10-1"
+	"OnTrigger" "team_door-snd_airlock_button_dnPlaySound0-1"
+	"OnTrigger" "team_door-cam_2_light1Enable0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6528.14 -1776 -789.166"
+	"targetname" "team_door-relay_blue_out"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "330025"
+	"OnTrigger" "team_door-spr_light_shadowed_4bHideSprite0-1"
+	"OnTrigger" "team_door-coopman_airlock_successSetStateBFalse0-1"
+	"OnTrigger" "team_door-textog_blueSetTextureIndex00-1"
+	"OnTrigger" "team_door-snd_airlock_button_upPlaySound0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6456.89 -1766.92 -856"
+	"volstart" "0"
+	"targetname" "team_door-snd_airlock_button_dn"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "Portal.button_down"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "330180"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6552 -1752 -752"
+	"targetname" "team_door-spr_light_shadowed_4b"
+	"spawnflags" "0"
+	"scale" "0.3"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "32 104 185"
+	"renderamt" "255"
+	"parentname" "team_door-cam_2_light1"
+	"model" "sprites/glow04.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "2.0"
+	"framerate" "10.0"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+	"hammerid" "333528"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6544 -1776 -760"
+	"targetname" "team_door-textog_blue"
+	"target" "team_door-brush_blue"
+	"classname" "env_texturetoggle"
+	"hammerid" "330147"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6560.14 -1777.33 -752.679"
+	"targetname" "team_door-spr_light_shadowed_5b"
+	"spawnflags" "0"
+	"scale" "0.3"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "255 156 21"
+	"renderamt" "255"
+	"parentname" "team_door-cam_2_light1"
+	"model" "sprites/glow04.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "2.0"
+	"framerate" "10.0"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+	"hammerid" "333525"
+}
+entity
+{
+	"model" "*32"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-4976 -320 -448"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "333838"
+}
+entity
+{
+	"model" "*33"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-4976 -320 -320"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "334324"
+}
+entity
+{
+	"model" "*34"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-4976 -320 -192"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "334810"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6568 -1440 -1152"
+	"targetname" "landing_09-ramp_close"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "335300"
+	"OnTrigger" "landing_09-robot_makeramp_01SetAnimationmakeramp_01close0-1"
+	"OnTrigger" "landing_09-robot_makeramp_02SetAnimationmakeramp_02close0-1"
+}
+entity
+{
+	"origin" "-6592 -1538 -1118"
+	"targetname" "landing_09-robot_makeramp_01"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_01open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "335302"
+}
+entity
+{
+	"model" "*35"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_09-robot_makeramp_01panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_09-robot_makeramp_01"
+	"origin" "-6592 -1504 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "335306"
+}
+entity
+{
+	"model" "*36"
+	"angles" "-1.09474e-013 90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "landing_09-robot_makeramp_02panel"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"parentname" "landing_09-robot_makeramp_02"
+	"origin" "-6592 -1440 -1089.17"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "335313"
+}
+entity
+{
+	"origin" "-6592 -1538 -1118"
+	"targetname" "landing_09-robot_makeramp_02"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/room_transform/arm64x64_interior.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"DefaultAnim" "makeramp_02open_idleend"
+	"angles" "-1.09474e-013 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "335320"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6600 -1440 -1152"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "335324"
+	"OnMapSpawn" "landing_09-robot_makeramp_02panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_09-robot_makeramp_01panelSetParentAttachmentMaintainOffsetpanel_attach0-1"
+	"OnMapSpawn" "landing_09-robot_makeramp_01SetDefaultAnimationmakeramp_01open_idle0.1-1"
+	"OnMapSpawn" "landing_09-robot_makeramp_02SetDefaultAnimationmakeramp_02open_idle0.1-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6584 -1440 -1152"
+	"targetname" "landing_09-ramp_open"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "335326"
+	"OnTrigger" "landing_09-robot_makeramp_01SetAnimationmakeramp_01open0-1"
+	"OnTrigger" "landing_09-robot_makeramp_02SetAnimationmakeramp_02open0-1"
+}
+entity
+{
+	"angles" "-1.09474e-013 90 0"
+	"origin" "-6616 -1440 -1152"
+	"targetname" "landing_09-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "335328"
+	"OnProxyRelay1" "landing_09-ramp_openTrigger0-1"
+	"OnProxyRelay2" "landing_09-ramp_closeTrigger0-1"
+}
+entity
+{
+	"model" "*37"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5103.75 -1218 448.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "335638"
+}
+entity
+{
+	"model" "*38"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5103.75 -1218 320.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "336124"
+}
+entity
+{
+	"model" "*39"
+	"angles" "-5.00896e-006 0 180"
+	"origin" "-6626 -239.75 -895.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "336610"
+}
+entity
+{
+	"model" "*40"
+	"angles" "90 -0 0"
+	"origin" "-5856 -1520 -638"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "337096"
+}
+entity
+{
+	"model" "*41"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-5200 -64 64.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "337827"
+}
+entity
+{
+	"model" "*42"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-4944 -64 -576"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "338313"
+}
+entity
+{
+	"model" "*43"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-4976 -320 -64"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "338799"
+}
+entity
+{
+	"model" "*44"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5168 -1280 -64"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "339285"
+}
+entity
+{
+	"model" "*45"
+	"angles" "90 -0 0"
+	"origin" "-5984 -1520 -638"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "340016"
+}
+entity
+{
+	"model" "*46"
+	"angles" "-5.00896e-006 0 180"
+	"origin" "-6626 -207.75 -895.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "340747"
+}
+entity
+{
+	"model" "*47"
+	"angles" "-5.00896e-006 0 -180"
+	"origin" "-6626 -207.75 -1023.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "341233"
+}
+entity
+{
+	"model" "*48"
+	"angles" "-5.00896e-006 0 -180"
+	"origin" "-6626 -239.75 -1023.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "341719"
+}
+entity
+{
+	"model" "*49"
+	"angles" "-5.00896e-006 0 -180"
+	"origin" "-6626 -207.75 -1151.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "342205"
+}
+entity
+{
+	"model" "*50"
+	"angles" "-5.00896e-006 0 180"
+	"origin" "-6624 -208 -1280"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "342691"
+}
+entity
+{
+	"model" "*51"
+	"angles" "-5.00896e-006 0 -180"
+	"origin" "-6624 -208 -1408"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "343177"
+}
+entity
+{
+	"model" "*52"
+	"angles" "-5.00896e-006 -180 -180"
+	"origin" "-6496 -208 -895.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "343663"
+}
+entity
+{
+	"model" "*53"
+	"angles" "-5.00896e-006 -180 -180"
+	"origin" "-6496 -240 -895.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "344149"
+}
+entity
+{
+	"model" "*54"
+	"angles" "-5.00896e-006 -180 180"
+	"origin" "-6496 -240 -1023.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "344635"
+}
+entity
+{
+	"model" "*55"
+	"angles" "-5.00896e-006 -180 180"
+	"origin" "-6496 -208 -1023.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "345121"
+}
+entity
+{
+	"model" "*56"
+	"angles" "-5.00896e-006 -180 180"
+	"origin" "-6496 -208 -1151.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "345607"
+}
+entity
+{
+	"model" "*57"
+	"angles" "-5.00896e-006 -180 180"
+	"origin" "-6496 -208 -1279.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "346093"
+}
+entity
+{
+	"model" "*58"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5168 -1024 -64"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "346579"
+}
+entity
+{
+	"model" "*59"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-4976 -64 -192"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "347310"
+}
+entity
+{
+	"model" "*60"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-4976 -64 -448"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "347796"
+}
+entity
+{
+	"model" "*61"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5200 -64 -63.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "348282"
+}
+entity
+{
+	"model" "*62"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-4976 -64 -64"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "350500"
+}
+entity
+{
+	"model" "*63"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5200 -1024 -64"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "350986"
+}
+entity
+{
+	"model" "*64"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5200 -1024 -192"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "351717"
+}
+entity
+{
+	"model" "*65"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5168 -1024 -192"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "352448"
+}
+entity
+{
+	"model" "*66"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5168 -1024 -320"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "353179"
+}
+entity
+{
+	"model" "*67"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5168 -1024 -448"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "353910"
+}
+entity
+{
+	"model" "*68"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-5168 -1024 -576"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "354641"
+}
+entity
+{
+	"model" "*69"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5648 -1280 192.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "355372"
+}
+entity
+{
+	"model" "*70"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5648 -1280 320.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "355858"
+}
+entity
+{
+	"model" "*71"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5648 -1024 192.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "356344"
+}
+entity
+{
+	"model" "*72"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5648 -1024 320.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "356830"
+}
+entity
+{
+	"model" "*73"
+	"angles" "90 -90 0"
+	"origin" "-5648 -1216 384"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "357316"
+}
+entity
+{
+	"model" "*74"
+	"angles" "90 -90 0"
+	"origin" "-5648 -1088 384"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "357802"
+}
+entity
+{
+	"model" "*75"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5616 -1280 320.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "358288"
+}
+entity
+{
+	"model" "*76"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5200 -64 704.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "358774"
+}
+entity
+{
+	"model" "*77"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-5200 -64 576.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "359260"
+}
+entity
+{
+	"model" "*78"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-5616 -1024 320.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "359746"
+}
+entity
+{
+	"model" "*79"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-4976 -320 -576"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "360232"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-4672 -136 -623"
+	"targetname" "faith_plate_up-relay_up"
+	"classname" "logic_relay"
+	"hammerid" "361292"
+	"OnTrigger" "faith_plate_up-launch_soundPlaySound0-1"
+	"OnTrigger" "faith_plate_up-catapult_modelSetAnimationstraightup0-1"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-4656 -136 -623"
+	"targetname" "faith_plate_up-relay_fast"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "361286"
+	"OnTrigger" "faith_plate_up-launch_soundPlaySound0-1"
+	"OnTrigger" "faith_plate_up-catapult_modelSetAnimationfast0-1"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-4640 -152 -623"
+	"targetname" "faith_plate_up-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "361264"
+	"OnProxyRelay1" "faith_plate_up-relay_normalTrigger0-1"
+	"OnProxyRelay2" "faith_plate_up-relay_fastTrigger0-1"
+	"OnProxyRelay3" "faith_plate_up-relay_upTrigger0-1"
+}
+entity
+{
+	"origin" "-4728 -192 -632"
+	"targetname" "faith_plate_up-catapult_model"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/props/faith_plate.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"DisableBoneFollowers" "1"
+	"DefaultAnim" "idle"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "360443"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-4728 -192 -600"
+	"targetname" "faith_plate_up-launch_sound"
+	"spawnflags" "48"
+	"radius" "1250"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "Metal_SeafloorCar.BulletImpact"
+	"health" "10"
+	"classname" "ambient_generic"
+	"hammerid" "360447"
+}
+entity
+{
+	"model" "*80"
+	"angles" "-0 -180 0"
+	"origin" "-4824 -128 -632"
+	"StartDisabled" "0"
+	"classname" "func_clip_vphysics"
+	"hammerid" "360459"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-4640 -136 -623"
+	"targetname" "faith_plate_up-relay_normal"
+	"classname" "logic_relay"
+	"hammerid" "361248"
+	"OnTrigger" "faith_plate_up-launch_soundPlaySound0-1"
+	"OnTrigger" "faith_plate_up-catapult_modelSetAnimationangled0-1"
+}
+entity
+{
+	"model" "*81"
+	"angles" "-5.00896e-006 -180 -180"
+	"origin" "-6496 -208 -1407.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "361602"
+}
+entity
+{
+	"model" "*82"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-4976 -64 -576"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "362088"
+}
+entity
+{
+	"model" "*83"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-4976 -64 -320"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "362574"
+}
+entity
+{
+	"model" "*84"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-5200 -64 448.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "363060"
+}
+entity
+{
+	"model" "*85"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-5200 -64 192.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "363546"
+}
+entity
+{
+	"model" "*86"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-5200 -64 320.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "364032"
+}
+entity
+{
+	"model" "*87"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5744 -1408 -576"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "364518"
+}
+entity
+{
+	"model" "*88"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5712 -1408 -192"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "365249"
+}
+entity
+{
+	"model" "*89"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5712 -1408 -320"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "365980"
+}
+entity
+{
+	"model" "*90"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5712 -1408 -448"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "366711"
+}
+entity
+{
+	"model" "*91"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5712 -1408 -576"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "367442"
+}
+entity
+{
+	"model" "*92"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-6000 -320 512.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "368173"
+}
+entity
+{
+	"model" "*93"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5200 -64 832.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "368659"
+}
+entity
+{
+	"model" "*94"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5200 -64 960.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "369145"
+}
+entity
+{
+	"model" "*95"
+	"angles" "-0 90 0"
+	"Visible" "1"
+	"targetname" "InstanceAuto74-$cleanser_name"
+	"StartDisabled" "0"
+	"spawnflags" "65"
+	"origin" "-5088 -975.5 256"
+	"classname" "trigger_portal_cleanser"
+	"hammerid" "369327"
+}
+entity
+{
+	"model" "*96"
+	"angles" "90 -90 0"
+	"origin" "-5200 -256 1024"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "372693"
+}
+entity
+{
+	"model" "*97"
+	"angles" "90 -90 0"
+	"origin" "-5200 -128 1024"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "373179"
+}
+entity
+{
+	"model" "*98"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5200 -64 -191.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "373665"
+}
+entity
+{
+	"model" "*99"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5168 -1280 -192"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "374151"
+}
+entity
+{
+	"model" "*100"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-4944 -320 -576"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "374882"
+}
+entity
+{
+	"model" "*101"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-4944 -320 -448"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "375368"
+}
+entity
+{
+	"model" "*102"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5200 -320 704.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "375854"
+}
+entity
+{
+	"model" "*103"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5200 -320 576.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "376340"
+}
+entity
+{
+	"model" "*104"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-4944 -320 -320"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "376826"
+}
+entity
+{
+	"model" "*105"
+	"angles" "90 -90 0"
+	"origin" "-5104 -224 512"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "377312"
+}
+entity
+{
+	"model" "*106"
+	"angles" "90 -90 0"
+	"origin" "-5136 -224 512"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "377798"
+}
+entity
+{
+	"model" "*107"
+	"angles" "90 -90 0"
+	"origin" "-5072 -224 512"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "378284"
+}
+entity
+{
+	"model" "*108"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5968 -320 0.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "378770"
+}
+entity
+{
+	"model" "*109"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-6000 -320 0.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "379256"
+}
+entity
+{
+	"model" "*110"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5968 -320 256.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "379742"
+}
+entity
+{
+	"model" "*111"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5968 -320 128.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "380228"
+}
+entity
+{
+	"model" "*112"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-6000 -320 128.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "380714"
+}
+entity
+{
+	"model" "*113"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5232 -64 832.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "381200"
+}
+entity
+{
+	"model" "*114"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5232 -64 960.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "381686"
+}
+entity
+{
+	"model" "*115"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-6000 -320 256.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "382172"
+}
+entity
+{
+	"model" "*116"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-6000 -320 384.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "382658"
+}
+entity
+{
+	"model" "*117"
+	"angles" "90 -0 0"
+	"origin" "-6112 -1488 -638"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "383144"
+}
+entity
+{
+	"model" "*118"
+	"angles" "-5.00896e-006 -90 -180"
+	"origin" "-5232 -64 704.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "383875"
+}
+entity
+{
+	"model" "*119"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-5232 -64 576.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "384361"
+}
+entity
+{
+	"model" "*120"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5232 -320 832.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "384847"
+}
+entity
+{
+	"model" "*121"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5232 -320 960.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "385333"
+}
+entity
+{
+	"model" "*122"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5232 -320 704.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "385819"
+}
+entity
+{
+	"model" "*123"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5232 -320 576.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "386305"
+}
+entity
+{
+	"model" "*124"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5232 -320 448.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "386791"
+}
+entity
+{
+	"model" "*125"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5232 -320 192.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "387277"
+}
+entity
+{
+	"model" "*126"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5232 -320 320.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "387763"
+}
+entity
+{
+	"model" "*127"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5232 -320 64.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "388249"
+}
+entity
+{
+	"model" "*128"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5232 -320 -63.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "388735"
+}
+entity
+{
+	"model" "*129"
+	"angles" "-5.00896e-006 90 180"
+	"origin" "-5232 -320 -191.75"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "389221"
+}
+entity
+{
+	"model" "*130"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5200 -320 832.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "389707"
+}
+entity
+{
+	"model" "*131"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5200 -320 960.25"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "390193"
+}
+entity
+{
+	"origin" "-7392 -2976 -1232"
+	"targetname" "environment_lobby"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "392414"
+	"OnTrigger" "!player_orangeSetFogController@environment_lobby_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax20-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin10-1"
+	"OnTrigger" "@tonemapperSetTonemapRate40-1"
+	"OnTrigger" "@tonemapperSetBloomScale.20-1"
+	"OnTrigger" "!player_blueSetFogController@environment_lobby_fog0-1"
+	"OnTrigger" "!playerSetFogController@environment_lobby_fog0-1"
+}
+entity
+{
+	"origin" "-7392 -3008 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_lobby_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "128"
+	"fogmaxdensity" "0.9"
+	"foglerptime" "2"
+	"fogend" "4500"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "59 103 146"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "392412"
+}
+entity
+{
+	"origin" "-7392 -2880 -1232"
+	"targetname" "environment_bts"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "390902"
+	"OnTrigger" "!playerSetFogController@environment_bts_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax2.50-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin10-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_bts_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_bts_fog0-1"
+}
+entity
+{
+	"origin" "-7392 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_bts_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "1"
+	"fogmaxdensity" "1"
+	"foglerptime" "2"
+	"fogend" "5000"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "41 91 152"
+	"fogcolor" "82 126 163"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "390874"
+}
+entity
+{
+	"origin" "-7232 -2880 -1232"
+	"targetname" "environment_darkness"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "391308"
+	"OnTrigger" "!playerSetFogController@environment_darkness_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin0.50-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax1.20-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_darkness_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_darkness_fog0-1"
+}
+entity
+{
+	"origin" "-7360 -2976 -1200"
+	"targetname" "proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "390769"
+	"OnProxyRelay1" "environment_testchamberTrigger0-1"
+	"OnProxyRelay2" "environment_destroyedTrigger0-1"
+	"OnProxyRelay3" "environment_btsTrigger0-1"
+	"OnProxyRelay4" "environment_undergroundTrigger0-1"
+	"OnProxyRelay5" "environment_minesTrigger0-1"
+	"OnProxyRelay6" "environment_lakeTrigger0-1"
+	"OnProxyRelay7" "environment_darknessTrigger0-1"
+	"OnProxyRelay8" "environment_bottomless_pitTrigger0-1"
+	"OnProxyRelay9" "environment_jailbreakTrigger0-1"
+	"OnProxyRelay10" "environment_fanTrigger0-1"
+	"OnProxyRelay11" "environment_testchamber_btsTrigger0-1"
+	"OnProxyRelay12" "environment_wall_5Trigger0-1"
+	"OnProxyRelay13" "environment_lobbyTrigger0-1"
+}
+entity
+{
+	"origin" "-7426.86 -3063.64 -1288"
+	"targetname" "@global_no_taunting_orange"
+	"spawnflags" "0"
+	"initialstate" "0"
+	"globalstate" "no_taunting_orange"
+	"classname" "env_global"
+	"hammerid" "392288"
+}
+entity
+{
+	"origin" "-7264 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_lake_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "0"
+	"fogmaxdensity" "0.9"
+	"foglerptime" "2"
+	"fogend" "10000"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "70 85 100"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "391206"
+}
+entity
+{
+	"origin" "-7408 -3056 -1232"
+	"targetname" "@command"
+	"classname" "point_servercommand"
+	"hammerid" "390375"
+}
+entity
+{
+	"origin" "-7264 -2880 -1232"
+	"targetname" "environment_lake"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "391200"
+	"OnTrigger" "!playerSetFogController@environment_lake_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin0.50-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax1.20-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_lake_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_lake_fog0-1"
+}
+entity
+{
+	"origin" "-7232 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_darkness_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "0"
+	"fogmaxdensity" "1"
+	"foglerptime" "2"
+	"fogend" "8000"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "0 0 0"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "391302"
+}
+entity
+{
+	"origin" "-7424 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_destroyed_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "128"
+	"fogmaxdensity" "0.9"
+	"foglerptime" "2"
+	"fogend" "2500"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "50 70 80"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "392208"
+}
+entity
+{
+	"origin" "-7168 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_wall_5"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "128"
+	"fogmaxdensity" "1"
+	"foglerptime" "2"
+	"fogend" "2500"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "13 19 28"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "392372"
+}
+entity
+{
+	"origin" "-7168 -2880 -1232"
+	"targetname" "environment_wall_5"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "392366"
+	"OnTrigger" "@environment_wall_5SetFogController@environment_wall_50-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax30-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin20-1"
+	"OnTrigger" "@tonemapperSetTonemapRate20-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels20-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_wall_50-1"
+	"OnTrigger" "!player_blueSetFogController@environment_wall_50-1"
+}
+entity
+{
+	"origin" "-7200 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_jailbreak_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "128"
+	"fogmaxdensity" "0.8"
+	"foglerptime" "2"
+	"fogend" "4000"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "100 140 160"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "391630"
+}
+entity
+{
+	"origin" "-7456 -2976 -1232"
+	"targetname" "environment_fan"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "391964"
+	"OnTrigger" "!playerSetFogController@environment_fan_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin0.50-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax2.70-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_fan_fog0-1"
+	"OnTrigger" "!player_blueSetFogController@environment_fan_fog0-1"
+}
+entity
+{
+	"origin" "-7200 -2880 -1232"
+	"targetname" "environment_jailbreak"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "391588"
+	"OnTrigger" "!playerSetFogController@environment_jailbreak_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin0.50-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax1.20-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_jailbreak_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_jailbreak_fog0-1"
+}
+entity
+{
+	"origin" "-7426.86 -3079.64 -1288"
+	"targetname" "@global_no_taunting_blue"
+	"spawnflags" "0"
+	"initialstate" "0"
+	"globalstate" "no_taunting_blue"
+	"classname" "env_global"
+	"hammerid" "392286"
+}
+entity
+{
+	"origin" "-7394.86 -3079.64 -1288"
+	"targetname" "@global_no_pinging_blue"
+	"spawnflags" "0"
+	"initialstate" "0"
+	"globalstate" "no_pinging_blue"
+	"classname" "env_global"
+	"hammerid" "392330"
+}
+entity
+{
+	"origin" "-7394.86 -3063.64 -1288"
+	"targetname" "@global_no_pinging_orange"
+	"spawnflags" "0"
+	"initialstate" "0"
+	"globalstate" "no_pinging_orange"
+	"classname" "env_global"
+	"hammerid" "392328"
+}
+entity
+{
+	"origin" "-7312 -2992 -1296"
+	"nodeid" "1"
+	"angles" "0 0 0"
+	"classname" "info_node"
+	"hammerid" "390373"
+}
+entity
+{
+	"origin" "-7328 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_bottomless_pit_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "0"
+	"fogmaxdensity" "0.8"
+	"foglerptime" "2"
+	"fogend" "6000"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "80 110 110"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "391418"
+}
+entity
+{
+	"origin" "-7392 -3056 -1232"
+	"targetname" "@clientcommand"
+	"classname" "point_clientcommand"
+	"hammerid" "390606"
+}
+entity
+{
+	"origin" "-7360 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_mines_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "0"
+	"fogmaxdensity" "0.9"
+	"foglerptime" "2"
+	"fogend" "6000"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "70 85 100"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "390977"
+}
+entity
+{
+	"origin" "-7456 -3008 -1232"
+	"use_angles" "0"
+	"targetname" "@environment_fan_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "128"
+	"fogmaxdensity" ".9"
+	"foglerptime" "2"
+	"fogend" "4500"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "52 64 75"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "391970"
+}
+entity
+{
+	"origin" "-7424 -2976 -1232"
+	"targetname" "environment_testchamber_bts"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "392112"
+	"OnTrigger" "!playerSetFogController@environment_testchamber_bts_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax2.50-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin.50-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_testchamber_bts_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_testchamber_bts_fog0-1"
+}
+entity
+{
+	"origin" "-7360 -2880 -1232"
+	"targetname" "environment_mines"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "391023"
+	"OnTrigger" "!playerSetFogController@environment_mines_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin0.50-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax1.20-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_mines_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_mines_fog0-1"
+}
+entity
+{
+	"origin" "-7296 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_underground_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "128"
+	"fogmaxdensity" "1"
+	"foglerptime" "2"
+	"fogend" "5000"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "40 60 64"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "391156"
+}
+entity
+{
+	"origin" "-7376 -3056 -1232"
+	"spawnflags" "0"
+	"classname" "logic_auto"
+	"hammerid" "391116"
+	"OnMapSpawn" "@clientcommandCommandr_flashlightbrightness .250-1"
+}
+entity
+{
+	"origin" "-7328 -2880 -1232"
+	"targetname" "environment_bottomless_pit"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "391412"
+	"OnTrigger" "!playerSetFogController@environment_bottomless_pit_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin0.50-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax1.20-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_bottomless_pit_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_bottomless_pit_fog0-1"
+}
+entity
+{
+	"origin" "-7456 -3072 -1232"
+	"enableshadowsfromlocallights" "1"
+	"distance" "100"
+	"disableallshadows" "0"
+	"color" "98 102 106"
+	"angles" "90 0 0"
+	"classname" "shadow_control"
+	"hammerid" "390381"
+}
+entity
+{
+	"origin" "-7408 -3040 -1232"
+	"targetname" "@tonemapper"
+	"spawnflags" "1"
+	"classname" "env_tonemap_controller"
+	"hammerid" "390377"
+}
+entity
+{
+	"origin" "-7456 -2880 -1232"
+	"targetname" "environment_testchamber"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "390699"
+	"OnTrigger" "!playerSetFogController@environment_testchamber_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax1.50-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin10-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels20-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_testchamber_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_testchamber_fog0-1"
+}
+entity
+{
+	"origin" "-7296 -2880 -1232"
+	"targetname" "environment_underground"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "391150"
+	"OnTrigger" "!playerSetFogController@environment_underground_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin0.50-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.150-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax1.20-1"
+	"OnTrigger" "@tonemapperSetBloomScale10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_underground_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_underground_fog0-1"
+}
+entity
+{
+	"origin" "-7408 -3088 -1232"
+	"vscripts" "debug_scripts/noclip_door_open_sensor.nut"
+	"thinkfunction" "Think"
+	"targetname" "vscript_debug-noclip_door_open"
+	"classname" "logic_script"
+	"hammerid" "390398"
+}
+entity
+{
+	"origin" "-7424 -3008 -1232"
+	"use_angles" "0"
+	"targetname" "@environment_testchamber_bts_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "200"
+	"fogmaxdensity" "1"
+	"foglerptime" "2"
+	"fogend" "3200"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "28 50 69"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "392118"
+}
+entity
+{
+	"origin" "-7424 -2880 -1232"
+	"targetname" "environment_destroyed"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "392202"
+	"OnTrigger" "!playerSetFogController@environment_destroyed_fog0-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMax3.20-1"
+	"OnTrigger" "@tonemapperSetAutoExposureMin10-1"
+	"OnTrigger" "@tonemapperSetTonemapRate.250-1"
+	"OnTrigger" "@tonemapperSetTonemapPercentBrightPixels10-1"
+	"OnTrigger" "!player_blueSetFogController@environment_destroyed_fog0-1"
+	"OnTrigger" "!player_orangeSetFogController@environment_destroyed_fog0-1"
+}
+entity
+{
+	"origin" "-7456 -2912 -1232"
+	"use_angles" "1"
+	"targetname" "@environment_testchamber_fog"
+	"spawnflags" "0"
+	"mingpulevel" "0"
+	"mindxlevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxdxlevel" "0"
+	"maxcpulevel" "0"
+	"heightFogStart" "0.0"
+	"heightFogMaxDensity" "1.0"
+	"heightFogDensity" "0.0"
+	"HDRColorScale" "1"
+	"fogstart" "128"
+	"fogmaxdensity" "1"
+	"foglerptime" "2"
+	"fogend" "5000"
+	"fogenable" "1"
+	"fogdir" "1 0 0"
+	"fogcolor2" "255 255 255"
+	"fogcolor" "40 53 64"
+	"fogblend" "0"
+	"farz" "-1"
+	"angles" "0 0 0"
+	"classname" "env_fog_controller"
+	"hammerid" "390396"
+}
+entity
+{
+	"model" "*132"
+	"origin" "-6304 -1584 -1024"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "392724"
+}
+entity
+{
+	"model" "*133"
+	"angles" "-5.00896e-006 -90 180"
+	"origin" "-4944 -64 -448"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "393471"
+}
+entity
+{
+	"origin" "-7919.81 -2496 64"
+	"targetname" "glados2"
+	"spawnflags" "516"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"physdamagescale" "1.0"
+	"model" "models/props/metal_box.mdl"
+	"hull_name" "Human"
+	"angles" "0 0 0"
+	"classname" "generic_actor"
+	"hammerid" "393674"
+}
+entity
+{
+	"model" "*134"
+	"wait" "1"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"origin" "-7784 -2576 39"
+	"classname" "trigger_multiple"
+	"hammerid" "393659"
+	"OnStartTouch" "gladosRunScriptCodeRelaxationVaultIntro01()0-1"
+}
+entity
+{
+	"origin" "-7968 -2672 64"
+	"vscripts" "choreo/glados_coop.nut"
+	"thinkfunction" "GladosThink"
+	"targetname" "@glados"
+	"spawnflags" "516"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"physdamagescale" "1.0"
+	"model" "models/props/metal_box.mdl"
+	"hull_name" "Human"
+	"angles" "0 0 0"
+	"classname" "generic_actor"
+	"hammerid" "393666"
+}
+entity
+{
+	"origin" "-6449.07 -2768 -672"
+	"style" "0"
+	"spawnflags" "0"
+	"pitch" "-22.6527"
+	"angles" "-22.6527 103.465 -108.349"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "215 233 236 600"
+	"_inner_cone" "1"
+	"_exponent" "1"
+	"_distance" "0"
+	"_constant_attn" "100000"
+	"_cone" "70"
+	"classname" "light_spot"
+	"hammerid" "471325"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6376 -2948 -760.515"
+	"targetname" "debug_exit_level_relay"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "404261"
+	"OnTrigger" "rl_start_exitTrigger01"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6348 -2948 -813.826"
+	"targetname" "game_end"
+	"classname" "game_end"
+	"hammerid" "404263"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6266 -2950 -814"
+	"targetname" "@relay_disable_exit"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "405037"
+	"OnTrigger" "relay_exit_succeedDisable0-1"
+}
+entity
+{
+	"model" "*135"
+	"angles" "-0 -90 0"
+	"wait" "1"
+	"spawnflags" "4104"
+	"origin" "-6464 -1960 -1112"
+	"classname" "trigger_multiple"
+	"hammerid" "466427"
+	"OnStartTouch" "!activatorSilentDissolve0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6328 -2888 -766.264"
+	"targetname" "transition_fadeout_1"
+	"spawnflags" "8"
+	"ReverseFadeDuration" "2"
+	"rendercolor" "0 0 0"
+	"renderamt" "255"
+	"duration" "1"
+	"classname" "env_fade"
+	"hammerid" "404245"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6378 -2888 -836"
+	"targetname" "playmovie_level_transition"
+	"MovieFilename" "p2_menu01"
+	"loopvideo" "1"
+	"fadeintime" "2"
+	"allowskip" "0"
+	"classname" "logic_playmovie"
+	"hammerid" "410667"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6376 -2916 -760.515"
+	"targetname" "debug_change_to_next_map"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "404257"
+	"OnTrigger" "debug_exit_level_relayTrigger0-1"
+}
+entity
+{
+	"model" "*136"
+	"angles" "-0 -90 0"
+	"trigger_once" "0"
+	"targetname" "ElevatorRoomEntranceTrigger"
+	"target_team" "3"
+	"spawnflags" "4097"
+	"origin" "-6464 -1900 -838"
+	"classname" "trigger_playerteam"
+	"hammerid" "404295"
+	"OnStartTouchOrangePlayer" "@gladosRunScriptCodeGladosCoopElevatorEntrance(1)01"
+	"OnStartTouchBluePlayer" "@gladosRunScriptCodeGladosCoopElevatorEntrance(2)01"
+}
+entity
+{
+	"model" "*137"
+	"angles" "-0 -90 0"
+	"wait" "3"
+	"StartDisabled" "0"
+	"spawnflags" "4097"
+	"origin" "-6464 -1904 -934"
+	"classname" "trigger_multiple"
+	"hammerid" "404297"
+}
+entity
+{
+	"model" "*138"
+	"angles" "-0 -90 0"
+	"Visible" "1"
+	"UseScanline" "1"
+	"StartDisabled" "0"
+	"spawnflags" "4105"
+	"origin" "-6401 -1840 -746"
+	"classname" "trigger_portal_cleanser"
+	"hammerid" "420067"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6376 -2872 -764"
+	"vscripts" "debug_scripts/mp_coop_transition_list.nut"
+	"targetname" "transition_script"
+	"classname" "logic_script"
+	"hammerid" "404097"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6282 -2950 -814"
+	"targetname" "@relay_enable_exit"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "405085"
+	"OnTrigger" "relay_exit_succeedEnable0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6400 -2332 -842"
+	"volstart" "0"
+	"targetname" "snd_tube_suck"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.ElevatorTubeOpen"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "463374"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6400 -2316 -842"
+	"volstart" "0"
+	"targetname" "snd_tube_start"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.RobotPlaintiveMotorMd"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "463411"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6504 -2320 -842"
+	"volstart" "0"
+	"targetname" "snd_tube_start"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.RobotPlaintiveMotorMd"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "463435"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6504 -2336 -842"
+	"volstart" "0"
+	"targetname" "snd_tube_suck"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.ElevatorTubeOpen"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "463438"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6274 -2950 -793.025"
+	"targetname" "relay_exit_succeed"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "405035"
+	"OnTrigger" "timer_try_exitKill0-1"
+	"OnTrigger" "gladosendoflevelrelayTrigger101"
+	"OnTrigger" "@gladosRunScriptCodeGladosEndLevelRequest()41"
+	"OnTrigger" "rl_start_exitTrigger01"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6256 -2950 -793.025"
+	"UseRandomTime" "0"
+	"targetname" "timer_try_exit"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"RefireTime" "1"
+	"classname" "logic_timer"
+	"hammerid" "405033"
+	"OnTimer" "relay_exit_succeedTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6309.45 -2924.93 -836"
+	"y" ".6"
+	"x" "-1"
+	"targetname" "end_of_playtest_text"
+	"spawnflags" "1"
+	"message" "End of Playtest"
+	"holdtime" "999"
+	"fxtime" ".1"
+	"fadeout" "0.5"
+	"fadein" ".05"
+	"effect" "2"
+	"color2" "255 128 0"
+	"color" "0 128 255"
+	"channel" "1"
+	"classname" "game_text"
+	"hammerid" "404084"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6416 -2280 -894"
+	"targetname" "fade_out"
+	"spawnflags" "0"
+	"ReverseFadeDuration" "2"
+	"rendercolor" "0 0 0"
+	"renderamt" "255"
+	"holdtime" "0.2"
+	"duration" "0.6"
+	"classname" "env_fade"
+	"hammerid" "418687"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6396 -2244 -890"
+	"targetname" "rl_start_exit"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"classname" "logic_relay"
+	"hammerid" "418666"
+	"OnTrigger" "timer_random_robot_weldEnable0.5-1"
+	"OnTrigger" "fade_inFade0.8-1"
+	"OnTrigger" "fade_outFade0-1"
+	"OnTrigger" "blue-proxyOnProxyRelay10.65-1"
+	"OnTrigger" "orange-proxyOnProxyRelay10.65-1"
+	"OnTrigger" "fade_exit_levelFade4.5-1"
+	"OnTrigger" "snd_tube_startPlaySound0-1"
+	"OnTrigger" "music_disassembly_01PlaySound0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6400 -2216 -921"
+	"targetname" "fade_exit_level"
+	"spawnflags" "8"
+	"ReverseFadeDuration" "2"
+	"rendercolor" "0 0 0"
+	"renderamt" "255"
+	"holdtime" "10"
+	"duration" "1.5"
+	"classname" "env_fade"
+	"hammerid" "418653"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6375 -2889.73 -813.239"
+	"vscripts" "coop/mp_coop_movie_level_transition.nut"
+	"Template01" "playmovie_level_transition"
+	"targetname" "template_movie_level_transition"
+	"spawnflags" "2"
+	"classname" "point_template"
+	"hammerid" "414025"
+	"OnEntitySpawned" "playmovie_level_transitionPlayLevelTransitionMovie0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6464.11 -1936 -816"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "181 214 251 20"
+	"classname" "light"
+	"hammerid" "466729"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6296 -2872 -819.334"
+	"targetname" "gladosendoflevelrelay"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "404010"
+	"OnTrigger" "transition_scriptRunScriptCodeTransitionFromMap()01"
+	"OnTrigger" "???Trigger01"
+	"OnTrigger" "transition_fadeout_1Fade01"
+}
+entity
+{
+	"origin" "-6480.44 -2288 -496"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"shadowdepthnocache" "2"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/elevator/elevator_blades.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "0"
+	"health" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "1"
+	"disablereceiveshadows" "0"
+	"DisableBoneFollowers" "0"
+	"AnimateEveryFrame" "0"
+	"angles" "-17.9866 -90.448 -176.388"
+	"classname" "prop_dynamic_override"
+	"hammerid" "445791"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6432 -2280 -926"
+	"targetname" "fade_in"
+	"spawnflags" "1"
+	"ReverseFadeDuration" "2"
+	"rendercolor" "0 0 0"
+	"renderamt" "255"
+	"duration" "0.5"
+	"classname" "env_fade"
+	"hammerid" "418691"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6472.54 -2119.93 -926"
+	"volstart" "0"
+	"targetname" "music_end_room"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "music.mp_coop_endlevel_course3"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "465808"
+}
+entity
+{
+	"model" "*139"
+	"angles" "-0 -90 0"
+	"spawnflags" "4097"
+	"origin" "-6464 -1840 -838"
+	"classname" "trigger_once"
+	"hammerid" "465805"
+	"OnStartTouch" "music_end_roomPlaySound01"
+	"OnStartTouch" "@exit_doorLockOpen0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6400 -2304 -926"
+	"targetname" "coopman_exit_level"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "418689"
+	"OnChangeToAllTrue" "blue-proxyOnProxyRelay20-1"
+	"OnChangeToAllTrue" "timer_try_exitEnable0-1"
+	"OnChangeToAllTrue" "orange-proxyOnProxyRelay20-1"
+	"OnChangeToAllTrue" "@relay_enable_exitTrigger20-1"
+}
+entity
+{
+	"model" "*140"
+	"angles" "-0 -90 0"
+	"Visible" "1"
+	"UseScanline" "1"
+	"StartDisabled" "0"
+	"spawnflags" "4105"
+	"origin" "-6401 -1840 -618"
+	"classname" "trigger_portal_cleanser"
+	"hammerid" "457707"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6320 -2144 -876.299"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "253 53 58 10"
+	"classname" "light"
+	"hammerid" "470060"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6463.76 -2286.84 -926"
+	"volstart" "0"
+	"targetname" "music_disassembly_01"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "music.mp_coop_disassembly_01"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "465508"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6400 -2216 -890"
+	"targetname" "rl_start_exit_finished"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"classname" "logic_relay"
+	"hammerid" "419247"
+	"OnTrigger" "timer_random_robot_weldDisable0-1"
+	"OnTrigger" "snd_tube_suckPlaySound0-1"
+	"OnTrigger" "template_movie_level_transitionForceSpawn1.25-1"
+	"OnTrigger" "transition_scriptRunScriptCodeTransitionFromMap()21"
+	"OnTrigger" "blue-proxyOnProxyRelay30-1"
+	"OnTrigger" "orange-proxyOnProxyRelay30-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6472.92 -2158.68 -926"
+	"volstart" "0"
+	"targetname" "sound_light"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.LightPowerOnMd"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "470416"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-6476 -2148 -766"
+	"targetname" "instance_level_exit"
+	"soundscape" "hallway_short01.instance"
+	"radius" "360"
+	"classname" "env_soundscape"
+	"hammerid" "404039"
+}
+entity
+{
+	"model" "*141"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5200 -1280 -64"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "471635"
+}
+entity
+{
+	"model" "*142"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5168 -1280 -448"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "472366"
+}
+entity
+{
+	"model" "*143"
+	"angles" "-0 -90 0"
+	"wait" "0"
+	"targetname" "trig_diable_entry"
+	"spawnflags" "4097"
+	"origin" "-5088 -688 256"
+	"classname" "trigger_multiple"
+	"hammerid" "907614"
+	"OnStartTouch" "airlock_entry_door_close_rlDisable0-1"
+	"OnStartTouch" "airlock_entry_door_open_rlTrigger0-1"
+	"OnEndTouchAll" "airlock_entry_door_close_rlEnable0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5085.92 -854.878 312"
+	"targetname" "coopman_airlock_success"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "907612"
+	"OnChangeToAllTrue" "airlock_exit_door_open_rlTrigger11"
+	"OnChangeToAllTrue" "airlock_entry_door_close_rlTrigger0.21"
+	"OnChangeToAllTrue" "airlock_barrier_2_kill_listenersTrigger01"
+	"OnChangeToAllTrue" "blue_dropper-proxyOnProxyRelay201"
+	"OnChangeToAllTrue" "disable_initial_spawn_rlTrigger01"
+	"OnChangeToAllTrue" "trigger_team_airlockKill01"
+	"OnChangeToAllTrue" "red_dropper-proxyOnProxyRelay201"
+	"OnChangeToAllFalse" "cam_2_light1Disable0-1"
+	"OnChangeToAllTrue" "airlock_entry_door_close_rlEnable0-1"
+	"OnChangeToAllTrue" "trig_diable_entryKill0-1"
+}
+entity
+{
+	"origin" "-5084.32 -703.962 513.175"
+	"style" "0"
+	"spawnflags" "0"
+	"pitch" "-74"
+	"angles" "-74 90 180"
+	"_zero_percent_distance" "0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 247 217 30"
+	"_inner_cone" "1"
+	"_hardfalloff" "0"
+	"_fifty_percent_distance" "0"
+	"_exponent" "1"
+	"_distance" "0"
+	"_constant_attn" "100000"
+	"_cone" "50"
+	"classname" "light_spot"
+	"hammerid" "906889"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5217.63 -824.313 305.523"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "901669"
+	"OnMapSpawn" "spr_light_shadowed_5bSetParentAttachmentlens0-1"
+	"OnMapSpawn" "spr_light_shadowed_4bSetParentAttachmentlens0-1"
+}
+entity
+{
+	"model" "*144"
+	"angles" "-0 -90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "brush_blue"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-5104 -863.5 336"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "895466"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-4992 -856 336"
+	"targetname" "relay_orange_out"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "895502"
+	"OnTrigger" "coopman_airlock_successSetStateAFalse0-1"
+	"OnTrigger" "spr_light_shadowed_5bHideSprite0-1"
+	"OnTrigger" "textog_orangeSetTextureIndex00-1"
+	"OnTrigger" "snd_airlock_button_upPlaySound0-1"
+	"OnTrigger" "coopman_airlock_cameraSetStateAFalse0-1"
+}
+entity
+{
+	"model" "*145"
+	"angles" "-0 -90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "brush_orange"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-5072 -863.5 336"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "895469"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5072 -856 365.166"
+	"targetname" "textog_orange"
+	"target" "brush_orange"
+	"classname" "env_texturetoggle"
+	"hammerid" "895510"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5184.14 -856 336"
+	"targetname" "relay_blue_out"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "895504"
+	"OnTrigger" "spr_light_shadowed_4bHideSprite0-1"
+	"OnTrigger" "coopman_airlock_successSetStateBFalse0-1"
+	"OnTrigger" "textog_blueSetTextureIndex00-1"
+	"OnTrigger" "snd_airlock_button_upPlaySound0-1"
+	"OnTrigger" "coopman_airlock_cameraSetStateBFalse0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5080.89 -838.92 200"
+	"volstart" "0"
+	"targetname" "snd_airlock_button_dn"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "Portal.button_down"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "895476"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5104 -856 365.166"
+	"targetname" "textog_blue"
+	"target" "brush_blue"
+	"classname" "env_texturetoggle"
+	"hammerid" "895508"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5096.89 -838.92 200"
+	"volstart" "0"
+	"targetname" "snd_airlock_button_up"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "Portal.button_up"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "895437"
+}
+entity
+{
+	"origin" "-5137 -864 336"
+	"TeamToLookAt" "3"
+	"targetname" "cam_2_light1"
+	"spawnflags" "0"
+	"skin" "0"
+	"model" "models/props/security_camera.mdl"
+	"LookAtPlayerPings" "0"
+	"angles" "-0 90 0"
+	"classname" "npc_security_camera"
+	"hammerid" "895447"
+}
+entity
+{
+	"model" "*146"
+	"angles" "-0 -90 0"
+	"trigger_once" "0"
+	"targetname" "trigger_team_airlock"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-5088 -728 256"
+	"classname" "trigger_playerteam"
+	"hammerid" "895491"
+	"OnStartTouchBluePlayer" "relay_blue_inTrigger0-1"
+	"OnEndTouchBluePlayer" "relay_blue_outTrigger0-1"
+	"OnStartTouchOrangePlayer" "relay_orange_inTrigger0-1"
+	"OnEndTouchOrangePlayer" "relay_orange_outTrigger0-1"
+}
+entity
+{
+	"model" "*147"
+	"angles" "-0 -90 0"
+	"trigger_once" "0"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-5072 -688 320"
+	"classname" "trigger_playerteam"
+	"hammerid" "907376"
+	"OnStartTouchBluePlayer" "coopman_music_airlockSetStateBTrue0-1"
+	"OnStartTouchOrangePlayer" "coopman_music_airlockSetStateATrue0-1"
+	"OnEndTouchOrangePlayer" "coopman_music_airlockSetStateAFalse0-1"
+	"OnEndTouchBluePlayer" "coopman_music_airlockSetStateBFalse0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5104 -720 356"
+	"targetname" "coopman_music_airlock"
+	"spawnflags" "17"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "907379"
+	"OnChangeToAllFalse" "music_airlockStopSound0-1"
+	"OnChangeToAnyTrue" "music_airlockPlaySound0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5104 -704 356"
+	"volstart" "0"
+	"targetname" "music_airlock"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "17"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "music.mp_coop_airlock_course3"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "907381"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-4992 -856 352"
+	"targetname" "relay_orange_in"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "907499"
+	"OnTrigger" "coopman_airlock_successSetStateATrue0-1"
+	"OnTrigger" "spr_light_shadowed_5bShowSprite0-1"
+	"OnTrigger" "textog_orangeSetTextureIndex10-1"
+	"OnTrigger" "snd_airlock_button_dnPlaySound0-1"
+	"OnTrigger" "coopman_airlock_cameraSetStateATrue0-1"
+	"OnTrigger" "cam_2_light1Enable0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5184.14 -856 352"
+	"targetname" "relay_blue_in"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "907495"
+	"OnTrigger" "spr_light_shadowed_4bShowSprite0-1"
+	"OnTrigger" "coopman_airlock_successSetStateBTrue0-1"
+	"OnTrigger" "textog_blueSetTextureIndex10-1"
+	"OnTrigger" "snd_airlock_button_dnPlaySound0-1"
+	"OnTrigger" "coopman_airlock_cameraSetStateBTrue0-1"
+	"OnTrigger" "cam_2_light1Enable0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5068 -540 201"
+	"targetname" "airlock_1_close_rl"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "889647"
+	"OnTrigger" "airlock_entry_door_close_rlTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5271 -586.903 281.677"
+	"targetname" "airlock_barrier_2_kill_listeners"
+	"spawnflags" "1"
+	"classname" "logic_relay"
+	"hammerid" "890356"
+	"OnTrigger" "airlock_barrier_2_airlock_occupied_triggerKill0-1"
+	"OnTrigger" "airlock_barrier_2_airlock_close_listenerKill0-1"
+	"OnTrigger" "airlock_barrier_2_airlock_open_listenerKill0-1"
+	"OnTrigger" "airlock_1_close_rlKill0-1"
+	"OnTrigger" "airlock_1_open_rlKill0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5088 -672 400"
+	"targetname" "3 airlock"
+	"soundscape" "airlock01.instance"
+	"radius" "284"
+	"classname" "env_soundscape"
+	"hammerid" "883936"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5072 -560 203.145"
+	"targetname" "airlock_entry_door_close_rl"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "883858"
+	"OnTrigger" "door1-proxyOnProxyRelay20-1"
+	"OnTrigger" "???Trigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5088 -840 263.145"
+	"targetname" "airlock_barrier_2_door_close_rl"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "883921"
+	"OnTrigger" "door2-proxyOnProxyRelay20-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5084.36 -727.704 375"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "898721"
+	"OnMapSpawn" "red_dropper-proxyOnProxyRelay10-1"
+	"OnMapSpawn" "blue_dropper-proxyOnProxyRelay10-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5089.54 -704.278 202"
+	"targetname" "proxy_airlock"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "902250"
+	"OnProxyRelay1" "airlock_entry_door_open_rlTrigger0-1"
+	"OnProxyRelay2" "airlock_entry_door_close_rlTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5104 -540 201"
+	"targetname" "airlock_1_open_rl"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "889645"
+	"OnTrigger" "airlock_entry_door_open_rlTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5104 -560 203.145"
+	"targetname" "airlock_entry_door_open_rl"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "883919"
+	"OnTrigger" "door1-proxyOnProxyRelay10-1"
+	"OnTrigger" "???Trigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5173.38 -840 283.07"
+	"targetname" "coopman_airlock_camera"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "898891"
+	"OnChangeToAnyTrue" "cam_2_light1Enable0-1"
+	"OnChangeToAllFalse" "cam_2_light1Disable0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5120 -840 263.145"
+	"targetname" "airlock_exit_door_open_rl"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "883903"
+	"OnTrigger" "door2-proxyOnProxyRelay10-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5192.28 -824.669 299.839"
+	"targetname" "spr_light_shadowed_4b"
+	"spawnflags" "0"
+	"scale" "0.3"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "32 104 185"
+	"renderamt" "255"
+	"parentname" "cam_2_light1"
+	"model" "sprites/glow04.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "2.0"
+	"framerate" "10.0"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+	"hammerid" "907729"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5200.42 -850 291.362"
+	"targetname" "spr_light_shadowed_5b"
+	"spawnflags" "0"
+	"scale" "0.3"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "255 156 21"
+	"renderamt" "255"
+	"parentname" "cam_2_light1"
+	"model" "sprites/glow04.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "2.0"
+	"framerate" "10.0"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+	"hammerid" "907732"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4228.19 -86.241 -631"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "915494"
+	"OnMapSpawn" "InstanceAuto122-vgui_screen_nameSetInactive0-1"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4176 -80 -631"
+	"volstart" "0"
+	"targetname" "InstanceAuto122-snd_board_screen_on"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.LaserDiskPowerUp"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "912841"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4192 -80 -631"
+	"volstart" "0"
+	"targetname" "InstanceAuto122-snd_board_screen_off"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.LaserDiskMonitorActivation"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "912859"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4065.59 -181.624 -471"
+	"targetname" "InstanceAuto122-1 spawn blue"
+	"soundscape" "spawn_room01.instance"
+	"radius" "262"
+	"classname" "env_soundscape"
+	"hammerid" "912932"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4145.59 -181.624 -471"
+	"targetname" "InstanceAuto122-1 spawn orange"
+	"soundscape" "spawn_room01.instance"
+	"radius" "262"
+	"classname" "env_soundscape"
+	"hammerid" "913083"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4087 -344 -479"
+	"vscripts" "debug_scripts/mp_coop_lobby.nut"
+	"targetname" "@script_mp_coop_lobby"
+	"classname" "logic_script"
+	"hammerid" "911855"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4106 -344 -502"
+	"targetname" "@relay_has_new_taunt"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "911041"
+	"OnTrigger" "InstanceAuto122-brush_new_tauntsEnable01"
+}
+entity
+{
+	"origin" "-4128 -240 -639"
+	"angles" "-0 90 0"
+	"classname" "info_player_start"
+	"hammerid" "907763"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4128.1 -344 -501.696"
+	"targetname" "InstanceAuto122-coopmanage_return_hub"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "910256"
+	"OnChangeToAllTrue" "InstanceAuto122-relay_return_hubTrigger0-1"
+	"OnChangeToAllTrue" "InstanceAuto122-panel_level_return_orangeCheck0-1"
+	"OnChangeToAllTrue" "InstanceAuto122-panel_level_return_blueCheck0-1"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4127.43 -344 -479.829"
+	"targetname" "InstanceAuto122-relay_return_hub"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "910345"
+	"OnTrigger" "InstanceAuto122-script_return_hubRunScriptCodeReturnToHubFromLevel()11"
+	"OnTrigger" "InstanceAuto122-fade_return_hubFade01"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4144.77 -344 -481.236"
+	"targetname" "InstanceAuto122-fade_return_hub"
+	"spawnflags" "8"
+	"ReverseFadeDuration" "2"
+	"rendercolor" "0 0 0"
+	"renderamt" "255"
+	"duration" "1"
+	"classname" "env_fade"
+	"hammerid" "910587"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4105.33 -344 -479.272"
+	"vscripts" "debug_scripts/mp_coop_transition_list.nut"
+	"targetname" "InstanceAuto122-script_return_hub"
+	"classname" "logic_script"
+	"hammerid" "910603"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4128 -344 -456"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "911026"
+	"OnMapSpawn" "@script_mp_coop_lobbyRunScriptCodeCheckForNewTaunts()2-1"
+	"OnMapSpawn" "InstanceAuto122-script_return_hubRunScriptCodeMapPostLoaded()21"
+}
+entity
+{
+	"origin" "-4223 -65 -607"
+	"width" "94"
+	"targetname" "InstanceAuto122-vgui_screen_name"
+	"panelname" "mp_progress_sign"
+	"height" "190"
+	"angles" "-0 -90 0"
+	"classname" "vgui_screen"
+	"hammerid" "912694"
+}
+entity
+{
+	"model" "*148"
+	"angles" "-0 90 0"
+	"spawnflags" "4097"
+	"origin" "-4176 -224 -600"
+	"classname" "trigger_once"
+	"hammerid" "913212"
+	"OnTrigger" "@gladosRunScriptCodeGladosCoopMapStart()01"
+	"OnTrigger" "InstanceAuto122-script_return_hubRunScriptCodeSetMapBranchAndLevel()0.251"
+	"OnTrigger" "InstanceAuto122-trigger_lightboardEnable0.5-1"
+}
+entity
+{
+	"model" "*149"
+	"angles" "-0 90 0"
+	"trigger_once" "0"
+	"targetname" "InstanceAuto122-trigger_lightboard"
+	"target_team" "0"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "-4176 -224 -584"
+	"classname" "trigger_playerteam"
+	"hammerid" "912761"
+	"OnEndTouchBluePlayer" "InstanceAuto122-coop_man_spawn_areaSetStateBFalse0-1"
+	"OnEndTouchOrangePlayer" "InstanceAuto122-coop_man_spawn_areaSetStateAFalse0-1"
+	"OnStartTouchBluePlayer" "InstanceAuto122-coop_man_spawn_areaSetStateBTrue0-1"
+	"OnStartTouchOrangePlayer" "InstanceAuto122-coop_man_spawn_areaSetStateATrue0-1"
+	"OnStartTouchBluePlayer" "@global_no_taunting_blueTurnOff01"
+	"OnStartTouchOrangePlayer" "@global_no_taunting_orangeTurnOff01"
+	"OnStartTouchOrangePlayer" "@global_no_pinging_orangeTurnOff01"
+	"OnStartTouchBluePlayer" "@global_no_pinging_blueTurnOff01"
+}
+entity
+{
+	"angles" "-0 90 0"
+	"origin" "-4324.26 -160.795 -631"
+	"targetname" "InstanceAuto122-coop_man_spawn_area"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "912768"
+	"OnChangeToAnyTrue" "InstanceAuto122-vgui_screen_nameSetActive0-1"
+	"OnChangeToAllFalse" "InstanceAuto122-vgui_screen_nameSetInactive0-1"
+	"OnChangeToAnyTrue" "InstanceAuto122-snd_board_screen_onPlaySound0-1"
+	"OnChangeToAllFalse" "InstanceAuto122-snd_board_screen_offPlaySound0-1"
+}
+entity
+{
+	"origin" "-5818 -192 920"
+	"radius" "64"
+	"hide_until_placed" "1"
+	"angles" "-45 180 180"
+	"classname" "info_placement_helper"
+	"hammerid" "917031"
+}
+entity
+{
+	"model" "*150"
+	"angles" "-5.00896e-006 90 -180"
+	"origin" "-5168 -1280 -576"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "917418"
+}
+entity
+{
+	"origin" "-6464 -1808 -864"
+	"vscripts" "door_close_sensor/puzzle_completion_door_logic.nut"
+	"targetname" "@exit_door"
+	"angles" "-0 90 0"
+	"classname" "prop_testchamber_door"
+	"hammerid" "917842"
+	"OnFullyOpen" "team_door-exit_door-trigger_glados_exit_doorEnable01"
+	"OnFullyClosed" "team_door-exit_door-trigger_invisible_cleanserEnable0-1"
+	"OnOpen" "team_door-exit_door-trigger_invisible_cleanserDisable0-1"
+	"OnFullyClosed" "team_door-exit_door-trigger_invisible_cleanserDisable0.2-1"
+	"OnOpen" "@exit_area_portalOpen01"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-6464 -1776 -800"
+	"targetname" "team_door-exit_door-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "918134"
+	"OnProxyRelay1" "@exit_doorOpen0-1"
+	"OnProxyRelay2" "@exit_doorClose0-1"
+}
+entity
+{
+	"origin" "-6464 -1736 -760"
+	"style" "0"
+	"spawnflags" "0"
+	"pitch" "-46.5"
+	"angles" "-46.5 -90 -90"
+	"_zero_percent_distance" "0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 40"
+	"_inner_cone" "2"
+	"_hardfalloff" "0"
+	"_fifty_percent_distance" "0"
+	"_exponent" "1"
+	"_distance" "0"
+	"_constant_attn" "0"
+	"_cone" "70"
+	"classname" "light_spot"
+	"hammerid" "918139"
+}
+entity
+{
+	"model" "*151"
+	"angles" "-0 -180 0"
+	"trigger_once" "0"
+	"targetname" "team_door-exit_door-trigger_glados_exit_door"
+	"target_team" "0"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "-6464 -1632 -800"
+	"classname" "trigger_playerteam"
+	"hammerid" "918155"
+	"OnStartTouchBluePlayer" "@gladosRunScriptCodeGladosCoopOpenExitDoor(2)01"
+	"OnStartTouchOrangePlayer" "@gladosRunScriptCodeGladosCoopOpenExitDoor(1)01"
+	"OnStartTouch" "team_door-exit_door-proxyProxyRelay01"
+}
+entity
+{
+	"model" "*152"
+	"angles" "-0 -180 0"
+	"Visible" "0"
+	"UseScanline" "0"
+	"targetname" "team_door-exit_door-trigger_invisible_cleanser"
+	"StartDisabled" "1"
+	"spawnflags" "4104"
+	"origin" "-6464 -1807.5 -806"
+	"classname" "trigger_portal_cleanser"
+	"hammerid" "918166"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6488 -2759.5 -627.438"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920556"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6488 -2778.91 -699.883"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920616"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6408 -2778.91 -699.883"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920610"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6448 -2759.5 -627.438"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920595"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6448 -2778.91 -699.883"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920613"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6488 -2769.34 -664.143"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920607"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6408 -2759.5 -627.438"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920598"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6448 -2769.34 -664.143"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920604"
+}
+entity
+{
+	"angles" "6.48207e-007 0 -15"
+	"origin" "-6408 -2769.34 -664.143"
+	"scale" "0.9"
+	"rendermode" "5"
+	"rendercolor" "247 228 170"
+	"renderamt" "255"
+	"model" "sprites/glow04.vmt"
+	"HDRColorScale" "1.0"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"classname" "env_sprite_clientside"
+	"hammerid" "920601"
+}
+entity
+{
+	"model" "*153"
+	"trigger_once" "0"
+	"targetname" "orange-trigger_exit_lift"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-6605.99 -2328 -881.87"
+	"classname" "trigger_playerteam"
+	"hammerid" "926368"
+	"OnStartTouchOrangePlayer" "orange-branch_doorSetStateATrue0-1"
+	"OnEndTouchOrangePlayer" "orange-branch_doorSetStateAFalse0-1"
+}
+entity
+{
+	"origin" "-6536 -2336 -901"
+	"targetname" "orange-ballbot_assembler_relay"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "920911"
+	"OnTrigger" "orange-ballbot_assemblerSetAnimationeggbot_disassemble0.1-1"
+	"OnTrigger" "orange-armASetAnimationegg_disassembly_arm_PosA_anim0.1-1"
+	"OnTrigger" "orange-armBSetAnimationegg_disassembly_arm_PosB_anim0.1-1"
+	"OnTrigger" "orange-armCSetAnimationegg_disassembly_arm_PosC_anim0.1-1"
+	"OnTrigger" "orange-armDSetAnimationegg_disassembly_arm_PosD_anim0.1-1"
+	"OnTrigger" "orange-armESetAnimationegg_disassembly_arm_PosE_anim0.1-1"
+	"OnTrigger" "orange-armFSetAnimationegg_disassembly_arm_PosF_anim0.1-1"
+	"OnTrigger" "orange-armGSetAnimationegg_disassembly_arm_PosG_anim0.1-1"
+	"OnTrigger" "orange-armHSetAnimationegg_disassembly_arm_PosH_anim0.1-1"
+	"OnTrigger" "orange-welder_pos2SetAnimationassembly_welder_pos20.1-1"
+	"OnTrigger" "orange-welder_pos1SetAnimationassembly_welder_pos10.1-1"
+	"OnTrigger" "orange-fingers_ASetAnimationegg_finger_arms_disass10.1-1"
+	"OnTrigger" "orange-fingers_BSetAnimationegg_finger_arms_disass20.1-1"
+	"OnTrigger" "orange-cradle_armSetAnimationegg_assembly_cradle_arm_anim0.1-1"
+	"OnTrigger" "orange-stationSetAnimationassembly_station_disassemble0.1-1"
+	"OnTrigger" "orange-ballbot_assemblerEnable0-1"
+	"OnTrigger" "orange-cam_botviewSetParentAttachmenteyes0-1"
+	"OnTrigger" "orange-cam_botviewEnable0.1-1"
+	"OnTrigger" "orange-relay_setplaybackrateTrigger0.5-1"
+	"OnTrigger" "orange-teleport_disEnable0.2-1"
+	"OnTrigger" "orange-armHEnable0-1"
+	"OnTrigger" "orange-armGEnable0-1"
+	"OnTrigger" "orange-armFEnable0-1"
+	"OnTrigger" "orange-armEEnable0-1"
+	"OnTrigger" "orange-armDEnable0-1"
+	"OnTrigger" "orange-armCEnable0-1"
+	"OnTrigger" "orange-armBEnable0-1"
+	"OnTrigger" "orange-armAEnable0-1"
+	"OnTrigger" "orange-cradle_armEnable0-1"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-ballbot_assembler"
+	"StartDisabled" "1"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/eggbot_assembler.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "920748"
+	"OnAnimationDone" "orange-proxyProxyRelay0-1"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armC"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921569"
+}
+entity
+{
+	"origin" "-6600 -2328 -883"
+	"targetname" "orange-cam_botview"
+	"target_team" "2"
+	"target_}
+entity" "orange-cam_botview"
+	"spawnflags" "3"
+	"parentname" "orange-ballbot_assembler"
+	"interp_time" "2"
+	"fov_rate" "1"
+	"fov" "72"
+	"angles" "0 0 0"
+	"classname" "point_viewcontrol_multiplayer"
+	"hammerid" "922064"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armD"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921549"
+}
+entity
+{
+	"model" "*154"
+	"trigger_once" "0"
+	"targetname" "orange-trigger_disable_exit_lift"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-6596 -2328 -895.54"
+	"classname" "trigger_playerteam"
+	"hammerid" "925793"
+	"OnStartTouchBluePlayer" "orange-branch_doorSetStateAFalse0-1"
+	"OnEndTouchBluePlayer" "orange-trigger_exit_liftEnable0-1"
+	"OnStartTouchBluePlayer" "orange-trigger_exit_liftDisable0-1"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armE"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921617"
+}
+entity
+{
+	"model" "*155"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "orange-brush_clip_doors"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"shadowdepthnocache" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-6554 -2328 -822"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disablereceiveshadows" "0"
+	"disableflashlight" "0"
+	"classname" "func_brush"
+	"hammerid" "926360"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-fingers_A"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/finger_arms_root.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921758"
+}
+entity
+{
+	"OnProxyRelay9" "coopman_exit_levelSetStateATrue0-1"
+	"OnProxyRelay8" "coopman_exit_levelSetStateAFalse0-1"
+	"OnProxyRelay7" "@global_no_taunting_orangeTurnOff0-1"
+	"OnProxyRelay6" "@global_no_taunting_orangeTurnOn0-1"
+	"OnProxyRelay5" "@global_no_pinging_orangeTurnOff0-1"
+	"OnProxyRelay4" "@global_no_pinging_orangeTurnOn0-1"
+	"origin" "-6536 -2336 -885"
+	"targetname" "orange-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "921352"
+	"OnProxyRelay1" "orange-ballbot_assembler_relayTrigger0-1"
+	"OnProxyRelay2" "orange-trigger_exit_liftKill0-1"
+	"OnProxyRelay3" "orange-cam_botviewDisable0-1"
+}
+entity
+{
+	"origin" "-6564 -2328 -931"
+	"style" "0"
+	"spawnflags" "0"
+	"_zero_percent_distance" "0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 50"
+	"_hardfalloff" "0"
+	"_fifty_percent_distance" "0"
+	"_distance" "0"
+	"_constant_attn" "0"
+	"classname" "light"
+	"hammerid" "921427"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armH"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921593"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armG"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921601"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armF"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921609"
+}
+entity
+{
+	"origin" "-6704 -2328 -902"
+	"targetname" "orange-target_dis_teleport"
+	"spawnflags" "0"
+	"angles" "0 0 0"
+	"classname" "info_target"
+	"hammerid" "925966"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-cradle_arm"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/assembly_cradle_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "925883"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-fingers_B"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/finger_arms_root.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921762"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armA"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921585"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armB"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921577"
+}
+entity
+{
+	"model" "*156"
+	"UseLandmarkAngles" "0"
+	"targetname" "orange-teleport_dis"
+	"target" "orange-target_dis_teleport"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "-6538 -2328 -885"
+	"classname" "trigger_teleport"
+	"hammerid" "925410"
+}
+entity
+{
+	"origin" "-6574 -2328 -847"
+	"style" "0"
+	"spawnflags" "0"
+	"_zero_percent_distance" "0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "252 147 3 20"
+	"_hardfalloff" "0"
+	"_fifty_percent_distance" "0"
+	"_distance" "0"
+	"_constant_attn" "0"
+	"classname" "light"
+	"hammerid" "921920"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-station"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "1"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/assembly_station.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921984"
+}
+entity
+{
+	"origin" "-6528 -2248 -901"
+	"targetname" "orange-relay_setplaybackrate"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "922842"
+	"OnTrigger" "orange-ballbot_assemblerSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-armASetPlaybackRate2.00-1"
+	"OnTrigger" "orange-armBSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-armCSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-armDSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-armESetPlaybackRate2.00-1"
+	"OnTrigger" "orange-armFSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-armGSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-armHSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-welder_pos2SetPlaybackRate2.00-1"
+	"OnTrigger" "orange-welder_pos1SetPlaybackRate2.00-1"
+	"OnTrigger" "orange-fingers_ASetPlaybackRate2.00-1"
+	"OnTrigger" "orange-fingers_BSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-cradle_armSetPlaybackRate2.00-1"
+	"OnTrigger" "orange-stationSetPlaybackRate2.00-1"
+}
+entity
+{
+	"origin" "-6576 -2328 -933"
+	"targetname" "orange-armC"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "420"
+	"fademaxdist" "450"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "0 0 0"
+	"classname" "prop_dynamic"
+	"hammerid" "921713"
+}
+entity
+{
+	"OnTrigger" "orange-proxyOnProxyRelay90-1"
+	"OnTrigger" "orange-proxyOnProxyRelay60-1"
+	"OnTrigger" "orange-proxyOnProxyRelay40-1"
+	"origin" "-6552 -2336 -925"
+	"targetname" "orange-rl_exit_doors_close"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "926444"
+}
+entity
+{
+	"OnTrigger" "orange-proxyOnProxyRelay80-1"
+	"OnTrigger" "orange-proxyOnProxyRelay70-1"
+	"OnTrigger" "orange-proxyOnProxyRelay50-1"
+	"origin" "-6552 -2320 -925"
+	"targetname" "orange-rl_exit_doors_open"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "926446"
+}
+entity
+{
+	"origin" "-6571.59 -2347.59 -923"
+	"targetname" "orange-branch_door"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "926448"
+	"OnChangeToAnyTrue" "orange-rl_exit_doors_closeTrigger0-1"
+	"OnChangeToAllFalse" "orange-rl_exit_doors_openTrigger0-1"
+	"OnChangeToAnyTrue" "orange-stationSetPlaybackRate2.50.1-1"
+	"OnChangeToAnyTrue" "orange-stationSetAnimationassembly_station_door_close0-1"
+	"OnChangeToAnyTrue" "orange-brush_clip_doorsEnable0-1"
+	"OnChangeToAllFalse" "orange-stationSetPlaybackRate2.50.1-1"
+	"OnChangeToAllFalse" "orange-stationSetAnimationassembly_station_door_open0-1"
+	"OnChangeToAllFalse" "orange-brush_clip_doorsDisable0-1"
+}
+entity
+{
+	"model" "*157"
+	"angles" "-0 -180 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "blue-brush_clip_doors"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"shadowdepthnocache" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-6384 -2328 -822"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disablereceiveshadows" "0"
+	"disableflashlight" "0"
+	"classname" "func_brush"
+	"hammerid" "932009"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-6368 -2328 -854"
+	"style" "0"
+	"spawnflags" "0"
+	"_zero_percent_distance" "0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "0 147 255 20"
+	"_hardfalloff" "0"
+	"_fifty_percent_distance" "0"
+	"_distance" "0"
+	"_constant_attn" "0"
+	"classname" "light"
+	"hammerid" "927622"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-station"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/assembly_station.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927686"
+}
+entity
+{
+	"origin" "-6328 -2328 -883"
+	"targetname" "blue-cam_botview"
+	"target_team" "3"
+	"target_}
+entity" "blue-cam_botview"
+	"spawnflags" "3"
+	"parentname" "blue-ballbot_assembler"
+	"interp_time" "2"
+	"fov_rate" "1"
+	"fov" "72"
+	"angles" "-0 -180 0"
+	"classname" "point_viewcontrol_multiplayer"
+	"hammerid" "927766"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-6392 -2320 -901"
+	"targetname" "blue-ballbot_assembler_relay"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "926613"
+	"OnTrigger" "blue-ballbot_assemblerSetAnimationballbot_disassemble0.1-1"
+	"OnTrigger" "blue-armASetAnimationdisassembly_arm_PosA_anim0.1-1"
+	"OnTrigger" "blue-armBSetAnimationdisassembly_arm_PosB_anim0.1-1"
+	"OnTrigger" "blue-armCSetAnimationdisassembly_arm_PosC_anim0.1-1"
+	"OnTrigger" "blue-armDSetAnimationdisassembly_arm_PosD_anim0.1-1"
+	"OnTrigger" "blue-armESetAnimationdisassembly_arm_PosE_anim0.1-1"
+	"OnTrigger" "blue-armFSetAnimationdisassembly_arm_PosF_anim0.1-1"
+	"OnTrigger" "blue-armGSetAnimationdisassembly_arm_PosG_anim0.1-1"
+	"OnTrigger" "blue-armHSetAnimationdisassembly_arm_PosH_anim0.1-1"
+	"OnTrigger" "blue-welder_pos2SetAnimationassembly_welder_pos20.1-1"
+	"OnTrigger" "blue-welder_pos1SetAnimationassembly_welder_pos10.1-1"
+	"OnTrigger" "blue-fingers_ASetAnimationfinger_arms_disass10.1-1"
+	"OnTrigger" "blue-fingers_BSetAnimationfinger_arms_disass20.1-1"
+	"OnTrigger" "blue-cradle_armSetAnimationassembly_cradle_arm_anim0.1-1"
+	"OnTrigger" "blue-stationSetAnimationassembly_station_disassemble0.1-1"
+	"OnTrigger" "blue-ballbot_assemblerEnable0-1"
+	"OnTrigger" "blue-cam_botviewSetParentAttachmenteyes0-1"
+	"OnTrigger" "blue-cam_botviewEnable0.1-1"
+	"OnTrigger" "blue-relay_setplaybackrateTrigger0.5-1"
+	"OnTrigger" "blue-teleport_disEnable0.2-1"
+	"OnTrigger" "blue-armAEnable0-1"
+	"OnTrigger" "blue-armBEnable0-1"
+	"OnTrigger" "blue-armCEnable0-1"
+	"OnTrigger" "blue-armDEnable0-1"
+	"OnTrigger" "blue-armEEnable0-1"
+	"OnTrigger" "blue-armFEnable0-1"
+	"OnTrigger" "blue-armGEnable0-1"
+	"OnTrigger" "blue-armHEnable0-1"
+	"OnTrigger" "blue-cradle_armEnable0-1"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-6364 -2328 -931"
+	"style" "0"
+	"spawnflags" "0"
+	"_zero_percent_distance" "0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 50"
+	"_hardfalloff" "0"
+	"_fifty_percent_distance" "0"
+	"_distance" "0"
+	"_constant_attn" "0"
+	"classname" "light"
+	"hammerid" "927129"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armH"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927295"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armG"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927303"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armC"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927271"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-fingers_A"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/finger_arms_root.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927460"
+}
+entity
+{
+	"origin" "-6224 -2328 -902"
+	"targetname" "blue-target_dis_teleport"
+	"spawnflags" "0"
+	"angles" "-0 -180 0"
+	"classname" "info_target"
+	"hammerid" "931143"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-fingers_B"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/finger_arms_root.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927464"
+}
+entity
+{
+	"OnTrigger" "blue-proxyOnProxyRelay90-1"
+	"OnTrigger" "blue-proxyOnProxyRelay70-1"
+	"OnTrigger" "blue-proxyOnProxyRelay50-1"
+	"angles" "-0 -180 0"
+	"origin" "-6376 -2336 -925"
+	"targetname" "blue-rl_exit_doors_open"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "928472"
+}
+entity
+{
+	"OnTrigger" "blue-proxyOnProxyRelay100-1"
+	"OnTrigger" "blue-proxyOnProxyRelay60-1"
+	"OnTrigger" "blue-proxyOnProxyRelay40-1"
+	"angles" "-0 -180 0"
+	"origin" "-6376 -2320 -925"
+	"targetname" "blue-rl_exit_doors_close"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "928470"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-6400 -2408 -901"
+	"targetname" "blue-relay_setplaybackrate"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "928544"
+	"OnTrigger" "blue-ballbot_assemblerSetPlaybackRate20-1"
+	"OnTrigger" "blue-armASetPlaybackRate20-1"
+	"OnTrigger" "blue-armBSetPlaybackRate20-1"
+	"OnTrigger" "blue-armCSetPlaybackRate20-1"
+	"OnTrigger" "blue-armDSetPlaybackRate20-1"
+	"OnTrigger" "blue-armESetPlaybackRate20-1"
+	"OnTrigger" "blue-armFSetPlaybackRate20-1"
+	"OnTrigger" "blue-armGSetPlaybackRate20-1"
+	"OnTrigger" "blue-armHSetPlaybackRate20-1"
+	"OnTrigger" "blue-welder_pos2SetPlaybackRate20-1"
+	"OnTrigger" "blue-welder_pos1SetPlaybackRate20-1"
+	"OnTrigger" "blue-fingers_ASetPlaybackRate20-1"
+	"OnTrigger" "blue-fingers_BSetPlaybackRate20-1"
+	"OnTrigger" "blue-cradle_armSetPlaybackRate20-1"
+	"OnTrigger" "blue-stationSetPlaybackRate20-1"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armB"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927279"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-cradle_arm"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/assembly_cradle_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927515"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armA"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927287"
+}
+entity
+{
+	"model" "*158"
+	"angles" "-0 -180 0"
+	"trigger_once" "0"
+	"targetname" "blue-trigger_disable_exit_lift"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-6332 -2328 -895.54"
+	"classname" "trigger_playerteam"
+	"hammerid" "931318"
+	"OnStartTouchOrangePlayer" "blue-trigger_exit_liftDisable0-1"
+	"OnEndTouchOrangePlayer" "blue-trigger_exit_liftEnable0-1"
+	"OnStartTouchOrangePlayer" "blue-branch_doorSetStateAFalse0-1"
+}
+entity
+{
+	"OnAnimationDone" "blue-proxyOnProxyRelay80-1"
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-ballbot_assembler"
+	"StartDisabled" "1"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/ballbot_assembler.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "926450"
+}
+entity
+{
+	"OnProxyRelay10" "coopman_exit_levelSetStateBTrue0-1"
+	"OnProxyRelay9" "coopman_exit_levelSetStateBFalse0-1"
+	"OnProxyRelay8" "rl_start_exit_finishedTrigger0-1"
+	"OnProxyRelay7" "@global_no_taunting_blueTurnOff0-1"
+	"OnProxyRelay6" "@global_no_taunting_blueTurnOn0-1"
+	"OnProxyRelay5" "@global_no_pinging_blueTurnOff0-1"
+	"OnProxyRelay4" "@global_no_pinging_blueTurnOn0-1"
+	"angles" "-0 -180 0"
+	"origin" "-6392 -2320 -885"
+	"targetname" "blue-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "927054"
+	"OnProxyRelay1" "blue-ballbot_assembler_relayTrigger0-1"
+	"OnProxyRelay2" "blue-trigger_exit_liftKill0-1"
+	"OnProxyRelay3" "blue-cam_botviewDisable0-1"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armE"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927319"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armD"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927251"
+}
+entity
+{
+	"model" "*159"
+	"angles" "-0 -180 0"
+	"UseLandmarkAngles" "0"
+	"targetname" "blue-teleport_dis"
+	"target" "blue-target_dis_teleport"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "-6390 -2328 -885"
+	"classname" "trigger_teleport"
+	"hammerid" "931112"
+}
+entity
+{
+	"model" "*160"
+	"angles" "-0 -180 0"
+	"trigger_once" "0"
+	"targetname" "blue-trigger_exit_lift"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-6322.01 -2328 -881.87"
+	"classname" "trigger_playerteam"
+	"hammerid" "927844"
+	"OnStartTouchBluePlayer" "blue-branch_doorSetStateATrue0-1"
+	"OnEndTouchBluePlayer" "blue-branch_doorSetStateAFalse0-1"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armC"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "420"
+	"fademaxdist" "450"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927415"
+}
+entity
+{
+	"origin" "-6352 -2328 -933"
+	"targetname" "blue-armF"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/player/bot_assembly/bot_assembly_arm.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "256"
+	"fademaxdist" "300"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableflashlight" "1"
+	"angles" "-0 -180 0"
+	"classname" "prop_dynamic"
+	"hammerid" "927311"
+}
+entity
+{
+	"angles" "-0 -180 0"
+	"origin" "-6356.41 -2308.41 -923"
+	"targetname" "blue-branch_door"
+	"DefaultPlayerStateB" "0"
+	"DefaultPlayerStateA" "0"
+	"classname" "logic_coop_manager"
+	"hammerid" "932081"
+	"OnChangeToAnyTrue" "blue-rl_exit_doors_closeTrigger0-1"
+	"OnChangeToAllFalse" "blue-rl_exit_doors_openTrigger0-1"
+	"OnChangeToAnyTrue" "blue-stationSetPlaybackRate2.50.1-1"
+	"OnChangeToAnyTrue" "blue-stationSetAnimationassembly_station_door_close0-1"
+	"OnChangeToAnyTrue" "blue-brush_clip_doorsEnable0-1"
+	"OnChangeToAllFalse" "blue-stationSetPlaybackRate2.50.1-1"
+	"OnChangeToAllFalse" "blue-stationSetAnimationassembly_station_door_open0-1"
+	"OnChangeToAllFalse" "blue-brush_clip_doorsDisable0-1"
+}
+entity
+{
+	"model" "*161"
+	"angles" "90 90 0"
+	"origin" "-5104 -576 520"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "932446"
+}
+entity
+{
+	"model" "*162"
+	"angles" "90 90 0"
+	"origin" "-5072 -576 520"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "933177"
+}
+entity
+{
+	"model" "*163"
+	"angles" "90 -180 0"
+	"origin" "-5088 -848 384"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "933908"
+}
+entity
+{
+	"origin" "-5216 -640 424"
+	"targetname" "blue_dropper-cube_dropper_prop"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/props_backstage/item_dropper.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"angles" "1.00179e-005 180 -5.00896e-006"
+	"classname" "prop_dynamic"
+	"hammerid" "935366"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-5232 -640 344"
+	"targetname" "blue_dropper-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "937337"
+	"OnProxyRelay1" "blue_dropper-initial_spawnDisable0-1"
+	"OnProxyRelay2" "blue_dropper-relay_set_enabled_activeTrigger0-1"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-5216 -640 344"
+	"spawnflags" "0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 25"
+	"_fifty_percent_distance" "150"
+	"classname" "light"
+	"hammerid" "935490"
+}
+entity
+{
+	"model" "*164"
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "blue_dropper-cube_dropper_droptrigger"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-5216 -640 632"
+	"classname" "trigger_playerteam"
+	"hammerid" "937671"
+	"OnStartTouchBluePlayer" "blue_dropper-relay_tube_openTrigger0-1"
+	"OnStartTouchBluePlayer" "blue_dropper-cube_dropper_droptrigger_bottomEnable0-1"
+}
+entity
+{
+	"origin" "-5216 -640 672"
+	"targetname" "blue_dropper-initial_spawn"
+	"StartingTeam" "3"
+	"ForceGunOnSpawn" "0"
+	"Enabled" "1"
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"classname" "info_coop_spawn"
+	"hammerid" "935626"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-5232 -656 360"
+	"targetname" "blue_dropper-relay_tube_close"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "937802"
+	"OnTrigger" "blue_dropper-cube_dropper_propSetAnimationitem_dropper_close0.2-1"
+	"OnTrigger" "blue_dropper-relay_tube_openCancelPending0-1"
+}
+entity
+{
+	"origin" "-5216 -640 520"
+	"spawnflags" "1"
+	"pitch" "-90"
+	"angles" "-90 -90 0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 50"
+	"_inner_cone" "40"
+	"_fifty_percent_distance" "150"
+	"_exponent" "1"
+	"_cone" "45"
+	"classname" "light_spot"
+	"hammerid" "935590"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-5200 -640 360"
+	"targetname" "blue_dropper-relay_set_enabled_active"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "937840"
+	"OnTrigger" "blue_dropper-initial_spawnEnable0-1"
+	"OnTrigger" "blue_dropper-initial_spawnSetAsActiveSpawn0.1-1"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-5232 -640 360"
+	"targetname" "blue_dropper-relay_tube_open"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "937738"
+	"OnTrigger" "blue_dropper-cube_dropper_propSetAnimationitem_dropper_open0.1-1"
+	"OnTrigger" "blue_dropper-relay_tube_closeCancelPending0-1"
+	"OnTrigger" "blue_dropper-steam_blueStart0-1"
+	"OnTrigger" "blue_dropper-steam_blueStop2-1"
+	"OnTrigger" "blue_dropper-snd_spawn_airPlaySound0.5-1"
+}
+entity
+{
+	"origin" "-5216 -640 512"
+	"targetname" "blue_dropper-steam_blue"
+	"start_active" "0"
+	"effect_name" "coop_spawntube_steam"
+	"drawinfastreflection" "0"
+	"cpoint7_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint1_parent" "0"
+	"angles" "90 -90 0"
+	"classname" "info_particle_system"
+	"hammerid" "938052"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-5216 -640 411.809"
+	"volstart" "0"
+	"targetname" "blue_dropper-snd_spawn_air"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.RatMazeDownStopAir"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "938396"
+}
+entity
+{
+	"model" "*165"
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "blue_dropper-cube_dropper_droptrigger_bottom"
+	"target_team" "0"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "-5216 -640 424"
+	"classname" "trigger_playerteam"
+	"hammerid" "938571"
+	"OnEndTouchBluePlayer" "blue_dropper-cube_dropper_droptrigger_bottomDisable0-1"
+	"OnEndTouchBluePlayer" "blue_dropper-relay_tube_closeTrigger1-1"
+}
+entity
+{
+	"origin" "-5056 -928 320"
+	"targetname" "door2-airlock_upper_panel_1"
+	"StartDisabled" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"scalevalue" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/telescope_arm_trans/telescope_arm_trans.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"canbecaptured" "0"
+	"angles" "90 -90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "938656"
+}
+entity
+{
+	"model" "*166"
+	"angles" "-0 -90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "door2-airlock_player_block"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-5088 -900 255.88"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "938660"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5088 -992 192"
+	"portalnumber" "1"
+	"TranslucencyLimit" "0"
+	"targetname" "door2-airlock_2"
+	"target" "door2-win1"
+	"PortalVersion" "1"
+	"FadeStartDist" "256"
+	"FadeDist" "460"
+	"classname" "func_areaportalwindow"
+	"hammerid" "938672"
+}
+entity
+{
+	"model" "*167"
+	"angles" "-0 -90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "door2-win1"
+	"spawnflags" "2"
+	"Solidity" "1"
+	"solidbsp" "0"
+	"shadowdepthnocache" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-5088 -894.5 256"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disablereceiveshadows" "1"
+	"classname" "func_brush"
+	"hammerid" "938674"
+}
+entity
+{
+	"model" "*168"
+	"angles" "-0 -90 0"
+	"origin" "-5088 -992 192"
+	"StartDisabled" "0"
+	"classname" "func_clip_vphysics"
+	"hammerid" "938677"
+}
+entity
+{
+	"origin" "-5120 -928 192"
+	"targetname" "door2-airlock_lower_panel_2"
+	"StartDisabled" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"scalevalue" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/telescope_arm_trans/telescope_arm_trans.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"canbecaptured" "0"
+	"angles" "-90 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "938679"
+}
+entity
+{
+	"origin" "-5056 -928 192"
+	"targetname" "door2-airlock_lower_panel_1"
+	"StartDisabled" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"scalevalue" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/telescope_arm_trans/telescope_arm_trans.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"canbecaptured" "0"
+	"angles" "-90 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "938683"
+	"OnAnimationDone" "door2-ramp_done_branchTest0-1"
+}
+entity
+{
+	"origin" "-5120 -928 320"
+	"targetname" "door2-airlock_upper_panel_2"
+	"StartDisabled" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"scalevalue" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/telescope_arm_trans/telescope_arm_trans.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"canbecaptured" "0"
+	"angles" "90 -90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "938687"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5088 -976 201"
+	"targetname" "door2-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "939152"
+	"OnProxyRelay1" "door2-airlock_entry_door_open_rlTrigger0-1"
+	"OnProxyRelay2" "door2-airlock_entry_door_close_rlTrigger0-1"
+}
+entity
+{
+	"model" "*169"
+	"angles" "-0 -90 0"
+	"targetname" "door2-push_door"
+	"StartDisabled" "1"
+	"speed" "250"
+	"spawnflags" "1"
+	"pushdir" "-0 -90 0"
+	"origin" "-5088 -980 255.88"
+	"alternateticksfix" "0"
+	"classname" "trigger_push"
+	"hammerid" "939295"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5036.23 -971.794 312"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "939199"
+	"OnMapSpawn" "door2-airlock_entry_door_close_rlTrigger0.25-1"
+}
+entity
+{
+	"model" "*170"
+	"angles" "-0 -90 0"
+	"targetname" "door2-push_door"
+	"StartDisabled" "1"
+	"speed" "300"
+	"spawnflags" "1"
+	"pushdir" "-0 90 0"
+	"origin" "-5088 -896 255.88"
+	"alternateticksfix" "0"
+	"classname" "trigger_push"
+	"hammerid" "939273"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5112 -965.848 286"
+	"targetname" "door2-ramp_close_branch"
+	"classname" "logic_branch"
+	"hammerid" "939094"
+	"OnFalse" "door2-ramp_close_startTrigger0-1"
+	"OnTrue" "door2-ramp_close_direction_branchTest0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5094.04 -964.45 288"
+	"targetname" "door2-ramp_done_branch"
+	"classname" "logic_branch"
+	"hammerid" "939096"
+	"OnFalse" "door2-ramp_close_branchSetValue00-1"
+	"OnTrue" "door2-ramp_open_branchSetValue00-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5072 -965.848 286"
+	"targetname" "door2-ramp_open_branch"
+	"InitialValue" "1"
+	"classname" "logic_branch"
+	"hammerid" "939098"
+	"OnFalse" "door2-ramp_open_startTrigger0-1"
+	"OnTrue" "door2-ramp_open_direction_branchTest0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5080 -965.848 270"
+	"targetname" "door2-ramp_open_start"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "939100"
+	"OnTrigger" "door2-ramp_open_branchSetValue10-1"
+	"OnTrigger" "door2-ramp_open_direction_branchSetValueTest00-1"
+	"OnTrigger" "door2-ramp_close_direction_branchSetValue10-1"
+	"OnTrigger" "door2-ramp_close_branchSetValue10-1"
+	"OnTrigger" "door2-ramp_done_branchSetValue00-1"
+	"OnTrigger" "door2-airlock_lower_panel_1SetAnimation90degdown0.4-1"
+	"OnTrigger" "door2-airlock_upper_panel_1SetAnimation90degdown0.3-1"
+	"OnTrigger" "door2-airlock_lower_panel_2SetAnimation90degdown0.1-1"
+	"OnTrigger" "door2-airlock_upper_panel_2SetAnimation90degdown0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5120 -965.848 270"
+	"targetname" "door2-ramp_close_start"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "939102"
+	"OnTrigger" "door2-ramp_close_branchSetValue10-1"
+	"OnTrigger" "door2-ramp_close_direction_branchSetValueTest00-1"
+	"OnTrigger" "door2-ramp_open_direction_branchSetValue10-1"
+	"OnTrigger" "door2-ramp_open_branchSetValue10-1"
+	"OnTrigger" "door2-ramp_done_branchSetValue10-1"
+	"OnTrigger" "door2-airlock_lower_panel_1SetAnimation90degup0.4-1"
+	"OnTrigger" "door2-airlock_upper_panel_1SetAnimation90degup0.3-1"
+	"OnTrigger" "door2-airlock_lower_panel_2SetAnimation90degup0.1-1"
+	"OnTrigger" "door2-airlock_upper_panel_2SetAnimation90degup0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5112 -965.848 254"
+	"targetname" "door2-ramp_close_direction_branch"
+	"classname" "logic_branch"
+	"hammerid" "939104"
+	"OnFalse" "door2-ramp_close_forwardTrigger0-1"
+	"OnTrue" "door2-ramp_close_backwardTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5072 -965.848 254"
+	"targetname" "door2-ramp_open_direction_branch"
+	"classname" "logic_branch"
+	"hammerid" "939106"
+	"OnFalse" "door2-ramp_open_forwardTrigger0-1"
+	"OnTrue" "door2-ramp_open_backwardTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5080 -965.848 238"
+	"targetname" "door2-ramp_open_forward"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "939108"
+	"OnTrigger" "door2-airlock_lower_panel_1SetPlaybackRate10.5-1"
+	"OnTrigger" "door2-airlock_upper_panel_1SetPlaybackRate10.3-1"
+	"OnTrigger" "door2-airlock_lower_panel_2SetPlaybackRate10.2-1"
+	"OnTrigger" "door2-airlock_upper_panel_2SetPlaybackRate10-1"
+	"OnTrigger" "door2-ramp_open_backwardCancelPending0-1"
+	"OnTrigger" "door2-ramp_close_backwardCancelPending0-1"
+	"OnTrigger" "door2-ramp_close_forwardCancelPending0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5064 -965.848 238"
+	"targetname" "door2-ramp_open_backward"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "939110"
+	"OnTrigger" "door2-airlock_lower_panel_1SetPlaybackRate-10.5-1"
+	"OnTrigger" "door2-airlock_upper_panel_1SetPlaybackRate-10.3-1"
+	"OnTrigger" "door2-airlock_lower_panel_2SetPlaybackRate-10.2-1"
+	"OnTrigger" "door2-airlock_upper_panel_2SetPlaybackRate-10-1"
+	"OnTrigger" "door2-ramp_open_forwardCancelPending0-1"
+	"OnTrigger" "door2-ramp_close_backwardCancelPending0-1"
+	"OnTrigger" "door2-ramp_close_forwardCancelPending0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5104 -965.848 238"
+	"targetname" "door2-ramp_close_backward"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "939112"
+	"OnTrigger" "door2-airlock_lower_panel_1SetPlaybackRate-10.5-1"
+	"OnTrigger" "door2-airlock_upper_panel_1SetPlaybackRate-10.3-1"
+	"OnTrigger" "door2-airlock_lower_panel_2SetPlaybackRate-10.2-1"
+	"OnTrigger" "door2-airlock_upper_panel_2SetPlaybackRate-10-1"
+	"OnTrigger" "door2-ramp_close_forwardCancelPending0-1"
+	"OnTrigger" "door2-ramp_open_forwardCancelPending0-1"
+	"OnTrigger" "door2-ramp_open_backwardCancelPending0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5120 -965.848 238"
+	"targetname" "door2-ramp_close_forward"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "939114"
+	"OnTrigger" "door2-airlock_lower_panel_1SetPlaybackRate10.5-1"
+	"OnTrigger" "door2-airlock_upper_panel_1SetPlaybackRate10.3-1"
+	"OnTrigger" "door2-airlock_lower_panel_2SetPlaybackRate10.2-1"
+	"OnTrigger" "door2-airlock_upper_panel_2SetPlaybackRate10-1"
+	"OnTrigger" "door2-ramp_close_backwardCancelPending0-1"
+	"OnTrigger" "door2-ramp_open_forwardCancelPending0-1"
+	"OnTrigger" "door2-ramp_open_backwardCancelPending0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5073.64 -970.886 312"
+	"targetname" "door2-airlock_entry_door_close_rl"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "939138"
+	"OnTrigger" "door2-airlock_player_blockEnable1-1"
+	"OnTrigger" "door2-airlock_2SetFadeStartDistance2561-1"
+	"OnTrigger" "door2-airlock_2SetFadeEndDistance4801-1"
+	"OnTrigger" "door2-airlock_entry_door_open_rlCancelPending0-1"
+	"OnTrigger" "door2-ramp_close_branchTest0-1"
+	"OnTrigger" "door2-push_doorEnable0-1"
+	"OnTrigger" "door2-push_doorDisable1.25-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5105.64 -970.886 312"
+	"targetname" "door2-airlock_entry_door_open_rl"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "939140"
+	"OnTrigger" "door2-airlock_player_blockDisable0-1"
+	"OnTrigger" "door2-airlock_2SetFadeEndDistance99990-1"
+	"OnTrigger" "door2-airlock_2SetFadeStartDistance99980-1"
+	"OnTrigger" "door2-airlock_entry_door_close_rlCancelPending0-1"
+	"OnTrigger" "door2-ramp_open_branchTest0-1"
+	"OnTrigger" "door2-push_doorDisable0.1-1"
+}
+entity
+{
+	"model" "*171"
+	"angles" "90 90 0"
+	"origin" "-5104 -704 520"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "939605"
+}
+entity
+{
+	"model" "*172"
+	"angles" "90 90 0"
+	"origin" "-5072 -704 520"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "940336"
+}
+entity
+{
+	"origin" "-5056 -448 320"
+	"targetname" "door1-airlock_upper_panel_1"
+	"StartDisabled" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"scalevalue" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/telescope_arm_trans/telescope_arm_trans.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"canbecaptured" "0"
+	"angles" "90 -90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "940787"
+}
+entity
+{
+	"model" "*173"
+	"angles" "-0 -90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "door1-airlock_player_block"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "0"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-5088 -420 255.88"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	"hammerid" "940791"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5088 -512 192"
+	"portalnumber" "2"
+	"TranslucencyLimit" "0"
+	"targetname" "door1-airlock_2"
+	"target" "door1-win1"
+	"PortalVersion" "1"
+	"FadeStartDist" "256"
+	"FadeDist" "460"
+	"classname" "func_areaportalwindow"
+	"hammerid" "940803"
+}
+entity
+{
+	"model" "*174"
+	"angles" "-0 -90 0"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "door1-win1"
+	"spawnflags" "2"
+	"Solidity" "1"
+	"solidbsp" "0"
+	"shadowdepthnocache" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-5088 -414.5 256"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"drawinfastreflection" "0"
+	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disablereceiveshadows" "1"
+	"classname" "func_brush"
+	"hammerid" "940805"
+}
+entity
+{
+	"model" "*175"
+	"angles" "-0 -90 0"
+	"origin" "-5088 -512 192"
+	"StartDisabled" "0"
+	"classname" "func_clip_vphysics"
+	"hammerid" "940808"
+}
+entity
+{
+	"origin" "-5120 -448 192"
+	"targetname" "door1-airlock_lower_panel_2"
+	"StartDisabled" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"scalevalue" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/telescope_arm_trans/telescope_arm_trans.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"canbecaptured" "0"
+	"angles" "-90 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "940810"
+}
+entity
+{
+	"origin" "-5056 -448 192"
+	"targetname" "door1-airlock_lower_panel_1"
+	"StartDisabled" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"scalevalue" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/telescope_arm_trans/telescope_arm_trans.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"canbecaptured" "0"
+	"angles" "-90 90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "940814"
+	"OnAnimationDone" "door1-ramp_done_branchTest0-1"
+}
+entity
+{
+	"origin" "-5120 -448 320"
+	"targetname" "door1-airlock_upper_panel_2"
+	"StartDisabled" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"scalevalue" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/anim_wp/telescope_arm_trans/telescope_arm_trans.mdl"
+	"mindxlevel" "0"
+	"MinAnimTime" "5"
+	"maxdxlevel" "0"
+	"MaxAnimTime" "10"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "0"
+	"canbecaptured" "0"
+	"angles" "90 -90 0"
+	"classname" "prop_dynamic"
+	"hammerid" "940818"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5088 -496 201"
+	"targetname" "door1-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "941283"
+	"OnProxyRelay1" "door1-airlock_entry_door_open_rlTrigger0-1"
+	"OnProxyRelay2" "door1-airlock_entry_door_close_rlTrigger0-1"
+}
+entity
+{
+	"model" "*176"
+	"angles" "-0 -90 0"
+	"targetname" "door1-push_door"
+	"StartDisabled" "1"
+	"speed" "250"
+	"spawnflags" "1"
+	"pushdir" "-0 -90 0"
+	"origin" "-5088 -500 255.88"
+	"alternateticksfix" "0"
+	"classname" "trigger_push"
+	"hammerid" "941426"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5036.23 -491.794 312"
+	"spawnflags" "1"
+	"classname" "logic_auto"
+	"hammerid" "941330"
+	"OnMapSpawn" "door1-airlock_entry_door_close_rlTrigger0.25-1"
+}
+entity
+{
+	"model" "*177"
+	"angles" "-0 -90 0"
+	"targetname" "door1-push_door"
+	"StartDisabled" "1"
+	"speed" "300"
+	"spawnflags" "1"
+	"pushdir" "-0 90 0"
+	"origin" "-5088 -416 255.88"
+	"alternateticksfix" "0"
+	"classname" "trigger_push"
+	"hammerid" "941404"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5112 -485.848 286"
+	"targetname" "door1-ramp_close_branch"
+	"classname" "logic_branch"
+	"hammerid" "941225"
+	"OnFalse" "door1-ramp_close_startTrigger0-1"
+	"OnTrue" "door1-ramp_close_direction_branchTest0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5094.04 -484.45 288"
+	"targetname" "door1-ramp_done_branch"
+	"classname" "logic_branch"
+	"hammerid" "941227"
+	"OnFalse" "door1-ramp_close_branchSetValue00-1"
+	"OnTrue" "door1-ramp_open_branchSetValue00-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5072 -485.848 286"
+	"targetname" "door1-ramp_open_branch"
+	"InitialValue" "1"
+	"classname" "logic_branch"
+	"hammerid" "941229"
+	"OnFalse" "door1-ramp_open_startTrigger0-1"
+	"OnTrue" "door1-ramp_open_direction_branchTest0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5080 -485.848 270"
+	"targetname" "door1-ramp_open_start"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "941231"
+	"OnTrigger" "door1-ramp_open_branchSetValue10-1"
+	"OnTrigger" "door1-ramp_open_direction_branchSetValueTest00-1"
+	"OnTrigger" "door1-ramp_close_direction_branchSetValue10-1"
+	"OnTrigger" "door1-ramp_close_branchSetValue10-1"
+	"OnTrigger" "door1-ramp_done_branchSetValue00-1"
+	"OnTrigger" "door1-airlock_lower_panel_1SetAnimation90degdown0.4-1"
+	"OnTrigger" "door1-airlock_upper_panel_1SetAnimation90degdown0.3-1"
+	"OnTrigger" "door1-airlock_lower_panel_2SetAnimation90degdown0.1-1"
+	"OnTrigger" "door1-airlock_upper_panel_2SetAnimation90degdown0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5120 -485.848 270"
+	"targetname" "door1-ramp_close_start"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "941233"
+	"OnTrigger" "door1-ramp_close_branchSetValue10-1"
+	"OnTrigger" "door1-ramp_close_direction_branchSetValueTest00-1"
+	"OnTrigger" "door1-ramp_open_direction_branchSetValue10-1"
+	"OnTrigger" "door1-ramp_open_branchSetValue10-1"
+	"OnTrigger" "door1-ramp_done_branchSetValue10-1"
+	"OnTrigger" "door1-airlock_lower_panel_1SetAnimation90degup0.4-1"
+	"OnTrigger" "door1-airlock_upper_panel_1SetAnimation90degup0.3-1"
+	"OnTrigger" "door1-airlock_lower_panel_2SetAnimation90degup0.1-1"
+	"OnTrigger" "door1-airlock_upper_panel_2SetAnimation90degup0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5112 -485.848 254"
+	"targetname" "door1-ramp_close_direction_branch"
+	"classname" "logic_branch"
+	"hammerid" "941235"
+	"OnFalse" "door1-ramp_close_forwardTrigger0-1"
+	"OnTrue" "door1-ramp_close_backwardTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5072 -485.848 254"
+	"targetname" "door1-ramp_open_direction_branch"
+	"classname" "logic_branch"
+	"hammerid" "941237"
+	"OnFalse" "door1-ramp_open_forwardTrigger0-1"
+	"OnTrue" "door1-ramp_open_backwardTrigger0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5080 -485.848 238"
+	"targetname" "door1-ramp_open_forward"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "941239"
+	"OnTrigger" "door1-airlock_lower_panel_1SetPlaybackRate10.5-1"
+	"OnTrigger" "door1-airlock_upper_panel_1SetPlaybackRate10.3-1"
+	"OnTrigger" "door1-airlock_lower_panel_2SetPlaybackRate10.2-1"
+	"OnTrigger" "door1-airlock_upper_panel_2SetPlaybackRate10-1"
+	"OnTrigger" "door1-ramp_open_backwardCancelPending0-1"
+	"OnTrigger" "door1-ramp_close_backwardCancelPending0-1"
+	"OnTrigger" "door1-ramp_close_forwardCancelPending0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5064 -485.848 238"
+	"targetname" "door1-ramp_open_backward"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "941241"
+	"OnTrigger" "door1-airlock_lower_panel_1SetPlaybackRate-10.5-1"
+	"OnTrigger" "door1-airlock_upper_panel_1SetPlaybackRate-10.3-1"
+	"OnTrigger" "door1-airlock_lower_panel_2SetPlaybackRate-10.2-1"
+	"OnTrigger" "door1-airlock_upper_panel_2SetPlaybackRate-10-1"
+	"OnTrigger" "door1-ramp_open_forwardCancelPending0-1"
+	"OnTrigger" "door1-ramp_close_backwardCancelPending0-1"
+	"OnTrigger" "door1-ramp_close_forwardCancelPending0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5104 -485.848 238"
+	"targetname" "door1-ramp_close_backward"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "941243"
+	"OnTrigger" "door1-airlock_lower_panel_1SetPlaybackRate-10.5-1"
+	"OnTrigger" "door1-airlock_upper_panel_1SetPlaybackRate-10.3-1"
+	"OnTrigger" "door1-airlock_lower_panel_2SetPlaybackRate-10.2-1"
+	"OnTrigger" "door1-airlock_upper_panel_2SetPlaybackRate-10-1"
+	"OnTrigger" "door1-ramp_close_forwardCancelPending0-1"
+	"OnTrigger" "door1-ramp_open_forwardCancelPending0-1"
+	"OnTrigger" "door1-ramp_open_backwardCancelPending0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5120 -485.848 238"
+	"targetname" "door1-ramp_close_forward"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "941245"
+	"OnTrigger" "door1-airlock_lower_panel_1SetPlaybackRate10.5-1"
+	"OnTrigger" "door1-airlock_upper_panel_1SetPlaybackRate10.3-1"
+	"OnTrigger" "door1-airlock_lower_panel_2SetPlaybackRate10.2-1"
+	"OnTrigger" "door1-airlock_upper_panel_2SetPlaybackRate10-1"
+	"OnTrigger" "door1-ramp_close_backwardCancelPending0-1"
+	"OnTrigger" "door1-ramp_open_forwardCancelPending0-1"
+	"OnTrigger" "door1-ramp_open_backwardCancelPending0-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5073.64 -490.886 312"
+	"targetname" "door1-airlock_entry_door_close_rl"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "941269"
+	"OnTrigger" "door1-airlock_player_blockEnable1-1"
+	"OnTrigger" "door1-airlock_2SetFadeStartDistance2561-1"
+	"OnTrigger" "door1-airlock_2SetFadeEndDistance4801-1"
+	"OnTrigger" "door1-airlock_entry_door_open_rlCancelPending0-1"
+	"OnTrigger" "door1-ramp_close_branchTest0-1"
+	"OnTrigger" "door1-push_doorEnable0-1"
+	"OnTrigger" "door1-push_doorDisable1.25-1"
+}
+entity
+{
+	"angles" "-0 -90 0"
+	"origin" "-5105.64 -490.886 312"
+	"targetname" "door1-airlock_entry_door_open_rl"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "941271"
+	"OnTrigger" "door1-airlock_player_blockDisable0-1"
+	"OnTrigger" "door1-airlock_2SetFadeEndDistance99990-1"
+	"OnTrigger" "door1-airlock_2SetFadeStartDistance99980-1"
+	"OnTrigger" "door1-airlock_entry_door_close_rlCancelPending0-1"
+	"OnTrigger" "door1-ramp_open_branchTest0-1"
+	"OnTrigger" "door1-push_doorDisable0.1-1"
+}
+entity
+{
+	"origin" "-4960 -640 424"
+	"targetname" "red_dropper-cube_dropper_prop"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "1"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/props_backstage/item_dropper.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"angles" "1.00179e-005 180 -5.00896e-006"
+	"classname" "prop_dynamic"
+	"hammerid" "942142"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-4976 -640 344"
+	"targetname" "red_dropper-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "944113"
+	"OnProxyRelay1" "red_dropper-initial_spawnDisable0-1"
+	"OnProxyRelay2" "red_dropper-relay_set_enabled_activeTrigger0-1"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-4960 -640 344"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 5"
+	"_fifty_percent_distance" "150"
+	"classname" "light"
+	"hammerid" "942266"
+}
+entity
+{
+	"model" "*178"
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "red_dropper-cube_dropper_droptrigger"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-4960 -640 632"
+	"classname" "trigger_playerteam"
+	"hammerid" "944447"
+	"OnStartTouchOrangePlayer" "red_dropper-relay_tube_openTrigger0-1"
+	"OnStartTouchOrangePlayer" "red_dropper-cube_dropper_droptrigger_bottomEnable0-1"
+}
+entity
+{
+	"origin" "-4960 -640 688"
+	"targetname" "red_dropper-initial_spawn"
+	"StartingTeam" "2"
+	"ForceGunOnSpawn" "0"
+	"Enabled" "1"
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"classname" "info_coop_spawn"
+	"hammerid" "942402"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-4976 -656 360"
+	"targetname" "red_dropper-relay_tube_close"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "944578"
+	"OnTrigger" "red_dropper-cube_dropper_propSetAnimationitem_dropper_close0.02-1"
+	"OnTrigger" "red_dropper-relay_tube_openCancelPending0-1"
+}
+entity
+{
+	"origin" "-4960 -640 488"
+	"spawnflags" "1"
+	"pitch" "-90"
+	"angles" "-90 -90 0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "240 180 80 50"
+	"_inner_cone" "40"
+	"_fifty_percent_distance" "150"
+	"_exponent" "1"
+	"_cone" "45"
+	"classname" "light_spot"
+	"hammerid" "942366"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-4960 -640 360"
+	"targetname" "red_dropper-relay_set_enabled_active"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "944616"
+	"OnTrigger" "red_dropper-initial_spawnEnable0-1"
+	"OnTrigger" "red_dropper-initial_spawnSetAsActiveSpawn0.1-1"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-4976 -640 360"
+	"targetname" "red_dropper-relay_tube_open"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "944514"
+	"OnTrigger" "red_dropper-relay_tube_closeCancelPending0-1"
+	"OnTrigger" "red_dropper-steam_orangeStart0.02-1"
+	"OnTrigger" "red_dropper-cube_dropper_propSetAnimationitem_dropper_open0-1"
+	"OnTrigger" "red_dropper-steam_orangeStop2-1"
+	"OnTrigger" "red_dropper-snd_spawn_airPlaySound0.02-1"
+}
+entity
+{
+	"origin" "-4960 -640 512"
+	"targetname" "red_dropper-steam_orange"
+	"start_active" "0"
+	"effect_name" "coop_spawntube_steam"
+	"drawinfastreflection" "0"
+	"cpoint7_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint1_parent" "0"
+	"angles" "90 -90 0"
+	"classname" "info_particle_system"
+	"hammerid" "944709"
+}
+entity
+{
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"origin" "-4960 -640 408"
+	"volstart" "0"
+	"targetname" "red_dropper-snd_spawn_air"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.RatMazeDownStopAir"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "945118"
+}
+entity
+{
+	"model" "*179"
+	"angles" "5.00896e-006 -90 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "red_dropper-cube_dropper_droptrigger_bottom"
+	"target_team" "0"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "-4960 -640 424"
+	"classname" "trigger_playerteam"
+	"hammerid" "945207"
+	"OnEndTouchOrangePlayer" "red_dropper-cube_dropper_droptrigger_bottomDisable0-1"
+	"OnEndTouchOrangePlayer" "red_dropper-relay_tube_closeTrigger1-1"
+}
+entity
+{
+	"model" "*180"
+	"angles" "90 -180 0"
+	"origin" "-5088 -816 384"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "945517"
+}
+entity
+{
+	"model" "*181"
+	"angles" "-90 180 0"
+	"origin" "-4032 -368 -640"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "946569"
+}
+entity
+{
+	"origin" "-4032 -288 -472"
+	"targetname" "InstanceAuto122-blue_dropper-cube_dropper_prop"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/props_backstage/item_dropper.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"angles" "1.00179e-005 3.18772e-006 -5.00896e-006"
+	"classname" "prop_dynamic"
+	"hammerid" "947515"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4016 -288 -552"
+	"targetname" "InstanceAuto122-blue_dropper-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "949486"
+	"OnProxyRelay1" "InstanceAuto122-blue_dropper-initial_spawnDisable0-1"
+	"OnProxyRelay2" "InstanceAuto122-blue_dropper-relay_set_enabled_activeTrigger0-1"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4032 -288 -552"
+	"spawnflags" "0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 25"
+	"_fifty_percent_distance" "150"
+	"classname" "light"
+	"hammerid" "947639"
+}
+entity
+{
+	"model" "*182"
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "InstanceAuto122-blue_dropper-cube_dropper_droptrigger"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-4032 -288 -264"
+	"classname" "trigger_playerteam"
+	"hammerid" "949820"
+	"OnStartTouchBluePlayer" "InstanceAuto122-blue_dropper-relay_tube_openTrigger0-1"
+	"OnStartTouchBluePlayer" "InstanceAuto122-blue_dropper-cube_dropper_droptrigger_bottomEnable0-1"
+}
+entity
+{
+	"origin" "-4032 -288 -224"
+	"targetname" "InstanceAuto122-blue_dropper-initial_spawn"
+	"StartingTeam" "3"
+	"ForceGunOnSpawn" "0"
+	"Enabled" "1"
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"classname" "info_coop_spawn"
+	"hammerid" "947775"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4016 -272 -536"
+	"targetname" "InstanceAuto122-blue_dropper-relay_tube_close"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "949951"
+	"OnTrigger" "InstanceAuto122-blue_dropper-cube_dropper_propSetAnimationitem_dropper_close0.2-1"
+	"OnTrigger" "InstanceAuto122-blue_dropper-relay_tube_openCancelPending0-1"
+}
+entity
+{
+	"origin" "-4032 -288 -376"
+	"spawnflags" "1"
+	"pitch" "-90"
+	"angles" "-90 90 0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 50"
+	"_inner_cone" "40"
+	"_fifty_percent_distance" "150"
+	"_exponent" "1"
+	"_cone" "45"
+	"classname" "light_spot"
+	"hammerid" "947739"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4048 -288 -536"
+	"targetname" "InstanceAuto122-blue_dropper-relay_set_enabled_active"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "949989"
+	"OnTrigger" "InstanceAuto122-blue_dropper-initial_spawnEnable0-1"
+	"OnTrigger" "InstanceAuto122-blue_dropper-initial_spawnSetAsActiveSpawn0.1-1"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4016 -288 -536"
+	"targetname" "InstanceAuto122-blue_dropper-relay_tube_open"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "949887"
+	"OnTrigger" "InstanceAuto122-blue_dropper-cube_dropper_propSetAnimationitem_dropper_open0.1-1"
+	"OnTrigger" "InstanceAuto122-blue_dropper-relay_tube_closeCancelPending0-1"
+	"OnTrigger" "InstanceAuto122-blue_dropper-steam_blueStart0-1"
+	"OnTrigger" "InstanceAuto122-blue_dropper-steam_blueStop2-1"
+	"OnTrigger" "InstanceAuto122-blue_dropper-snd_spawn_airPlaySound0.5-1"
+}
+entity
+{
+	"origin" "-4032 -288 -384"
+	"targetname" "InstanceAuto122-blue_dropper-steam_blue"
+	"start_active" "0"
+	"effect_name" "coop_spawntube_steam"
+	"drawinfastreflection" "0"
+	"cpoint7_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint1_parent" "0"
+	"angles" "90 90 0"
+	"classname" "info_particle_system"
+	"hammerid" "950201"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4032 -288 -484.191"
+	"volstart" "0"
+	"targetname" "InstanceAuto122-blue_dropper-snd_spawn_air"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.RatMazeDownStopAir"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "950545"
+}
+entity
+{
+	"model" "*183"
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "InstanceAuto122-blue_dropper-cube_dropper_droptrigger_bottom"
+	"target_team" "0"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "-4032 -288 -472"
+	"classname" "trigger_playerteam"
+	"hammerid" "950720"
+	"OnEndTouchBluePlayer" "InstanceAuto122-blue_dropper-cube_dropper_droptrigger_bottomDisable0-1"
+	"OnEndTouchBluePlayer" "InstanceAuto122-blue_dropper-relay_tube_closeTrigger1-1"
+}
+entity
+{
+	"model" "*184"
+	"angles" "-90 180 0"
+	"origin" "-4224 -368 -640"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "951030"
+}
+entity
+{
+	"origin" "-4224 -288 -472"
+	"targetname" "InstanceAuto122-red_dropper-cube_dropper_prop"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "1"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/props_backstage/item_dropper.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"angles" "1.00179e-005 3.18772e-006 -5.00896e-006"
+	"classname" "prop_dynamic"
+	"hammerid" "951976"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4208 -288 -552"
+	"targetname" "InstanceAuto122-red_dropper-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "953947"
+	"OnProxyRelay1" "InstanceAuto122-red_dropper-initial_spawnDisable0-1"
+	"OnProxyRelay2" "InstanceAuto122-red_dropper-relay_set_enabled_activeTrigger0-1"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4224 -288 -552"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 5"
+	"_fifty_percent_distance" "150"
+	"classname" "light"
+	"hammerid" "952100"
+}
+entity
+{
+	"model" "*185"
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "InstanceAuto122-red_dropper-cube_dropper_droptrigger"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "-4224 -288 -264"
+	"classname" "trigger_playerteam"
+	"hammerid" "954281"
+	"OnStartTouchOrangePlayer" "InstanceAuto122-red_dropper-relay_tube_openTrigger0-1"
+	"OnStartTouchOrangePlayer" "InstanceAuto122-red_dropper-cube_dropper_droptrigger_bottomEnable0-1"
+}
+entity
+{
+	"origin" "-4224 -288 -208"
+	"targetname" "InstanceAuto122-red_dropper-initial_spawn"
+	"StartingTeam" "2"
+	"ForceGunOnSpawn" "0"
+	"Enabled" "1"
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"classname" "info_coop_spawn"
+	"hammerid" "952236"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4208 -272 -536"
+	"targetname" "InstanceAuto122-red_dropper-relay_tube_close"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "954412"
+	"OnTrigger" "InstanceAuto122-red_dropper-cube_dropper_propSetAnimationitem_dropper_close0.02-1"
+	"OnTrigger" "InstanceAuto122-red_dropper-relay_tube_openCancelPending0-1"
+}
+entity
+{
+	"origin" "-4224 -288 -408"
+	"spawnflags" "1"
+	"pitch" "-90"
+	"angles" "-90 90 0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "240 180 80 50"
+	"_inner_cone" "40"
+	"_fifty_percent_distance" "150"
+	"_exponent" "1"
+	"_cone" "45"
+	"classname" "light_spot"
+	"hammerid" "952200"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4224 -288 -536"
+	"targetname" "InstanceAuto122-red_dropper-relay_set_enabled_active"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "954450"
+	"OnTrigger" "InstanceAuto122-red_dropper-initial_spawnEnable0-1"
+	"OnTrigger" "InstanceAuto122-red_dropper-initial_spawnSetAsActiveSpawn0.1-1"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4208 -288 -536"
+	"targetname" "InstanceAuto122-red_dropper-relay_tube_open"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "954348"
+	"OnTrigger" "InstanceAuto122-red_dropper-relay_tube_closeCancelPending0-1"
+	"OnTrigger" "InstanceAuto122-red_dropper-steam_orangeStart0.02-1"
+	"OnTrigger" "InstanceAuto122-red_dropper-cube_dropper_propSetAnimationitem_dropper_open0-1"
+	"OnTrigger" "InstanceAuto122-red_dropper-steam_orangeStop2-1"
+	"OnTrigger" "InstanceAuto122-red_dropper-snd_spawn_airPlaySound0.02-1"
+}
+entity
+{
+	"origin" "-4224 -288 -384"
+	"targetname" "InstanceAuto122-red_dropper-steam_orange"
+	"start_active" "0"
+	"effect_name" "coop_spawntube_steam"
+	"drawinfastreflection" "0"
+	"cpoint7_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint1_parent" "0"
+	"angles" "90 90 0"
+	"classname" "info_particle_system"
+	"hammerid" "954543"
+}
+entity
+{
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"origin" "-4224 -288 -488"
+	"volstart" "0"
+	"targetname" "InstanceAuto122-red_dropper-snd_spawn_air"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.RatMazeDownStopAir"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "954952"
+}
+entity
+{
+	"model" "*186"
+	"angles" "5.00896e-006 90 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "InstanceAuto122-red_dropper-cube_dropper_droptrigger_bottom"
+	"target_team" "0"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "-4224 -288 -472"
+	"classname" "trigger_playerteam"
+	"hammerid" "955041"
+	"OnEndTouchOrangePlayer" "InstanceAuto122-red_dropper-cube_dropper_droptrigger_bottomDisable0-1"
+	"OnEndTouchOrangePlayer" "InstanceAuto122-red_dropper-relay_tube_closeTrigger1-1"
+}
+entity
+{
+	"model" "*187"
+	"angles" "-90 90 0"
+	"origin" "-3952 -256 -640"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "955351"
+}
+entity
+{
+	"angles" "-0 -180 5.00896e-006"
+	"origin" "-5794 -192 1152"
+	"style" "0"
+	"spawnflags" "0"
+	"_zero_percent_distance" "0"
+	"_quadratic_attn" "1"
+	"_linear_attn" "0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "183 204 218 30"
+	"_hardfalloff" "0"
+	"_fifty_percent_distance" "0"
+	"_distance" "0"
+	"_constant_attn" "0"
+	"classname" "light"
+	"hammerid" "956341"
+}
+entity
+{
+	"model" "*188"
+	"angles" "90 -180 0"
+	"origin" "-5088 -944 384"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "956656"
+}
+entity
+{
+	"model" "*189"
+	"angles" "90 -180 0"
+	"origin" "-5088 -912 384"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "957142"
+}
+entity
+{
+	"model" "*190"
+	"angles" "-90 -0 0"
+	"origin" "-5088 -944 128"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "957628"
+}
+entity
+{
+	"model" "*191"
+	"angles" "-90 -0 0"
+	"origin" "-5088 -912 128"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "958114"
+}
+entity
+{
+	"model" "*192"
+	"angles" "90 -180 0"
+	"origin" "-5088 -464 384"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "958600"
+}
+entity
+{
+	"model" "*193"
+	"angles" "90 -180 0"
+	"origin" "-5088 -432 384"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "959086"
+}
+entity
+{
+	"model" "*194"
+	"angles" "-90 -0 0"
+	"origin" "-5088 -464 128"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "959572"
+}
+entity
+{
+	"model" "*195"
+	"angles" "-90 -0 0"
+	"origin" "-5088 -432 128"
+	"spawnflags" "0"
+	"classname" "func_portal_bumper"
+	"hammerid" "960058"
+}
+entity
+{
+	"cheapwaterenddistance" "2000"
+	"cheapwaterstartdistance" "1000"
+	"classname" "water_lod_control"
+}
