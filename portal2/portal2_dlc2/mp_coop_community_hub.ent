@@ -1,0 +1,408 @@
+entity
+{
+	"world_maxs" "384 384 768"
+	"world_mins" "-384 -384 0"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"maxblobcount" "250"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"classname" "worldspawn"
+	"mapversion" "7"
+	"hammerid" "1"
+}
+entity
+{
+	"origin" "96 16 0"
+	"Delay" "1"
+	"angles" "0 0 0"
+	"classname" "prop_button"
+	"hammerid" "123"
+	"OnPressed" "client_commandCommandcm_show_friend_invite_screen0-1"
+}
+entity
+{
+	"origin" "96 -96 16"
+	"targetname" "client_command"
+	"classname" "point_clientcommand"
+	"hammerid" "125"
+}
+entity
+{
+	"origin" "0 0 256"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 200"
+	"classname" "light"
+	"hammerid" "112"
+}
+entity
+{
+	"origin" "192 192 424"
+	"targetname" "red_dropper-cube_dropper_prop"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "1"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/props_backstage/item_dropper.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"angles" "1.00179e-005 -90 -5.00896e-006"
+	"classname" "prop_dynamic"
+	"hammerid" "841"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 176 344"
+	"targetname" "red_dropper-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "2812"
+	"OnProxyRelay1" "red_dropper-initial_spawnDisable0-1"
+	"OnProxyRelay2" "red_dropper-relay_set_enabled_activeTrigger0-1"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 192 344"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 5"
+	"_fifty_percent_distance" "150"
+	"classname" "light"
+	"hammerid" "965"
+}
+entity
+{
+	"model" "*1"
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "red_dropper-cube_dropper_droptrigger"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "192 192 632"
+	"classname" "trigger_playerteam"
+	"hammerid" "3146"
+	"OnStartTouchOrangePlayer" "red_dropper-relay_tube_openTrigger0-1"
+	"OnStartTouchOrangePlayer" "red_dropper-cube_dropper_droptrigger_bottomEnable0-1"
+}
+entity
+{
+	"origin" "192 192 688"
+	"targetname" "red_dropper-initial_spawn"
+	"StartingTeam" "2"
+	"ForceGunOnSpawn" "0"
+	"Enabled" "1"
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"classname" "info_coop_spawn"
+	"hammerid" "1101"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "208 176 360"
+	"targetname" "red_dropper-relay_tube_close"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "3277"
+	"OnTrigger" "red_dropper-cube_dropper_propSetAnimationitem_dropper_close0.02-1"
+	"OnTrigger" "red_dropper-relay_tube_openCancelPending0-1"
+}
+entity
+{
+	"origin" "192 192 488"
+	"spawnflags" "1"
+	"pitch" "-90"
+	"angles" "-90 -8.75793e-013 0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "240 180 80 50"
+	"_inner_cone" "40"
+	"_fifty_percent_distance" "150"
+	"_exponent" "1"
+	"_cone" "45"
+	"classname" "light_spot"
+	"hammerid" "1065"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 192 360"
+	"targetname" "red_dropper-relay_set_enabled_active"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "3315"
+	"OnTrigger" "red_dropper-initial_spawnEnable0-1"
+	"OnTrigger" "red_dropper-initial_spawnSetAsActiveSpawn0.1-1"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 176 360"
+	"targetname" "red_dropper-relay_tube_open"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	"hammerid" "3213"
+	"OnTrigger" "red_dropper-relay_tube_closeCancelPending0-1"
+	"OnTrigger" "red_dropper-steam_orangeStart0.02-1"
+	"OnTrigger" "red_dropper-cube_dropper_propSetAnimationitem_dropper_open0-1"
+	"OnTrigger" "red_dropper-steam_orangeStop2-1"
+	"OnTrigger" "red_dropper-snd_spawn_airPlaySound0.02-1"
+}
+entity
+{
+	"origin" "192 192 512"
+	"targetname" "red_dropper-steam_orange"
+	"start_active" "0"
+	"effect_name" "coop_spawntube_steam"
+	"drawinfastreflection" "0"
+	"cpoint7_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint1_parent" "0"
+	"angles" "90 -8.75793e-013 0"
+	"classname" "info_particle_system"
+	"hammerid" "3408"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 192 408"
+	"volstart" "0"
+	"targetname" "red_dropper-snd_spawn_air"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.RatMazeDownStopAir"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "3817"
+}
+entity
+{
+	"model" "*2"
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "red_dropper-cube_dropper_droptrigger_bottom"
+	"target_team" "0"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "192 192 424"
+	"classname" "trigger_playerteam"
+	"hammerid" "3906"
+	"OnEndTouchOrangePlayer" "red_dropper-cube_dropper_droptrigger_bottomDisable0-1"
+	"OnEndTouchOrangePlayer" "red_dropper-relay_tube_closeTrigger1-1"
+}
+entity
+{
+	"origin" "192 -192 424"
+	"targetname" "blue_dropper-cube_dropper_prop"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"model" "models/props_backstage/item_dropper.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"HoldAnimation" "1"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disableshadows" "1"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"angles" "1.00179e-005 -90 -5.00896e-006"
+	"classname" "prop_dynamic"
+	"hammerid" "4622"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 -208 344"
+	"targetname" "blue_dropper-proxy"
+	"classname" "func_instance_io_proxy"
+	"hammerid" "6593"
+	"OnProxyRelay1" "blue_dropper-initial_spawnDisable0-1"
+	"OnProxyRelay2" "blue_dropper-relay_set_enabled_activeTrigger0-1"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 -192 344"
+	"spawnflags" "0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 25"
+	"_fifty_percent_distance" "150"
+	"classname" "light"
+	"hammerid" "4746"
+}
+entity
+{
+	"model" "*3"
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "blue_dropper-cube_dropper_droptrigger"
+	"target_team" "0"
+	"spawnflags" "4097"
+	"origin" "192 -192 632"
+	"classname" "trigger_playerteam"
+	"hammerid" "6927"
+	"OnStartTouchBluePlayer" "blue_dropper-relay_tube_openTrigger0-1"
+	"OnStartTouchBluePlayer" "blue_dropper-cube_dropper_droptrigger_bottomEnable0-1"
+}
+entity
+{
+	"origin" "192 -192 672"
+	"targetname" "blue_dropper-initial_spawn"
+	"StartingTeam" "3"
+	"ForceGunOnSpawn" "0"
+	"Enabled" "1"
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"classname" "info_coop_spawn"
+	"hammerid" "4882"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "208 -208 360"
+	"targetname" "blue_dropper-relay_tube_close"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "7058"
+	"OnTrigger" "blue_dropper-cube_dropper_propSetAnimationitem_dropper_close0.2-1"
+	"OnTrigger" "blue_dropper-relay_tube_openCancelPending0-1"
+}
+entity
+{
+	"origin" "192 -192 520"
+	"spawnflags" "1"
+	"pitch" "-90"
+	"angles" "-90 -8.75793e-013 0"
+	"_zero_percent_distance" "300"
+	"_quadratic_attn" "1"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "220 240 240 50"
+	"_inner_cone" "40"
+	"_fifty_percent_distance" "150"
+	"_exponent" "1"
+	"_cone" "45"
+	"classname" "light_spot"
+	"hammerid" "4846"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 -176 360"
+	"targetname" "blue_dropper-relay_set_enabled_active"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "7096"
+	"OnTrigger" "blue_dropper-initial_spawnEnable0-1"
+	"OnTrigger" "blue_dropper-initial_spawnSetAsActiveSpawn0.1-1"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 -208 360"
+	"targetname" "blue_dropper-relay_tube_open"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	"hammerid" "6994"
+	"OnTrigger" "blue_dropper-cube_dropper_propSetAnimationitem_dropper_open0.1-1"
+	"OnTrigger" "blue_dropper-relay_tube_closeCancelPending0-1"
+	"OnTrigger" "blue_dropper-steam_blueStart0-1"
+	"OnTrigger" "blue_dropper-steam_blueStop2-1"
+	"OnTrigger" "blue_dropper-snd_spawn_airPlaySound0.5-1"
+}
+entity
+{
+	"origin" "192 -192 512"
+	"targetname" "blue_dropper-steam_blue"
+	"start_active" "0"
+	"effect_name" "coop_spawntube_steam"
+	"drawinfastreflection" "0"
+	"cpoint7_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint1_parent" "0"
+	"angles" "90 -8.75793e-013 0"
+	"classname" "info_particle_system"
+	"hammerid" "7308"
+}
+entity
+{
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"origin" "192 -192 411.809"
+	"volstart" "0"
+	"targetname" "blue_dropper-snd_spawn_air"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "World.RatMazeDownStopAir"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+	"hammerid" "7652"
+}
+entity
+{
+	"model" "*4"
+	"angles" "5.00896e-006 0 1.00179e-005"
+	"trigger_once" "0"
+	"targetname" "blue_dropper-cube_dropper_droptrigger_bottom"
+	"target_team" "0"
+	"StartDisabled" "1"
+	"spawnflags" "4097"
+	"origin" "192 -192 424"
+	"classname" "trigger_playerteam"
+	"hammerid" "7827"
+	"OnEndTouchBluePlayer" "blue_dropper-cube_dropper_droptrigger_bottomDisable0-1"
+	"OnEndTouchBluePlayer" "blue_dropper-relay_tube_closeTrigger1-1"
+}
