@@ -14,5 +14,5 @@ This repo contains most entity lumps from Valve Source games, including addition
 * **Portal**: ✔
 * **Portal 2**: ✔
 * **Team Fortress 2:** Only lumps from non-repacked maps
-* 
+
 This repo exists for the purpose of searching for certain things, but you should not use the GitHub search function because it is garbage. Please use Notepad++.
