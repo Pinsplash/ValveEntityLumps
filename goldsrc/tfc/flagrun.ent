@@ -1,0 +1,4764 @@
+{
+"wad" "\tffree\tfc\tfc2.wad;\tffree\tfc\tfc.wad;\tffree\valve\halflife.wad;\tffree\valve\liquids.wad"
+"mapversion" "340"
+"mapversion" "220"
+"MaxRange" "8096"
+"sounds" "1"
+"message" "war!"
+"skyname" "dustbowl"
+"classname" "worldspawn"
+"classname" "worldspawn"
+}
+{
+"origin" "0 -160 848"
+"_light" "255 255 155 100"
+"pitch" "-60"
+"angles" "0 308 0"
+"classname" "light_environment"
+}
+{
+"model" "*1"
+"targetname" "blue_spawndoor_2"
+"lip" "2"
+"wait" "2"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "500"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"targetname" "blue_spawndoor_1"
+"lip" "2"
+"wait" "2"
+"movesnd" "3"
+"speed" "500"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"origin" "2192 320 848"
+"_light" "255 255 155 100"
+"pitch" "-65"
+"angles" "0 225 0"
+"classname" "light_environment"
+}
+{
+"model" "*3"
+"targetname" "blue_spawndoor_4"
+"lip" "2"
+"wait" "2"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "400"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"lip" "-200"
+"wait" "1.5"
+"stopsnd" "6"
+"movesnd" "2"
+"speed" "200"
+"targetname" "blue_lift_01"
+"angles" "-90 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"origin" "3120 784 432"
+"_light" "255 255 155 200"
+"pitch" "-65"
+"angles" "0 225 0"
+"classname" "light_environment"
+}
+{
+"model" "*5"
+"targetname" "red_spawndoor_2"
+"lip" "2"
+"wait" "2"
+"movesnd" "3"
+"speed" "500"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"origin" "-2256 352 848"
+"_light" "255 255 155 100"
+"pitch" "-65"
+"angles" "0 315 0"
+"classname" "light_environment"
+}
+{
+"model" "*6"
+"targetname" "red_spawndoor_4"
+"lip" "2"
+"wait" "2"
+"movesnd" "3"
+"speed" "400"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"lip" "-200"
+"wait" "1.5"
+"stopsnd" "6"
+"movesnd" "2"
+"speed" "200"
+"targetname" "red_lift_01"
+"angles" "-90 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"origin" "-3120 784 432"
+"_light" "255 255 155 200"
+"pitch" "-65"
+"angles" "0 315 0"
+"classname" "light_environment"
+}
+{
+"model" "*8"
+"targetname" "red_spawndoor_1"
+"lip" "2"
+"wait" "2"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "500"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"else_goal" "747"
+"team_no" "2"
+"target" "red_spawndoor_4_itg"
+"wait" "1"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"else_goal" "747"
+"team_no" "2"
+"target" "red_spawndoor_2_itg"
+"wait" "1"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"else_goal" "747"
+"team_no" "2"
+"target" "red_spawndoor_1_itg"
+"wait" "1"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"angles" "0 180 0"
+"targetname" "blue_spawndoor_4"
+"lip" "2"
+"wait" "2"
+"movesnd" "3"
+"speed" "400"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*13"
+"angles" "0 180 0"
+"targetname" "blue_spawndoor_2"
+"lip" "2"
+"wait" "2"
+"movesnd" "3"
+"speed" "500"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*14"
+"angles" "0 180 0"
+"targetname" "blue_spawndoor_1"
+"lip" "2"
+"wait" "2"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "500"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*15"
+"angles" "0 180 0"
+"targetname" "red_spawndoor_2"
+"lip" "2"
+"wait" "2"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "500"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*16"
+"angles" "0 180 0"
+"targetname" "red_spawndoor_1"
+"lip" "2"
+"wait" "2"
+"movesnd" "3"
+"speed" "500"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*17"
+"angles" "0 180 0"
+"targetname" "red_spawndoor_4"
+"lip" "2"
+"wait" "2"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "400"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"else_goal#1" "747"
+"else_goal" "747"
+"team_no" "1"
+"target" "blue_spawndoor_2_itg"
+"wait" "1"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*19"
+"else_goal#1" "747"
+"else_goal" "747"
+"team_no" "1"
+"target" "blue_spawndoor_1_itg"
+"wait" "1"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*20"
+"else_goal" "747"
+"team_no" "1"
+"target" "blue_spawndoor_4_itg"
+"wait" "1"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-1632 640 416"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "-1632 640 428"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*21"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*22"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-1408 704 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "-1408 704 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-1088 704 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "-1088 704 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*23"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-1290 506 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "-1290 506 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-1078 310 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "-1078 310 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-1822 946 416"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "-1822 946 428"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*24"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-1410 958 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "-1410 958 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-1090 902 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "-1090 902 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-1318 1218 414"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "-1318 1218 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-2882 -850 384"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "-2882 -850 396"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*25"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*26"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-2566 166 192"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "-2566 166 204"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*27"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*28"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-2870 170 192"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "-2870 170 204"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*29"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*30"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*31"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*32"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*33"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*34"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-2974 290 412"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-2974 290 407"
+"_light" "255 200 100 120"
+"classname" "light"
+}
+{
+"model" "*35"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*36"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "2974 290 412"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "2974 290 407"
+"_light" "255 200 100 120"
+"classname" "light"
+}
+{
+"origin" "2566 166 192"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "2566 166 204"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*37"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*38"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "2870 170 192"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "2870 170 204"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*39"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*40"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "1822 946 416"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "1822 946 428"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*41"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "1632 640 416"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "1632 640 428"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*42"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "1410 958 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "1410 958 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "1408 704 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "1408 704 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "1290 506 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "1290 506 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*43"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "1088 704 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "1088 704 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "1090 902 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "1090 902 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "1078 310 414"
+"_light" "255 200 100 100"
+"classname" "light"
+}
+{
+"origin" "1078 310 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "1318 1218 414"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "1318 1218 426"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "2882 -850 384"
+"_light" "255 200 100 150"
+"classname" "light"
+}
+{
+"origin" "2882 -850 396"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"model" "*44"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*45"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*46"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*47"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "80 1120 544"
+"pitch" "-90"
+"_cone2" "72"
+"_cone" "32"
+"_light" "255 255 128 60"
+"classname" "light_spot"
+}
+{
+"origin" "-80 1120 544"
+"pitch" "-90"
+"angles" "0 180 0"
+"_cone2" "72"
+"_cone" "32"
+"_light" "255 255 128 60"
+"classname" "light_spot"
+}
+{
+"origin" "-3136 -352 848"
+"_light" "255 255 155 100"
+"pitch" "-65"
+"angles" "0 315 0"
+"classname" "light_environment"
+}
+{
+"origin" "3232 -352 848"
+"_light" "255 255 155 100"
+"pitch" "-65"
+"angles" "0 225 0"
+"classname" "light_environment"
+}
+{
+"origin" "1216 1344 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1279 864 293"
+"angles" "0 90 0"
+"team_no" "1"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "1327 864 277"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "1359 864 277"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "1391 864 277"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "1423 864 277"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "1471 864 293"
+"angles" "0 90 0"
+"team_no" "1"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "1408 1344 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 252 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1407 1215 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 277 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1215 1215 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1409 1089 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1217 1089 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1312 1280 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 273 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1312 1152 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 265 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2898 288 51"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 219 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2898 144 51"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 197 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2897 32 53"
+"angles" "0 90 0"
+"team_no" "1"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "2865 32 37"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "2833 32 37"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "2801 32 37"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "2769 32 37"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "2722 288 51"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 257 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2546 288 51"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 308 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2736 32 53"
+"angles" "0 90 0"
+"team_no" "1"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "-2898 32 53"
+"angles" "0 90 0"
+"team_no" "2"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "-2866 32 37"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2834 32 37"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2802 32 37"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2770 32 37"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-2737 32 53"
+"angles" "0 90 0"
+"team_no" "2"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "-2547 288 51"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 256 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-2723 288 51"
+"goal_result" "2"
+"activate_goal_no" "100"
+"goal_activation" "1"
+"angles" "0 257 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-2899 288 51"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 291 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-2899 144 51"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 304 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1280 864 293"
+"angles" "0 90 0"
+"team_no" "2"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "-1328 864 277"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1360 864 277"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1392 864 277"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1424 864 277"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1472 864 293"
+"angles" "0 90 0"
+"team_no" "2"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "-1408 1215 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 278 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1218 1089 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1216 1215 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1410 1089 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 282 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1313 1152 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 287 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1313 1280 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1217 1344 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1409 1344 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 280 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1741 2319 -348"
+"non_team_speak" "!WAR_EN_1"
+"team_speak" "WAR_TEAM_1"
+"AP_speak" "!WAR_HAVE_1"
+"message" "#war_uhave_flag1"
+"rv_g" "14"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "1"
+"goal_no" "15"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1741 2319 -316"
+"remove_group_no" "401"
+"speak" "!WAR_RET_1"
+"target" "neutral_1_on"
+"rs_g" "14"
+"goal_no" "16"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1741 2319 -284"
+"hasnt_item_from_group" "100"
+"pausetime" "5"
+"g_e" "1"
+"goal_result" "16"
+"mdl" "models/flag.mdl"
+"g_a" "164"
+"impulse" "16"
+"items" "131072"
+"group_no" "100"
+"goal_no" "1"
+"netname" "flag 1"
+"classname" "item_tfgoal"
+}
+{
+"origin" "3456 32 88"
+"skin" "2"
+"goal_state" "3"
+"team_no" "2"
+"netname" "flag 1 blue"
+"angles" "0 90 0"
+"goal_result" "16"
+"group_no" "1"
+"g_a" "1"
+"activate_goal_no" "115"
+"goal_no" "114"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3456 80 268"
+"restore_goal_no" "411"
+"non_team_speak" "!WAR_ESTOLE_1"
+"team_speak" "!WAR_TSTOLE_1"
+"AP_speak" "!WAR_STOLE_1"
+"target" "neutral_1_on"
+"non_team_broadcast" "#war_en_stole_1"
+"team_broadcast" "#war_tm_stole_1"
+"message" "#war_u_stole_1"
+"rv_g" "114"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "1"
+"goal_no" "115"
+"classname" "info_tfgoal"
+}
+{
+"model" "*48"
+"activate_goal_no" "521"
+"goal_result" "2"
+"target" "blue_1_on"
+"team_no" "1"
+"restore_goal_no" "114"
+"items_allowed" "1"
+"axhitme" "1"
+"g_e" "1"
+"g_a" "1"
+"netname" "blue 1 capture point"
+"classname" "i_t_g"
+}
+{
+"model" "*49"
+"activate_goal_no" "511"
+"goal_result" "2"
+"target" "red_1_on"
+"team_no" "2"
+"restore_goal_no" "214"
+"items_allowed" "1"
+"axhitme" "1"
+"g_e" "1"
+"g_a" "1"
+"netname" "red 1 capture point"
+"classname" "i_t_g"
+}
+{
+"origin" "-3264 32 88"
+"skin" "1"
+"team_no" "1"
+"netname" "flag 1 red"
+"angles" "0 90 0"
+"goal_result" "16"
+"group_no" "2"
+"g_a" "1"
+"activate_goal_no" "215"
+"goal_no" "214"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3264 80 317"
+"restore_goal_no" "421"
+"non_team_speak" "!WAR_ESTOLE_1"
+"team_speak" "!WAR_TSTOLE_1"
+"AP_speak" "!WAR_STOLE_1"
+"target" "neutral_1_on"
+"non_team_broadcast" "#war_en_stole_1"
+"team_broadcast" "#war_tm_stole_1"
+"message" "#war_u_stole_1"
+"rv_g" "214"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "1"
+"goal_no" "215"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1647 2321 -348"
+"non_team_speak" "!WAR_EN_2"
+"team_speak" "WAR_TEAM_2"
+"AP_speak" "!WAR_HAVE_2"
+"message" "#war_uhave_flag_2"
+"rv_g" "24"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "2"
+"goal_no" "25"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1647 2321 -316"
+"remove_group_no" "402"
+"speak" "!WAR_RET_2"
+"target" "neutral_2_on"
+"rs_g" "24"
+"goal_no" "26"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1647 2321 -284"
+"hasnt_item_from_group" "100"
+"pausetime" "5"
+"g_e" "1"
+"goal_result" "16"
+"mdl" "models/flag.mdl"
+"g_a" "164"
+"impulse" "26"
+"items" "131072"
+"group_no" "100"
+"goal_no" "2"
+"netname" "flag 2"
+"classname" "item_tfgoal"
+}
+{
+"origin" "-1551 2321 -348"
+"non_team_speak" "!WAR_EN_3"
+"team_speak" "WAR_TEAM_3"
+"AP_speak" "!WAR_HAVE_3"
+"message" "#war_uhave_flag_3"
+"rv_g" "34"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "3"
+"goal_no" "35"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1551 2321 -316"
+"remove_group_no" "403"
+"speak" "!WAR_RET_3"
+"target" "neutral_3_on"
+"rs_g" "34"
+"goal_no" "36"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1551 2321 -284"
+"hasnt_item_from_group" "100"
+"pausetime" "5"
+"g_e" "1"
+"goal_result" "16"
+"mdl" "models/flag.mdl"
+"g_a" "164"
+"impulse" "36"
+"items" "131072"
+"group_no" "100"
+"goal_no" "3"
+"netname" "flag 3"
+"classname" "item_tfgoal"
+}
+{
+"model" "*50"
+"activate_goal_no" "522"
+"goal_result" "2"
+"target" "blue_2_on"
+"team_no" "1"
+"restore_goal_no" "124"
+"items_allowed" "2"
+"axhitme" "2"
+"g_e" "1"
+"g_a" "1"
+"netname" "blue 2 capture point"
+"classname" "i_t_g"
+}
+{
+"origin" "3392 32 88"
+"skin" "2"
+"goal_state" "3"
+"team_no" "2"
+"netname" "flag 2 blue"
+"angles" "0 90 0"
+"goal_result" "16"
+"group_no" "1"
+"g_a" "1"
+"activate_goal_no" "125"
+"goal_no" "124"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3392 80 268"
+"restore_goal_no" "412"
+"non_team_speak" "!WAR_ESTOLE_2"
+"team_speak" "!WAR_TSTOLE_2"
+"AP_speak" "!WAR_STOLE_2"
+"target" "neutral_2_on"
+"non_team_broadcast" "#war_en_stole_2"
+"team_broadcast" "#war_tm_stole_2"
+"message" "#war_u_stole_2"
+"rv_g" "124"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "2"
+"goal_no" "125"
+"classname" "info_tfgoal"
+}
+{
+"model" "*51"
+"activate_goal_no" "523"
+"goal_result" "2"
+"target" "blue_3_on"
+"team_no" "1"
+"restore_goal_no" "134"
+"items_allowed" "3"
+"axhitme" "3"
+"g_e" "1"
+"g_a" "1"
+"netname" "blue 3 capture point"
+"classname" "i_t_g"
+}
+{
+"origin" "3328 32 88"
+"skin" "2"
+"goal_state" "3"
+"team_no" "2"
+"netname" "flag 3 blue"
+"angles" "0 90 0"
+"goal_result" "16"
+"group_no" "1"
+"g_a" "1"
+"activate_goal_no" "135"
+"goal_no" "134"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3328 80 268"
+"restore_goal_no" "413"
+"non_team_speak" "!WAR_ESTOLE_3"
+"team_speak" "!WAR_TSTOLE_3"
+"AP_speak" "!WAR_STOLE_3"
+"target" "neutral_3_on"
+"non_team_broadcast" "#war_en_stole_3"
+"team_broadcast" "#war_tm_stole_3"
+"message" "#war_u_stole_3"
+"rv_g" "134"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "3"
+"goal_no" "135"
+"classname" "info_tfgoal"
+}
+{
+"model" "*52"
+"activate_goal_no" "512"
+"goal_result" "2"
+"target" "red_2_on"
+"team_no" "2"
+"restore_goal_no" "224"
+"items_allowed" "2"
+"axhitme" "2"
+"g_e" "1"
+"g_a" "1"
+"netname" "red 2 capture point"
+"classname" "i_t_g"
+}
+{
+"origin" "-3328 32 88"
+"skin" "1"
+"goal_state" "3"
+"team_no" "1"
+"netname" "flag 2 red"
+"angles" "0 90 0"
+"goal_result" "16"
+"group_no" "2"
+"g_a" "1"
+"activate_goal_no" "225"
+"goal_no" "224"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3328 80 317"
+"restore_goal_no" "422"
+"non_team_speak" "!WAR_ESTOLE_2"
+"team_speak" "!WAR_TSTOLE_2"
+"AP_speak" "!WAR_STOLE_2"
+"target" "neutral_2_on"
+"non_team_broadcast" "#war_en_stole_2"
+"team_broadcast" "#war_tm_stole_2"
+"message" "#war_u_stole_2"
+"rv_g" "224"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "2"
+"goal_no" "225"
+"classname" "info_tfgoal"
+}
+{
+"model" "*53"
+"activate_goal_no" "513"
+"goal_result" "2"
+"target" "red_3_on"
+"team_no" "2"
+"restore_goal_no" "234"
+"items_allowed" "3"
+"axhitme" "3"
+"g_e" "1"
+"g_a" "1"
+"netname" "red 3 capture point"
+"classname" "i_t_g"
+}
+{
+"origin" "-3392 32 88"
+"skin" "1"
+"goal_state" "3"
+"team_no" "1"
+"netname" "flag 3 red"
+"angles" "0 90 0"
+"goal_result" "16"
+"group_no" "2"
+"g_a" "1"
+"activate_goal_no" "235"
+"goal_no" "234"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3392 80 317"
+"restore_goal_no" "423"
+"non_team_speak" "!WAR_ESTOLE_3"
+"team_speak" "!WAR_TSTOLE_3"
+"AP_speak" "!WAR_STOLE_3"
+"target" "neutral_3_on"
+"non_team_broadcast" "#war_en_stole_3"
+"team_broadcast" "#war_tm_stole_3"
+"message" "#war_u_stole_3"
+"rv_g" "234"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "3"
+"goal_no" "235"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1792 2176 -276"
+"target" "red_endgame"
+"endround_team2" "Red team secured all 4 flags\nyou won this round!"
+"endround_team1" "Red team secured\nall 4 flags!"
+"endround_time" "10"
+"targetname" "red_endgame_check"
+"if_group_is_inactive" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1440 2160 -276"
+"target" "blue_endgame"
+"endround_team2" "Blue team secured\nall 4 flags!"
+"endround_team1" "Blue team secured all 4 flags\nyou won this round!"
+"endround_time" "10"
+"targetname" "blue_endgame_check"
+"if_group_is_inactive" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1455 2321 -348"
+"non_team_speak" "!WAR_EN_4"
+"team_speak" "WAR_TEAM_4"
+"AP_speak" "!WAR_HAVE_4"
+"message" "#war_uhave_flag_4"
+"rv_g" "44"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "4"
+"goal_no" "45"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1455 2321 -316"
+"remove_group_no" "404"
+"speak" "!WAR_RET_4"
+"target" "neutral_4_on"
+"rs_g" "44"
+"goal_no" "46"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1455 2321 -284"
+"hasnt_item_from_group" "100"
+"pausetime" "5"
+"g_e" "1"
+"goal_result" "16"
+"mdl" "models/flag.mdl"
+"g_a" "164"
+"impulse" "46"
+"items" "131072"
+"group_no" "100"
+"goal_no" "4"
+"netname" "flag 4"
+"classname" "item_tfgoal"
+}
+{
+"model" "*54"
+"activate_goal_no" "524"
+"goal_result" "2"
+"target" "blue_4_on"
+"team_no" "1"
+"restore_goal_no" "144"
+"items_allowed" "4"
+"axhitme" "4"
+"g_e" "1"
+"g_a" "1"
+"netname" "blue 4 capture point"
+"classname" "i_t_g"
+}
+{
+"origin" "3263 31 88"
+"skin" "2"
+"team_no" "2"
+"netname" "flag 4 blue"
+"angles" "0 90 0"
+"goal_result" "16"
+"group_no" "1"
+"g_a" "1"
+"activate_goal_no" "145"
+"goal_no" "144"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3264 80 268"
+"restore_goal_no" "414"
+"non_team_speak" "!WAR_ESTOLE_4"
+"team_speak" "!WAR_TSTOLE_4"
+"AP_speak" "!WAR_STOLE_4"
+"target" "neutral_4_on"
+"non_team_broadcast" "#war_en_stole_4"
+"team_broadcast" "#war_tm_stole_4"
+"message" "#war_u_stole_4"
+"rv_g" "144"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "4"
+"goal_no" "145"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3455 31 88"
+"skin" "1"
+"goal_state" "3"
+"team_no" "1"
+"netname" "flag 4 red"
+"angles" "0 90 0"
+"goal_result" "16"
+"group_no" "2"
+"g_a" "1"
+"activate_goal_no" "245"
+"goal_no" "244"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3456 80 317"
+"restore_goal_no" "424"
+"non_team_speak" "!WAR_ESTOLE_4"
+"team_speak" "!WAR_TSTOLE_4"
+"AP_speak" "!WAR_STOLE_4"
+"target" "neutral_4_on"
+"non_team_broadcast" "#war_en_stole_4"
+"team_broadcast" "#war_tm_stole_4"
+"message" "#war_u_stole_4"
+"rv_g" "244"
+"h_i_g" "100"
+"g_e" "1"
+"g_a" "4"
+"items" "4"
+"goal_no" "245"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1600 2176 -273"
+"netname" "spawn resupply"
+"g_e" "1"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "30"
+"ammo_shells" "200"
+"armorvalue" "300"
+"health" "100"
+"goal_no" "100"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1664 2240 -273"
+"triggerstate" "1"
+"delay" "60"
+"target" "start_doors_open"
+"spawnflags" "1"
+"classname" "trigger_auto"
+}
+{
+"origin" "-1664 2208 -273"
+"broadcast" "#war_avail"
+"targetname" "start_doors_msg"
+"spawnflags" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1696 2208 -273"
+"volstart" "10"
+"message" "doors/doorstop6.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"targetname" "start_doors"
+"spawnflags" "49"
+"classname" "ambient_generic"
+}
+{
+"model" "*55"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*56"
+"targetname" "red_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*57"
+"targetname" "red_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*58"
+"targetname" "red_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*59"
+"targetname" "red_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*60"
+"targetname" "blue_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*61"
+"targetname" "blue_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*62"
+"targetname" "blue_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*63"
+"targetname" "blue_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-96 960 480"
+"goal_state" "3"
+"goal_no" "301"
+"netname" "neutral bit 1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-32 960 480"
+"goal_no" "302"
+"netname" "neutral bit 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "32 960 480"
+"goal_no" "303"
+"netname" "neutral bit 3"
+"classname" "info_tfgoal"
+}
+{
+"origin" "96 960 480"
+"goal_state" "3"
+"goal_no" "304"
+"netname" "neutral bit 4"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1744 2319 -224"
+"restore_goal_no" "301"
+"target" "neutral_button_1"
+"if_goal_is_removed" "301"
+"targetname" "neutral_1_on"
+"netname" "neutral 1 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "104 848 480"
+"goal_state" "3"
+"goal_no" "311"
+"netname" "blue bit 1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "168 848 480"
+"goal_state" "3"
+"goal_no" "312"
+"netname" "blue bit 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "232 848 480"
+"goal_state" "3"
+"goal_no" "313"
+"netname" "blue bit 3"
+"classname" "info_tfgoal"
+}
+{
+"origin" "296 848 480"
+"goal_no" "314"
+"netname" "blue bit 4"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-264 848 480"
+"goal_no" "321"
+"netname" "red bit 1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-200 848 480"
+"goal_state" "3"
+"goal_no" "322"
+"netname" "red bit 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-136 848 480"
+"goal_state" "3"
+"goal_no" "323"
+"netname" "red bit 3"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-72 848 480"
+"goal_state" "3"
+"goal_no" "324"
+"netname" "red bit 4"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1744 2288 -224"
+"remove_goal_no" "311"
+"if_goal_is_inactive" "311"
+"target" "blue_button_1"
+"targetname" "neutral_1_on"
+"netname" "blue 1 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1744 2256 -224"
+"remove_goal_no" "321"
+"if_goal_is_inactive" "321"
+"target" "red_button_1"
+"targetname" "neutral_1_on"
+"netname" "red 1 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1648 2256 -224"
+"remove_goal_no" "322"
+"if_goal_is_inactive" "322"
+"target" "red_button_2"
+"targetname" "neutral_2_on"
+"netname" "red 2 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1648 2288 -224"
+"remove_goal_no" "312"
+"if_goal_is_inactive" "312"
+"target" "blue_button_2"
+"targetname" "neutral_2_on"
+"netname" "blue 2 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1648 2319 -224"
+"restore_goal_no" "302"
+"target" "neutral_button_2"
+"if_goal_is_removed" "302"
+"targetname" "neutral_2_on"
+"netname" "neutral 2 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1552 2256 -224"
+"remove_goal_no" "323"
+"if_goal_is_inactive" "323"
+"target" "red_button_3"
+"targetname" "neutral_3_on"
+"netname" "red 3 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1552 2288 -224"
+"remove_goal_no" "313"
+"if_goal_is_inactive" "313"
+"target" "blue_button_3"
+"targetname" "neutral_3_on"
+"netname" "blue 3 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1552 2319 -224"
+"restore_goal_no" "303"
+"target" "neutral_button_3"
+"if_goal_is_removed" "303"
+"targetname" "neutral_3_on"
+"netname" "neutral 3 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1456 2256 -224"
+"remove_goal_no" "324"
+"if_goal_is_inactive" "324"
+"target" "red_button_4"
+"targetname" "neutral_4_on"
+"netname" "red 4 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1456 2288 -224"
+"remove_goal_no" "314"
+"if_goal_is_inactive" "314"
+"target" "blue_button_4"
+"targetname" "neutral_4_on"
+"netname" "blue 4 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1456 2319 -224"
+"restore_goal_no" "304"
+"target" "neutral_button_4"
+"if_goal_is_removed" "304"
+"targetname" "neutral_4_on"
+"netname" "neutral 4 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3216 159 376"
+"remove_goal_no" "301"
+"if_goal_is_inactive" "301"
+"target" "neutral_button_1"
+"targetname" "blue_1_on"
+"netname" "neutral 1 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3216 128 376"
+"if_goal_is_removed" "311"
+"restore_goal_no" "311"
+"target" "blue_button_1"
+"targetname" "blue_1_on"
+"netname" "blue 1 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3216 96 376"
+"remove_goal_no" "321"
+"if_goal_is_inactive" "321"
+"target" "red_button_1"
+"targetname" "blue_1_on"
+"netname" "red 1 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3312 96 376"
+"remove_goal_no" "322"
+"if_goal_is_inactive" "322"
+"target" "red_button_2"
+"targetname" "blue_2_on"
+"netname" "red 2 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3312 128 376"
+"restore_goal_no" "312"
+"if_goal_is_removed" "312"
+"target" "blue_button_2"
+"targetname" "blue_2_on"
+"netname" "blue 2 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3312 159 376"
+"remove_goal_no" "302"
+"if_goal_is_inactive" "302"
+"target" "neutral_button_2"
+"targetname" "blue_2_on"
+"netname" "neutral 2 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3408 96 376"
+"remove_goal_no" "323"
+"if_goal_is_inactive" "323"
+"target" "red_button_3"
+"targetname" "blue_3_on"
+"netname" "red 3 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3408 128 376"
+"restore_goal_no" "313"
+"if_goal_is_removed" "313"
+"target" "blue_button_3"
+"targetname" "blue_3_on"
+"netname" "blue 3 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3408 159 376"
+"remove_goal_no" "303"
+"if_goal_is_inactive" "303"
+"target" "neutral_button_3"
+"targetname" "blue_3_on"
+"netname" "neutral 3 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3504 96 376"
+"remove_goal_no" "324"
+"if_goal_is_inactive" "324"
+"target" "red_button_4"
+"targetname" "blue_4_on"
+"netname" "red 4 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3504 128 376"
+"restore_goal_no" "314"
+"if_goal_is_removed" "314"
+"target" "blue_button_4"
+"targetname" "blue_4_on"
+"netname" "blue 4 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3504 159 376"
+"remove_goal_no" "304"
+"if_goal_is_inactive" "304"
+"target" "neutral_button_4"
+"targetname" "blue_4_on"
+"netname" "neutral 4 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3484 200 376"
+"remove_goal_no" "301"
+"if_goal_is_inactive" "301"
+"target" "neutral_button_1"
+"targetname" "red_1_on"
+"netname" "neutral 1 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3484 169 376"
+"if_goal_is_inactive" "311"
+"remove_goal_no" "311"
+"target" "blue_button_1"
+"targetname" "red_1_on"
+"netname" "blue 1 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3484 137 376"
+"restore_goal_no" "321"
+"if_goal_is_removed" "321"
+"target" "red_button_1"
+"targetname" "red_1_on"
+"netname" "red 1 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3388 137 376"
+"restore_goal_no" "322"
+"if_goal_is_removed" "322"
+"target" "red_button_2"
+"targetname" "red_2_on"
+"netname" "red 2 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3388 169 376"
+"if_goal_is_inactive" "312"
+"remove_goal_no" "312"
+"target" "blue_button_2"
+"targetname" "red_2_on"
+"netname" "blue 2 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3388 200 376"
+"remove_goal_no" "302"
+"if_goal_is_inactive" "302"
+"target" "neutral_button_2"
+"targetname" "red_2_on"
+"netname" "neutral 2 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3292 137 376"
+"restore_goal_no" "323"
+"if_goal_is_removed" "323"
+"target" "red_button_3"
+"targetname" "red_3_on"
+"netname" "red 3 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3292 169 376"
+"remove_goal_no" "313"
+"if_goal_is_inactive" "313"
+"target" "blue_button_3"
+"targetname" "red_3_on"
+"netname" "blue 3 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3292 200 376"
+"remove_goal_no" "303"
+"if_goal_is_inactive" "303"
+"target" "neutral_button_3"
+"targetname" "red_3_on"
+"netname" "neutral 3 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3196 137 376"
+"restore_goal_no" "324"
+"if_goal_is_removed" "324"
+"target" "red_button_4"
+"targetname" "red_4_on"
+"netname" "red 4 on"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3196 169 376"
+"remove_goal_no" "314"
+"if_goal_is_inactive" "314"
+"target" "blue_button_4"
+"targetname" "red_4_on"
+"netname" "blue 4 off"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3196 200 376"
+"remove_goal_no" "304"
+"if_goal_is_inactive" "304"
+"target" "neutral_button_4"
+"targetname" "red_4_on"
+"netname" "neutral 4 off"
+"classname" "info_tfgoal"
+}
+{
+"model" "*64"
+"targetname" "red_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*65"
+"targetname" "red_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*66"
+"targetname" "red_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*67"
+"targetname" "red_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*68"
+"targetname" "blue_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*69"
+"targetname" "blue_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*70"
+"targetname" "blue_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*71"
+"targetname" "blue_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*72"
+"targetname" "red_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*73"
+"targetname" "red_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*74"
+"targetname" "red_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*75"
+"targetname" "red_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*76"
+"targetname" "blue_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*77"
+"targetname" "blue_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*78"
+"targetname" "blue_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*79"
+"targetname" "blue_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*80"
+"targetname" "red_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*81"
+"targetname" "red_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*82"
+"targetname" "red_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*83"
+"targetname" "red_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*84"
+"targetname" "blue_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*85"
+"targetname" "blue_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*86"
+"targetname" "blue_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*87"
+"targetname" "blue_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*88"
+"classname" "func_nobuild"
+}
+{
+"model" "*89"
+"classname" "func_nobuild"
+}
+{
+"model" "*90"
+"classname" "func_nobuild"
+}
+{
+"model" "*91"
+"classname" "func_nobuild"
+}
+{
+"model" "*92"
+"classname" "func_nobuild"
+}
+{
+"model" "*93"
+"classname" "func_nobuild"
+}
+{
+"model" "*94"
+"classname" "func_nobuild"
+}
+{
+"model" "*95"
+"classname" "func_nobuild"
+}
+{
+"model" "*96"
+"classname" "func_nobuild"
+}
+{
+"model" "*97"
+"classname" "func_nobuild"
+}
+{
+"model" "*98"
+"classname" "func_nobuild"
+}
+{
+"model" "*99"
+"classname" "func_nobuild"
+}
+{
+"model" "*100"
+"classname" "func_nobuild"
+}
+{
+"model" "*101"
+"classname" "func_nobuild"
+}
+{
+"model" "*102"
+"classname" "func_nobuild"
+}
+{
+"model" "*103"
+"classname" "func_nobuild"
+}
+{
+"model" "*104"
+"classname" "func_nobuild"
+}
+{
+"model" "*105"
+"classname" "func_nobuild"
+}
+{
+"model" "*106"
+"classname" "func_nobuild"
+}
+{
+"model" "*107"
+"classname" "func_nobuild"
+}
+{
+"model" "*108"
+"classname" "func_nobuild"
+}
+{
+"model" "*109"
+"classname" "func_nobuild"
+}
+{
+"model" "*110"
+"classname" "func_nobuild"
+}
+{
+"model" "*111"
+"classname" "func_nobuild"
+}
+{
+"model" "*112"
+"classname" "func_nobuild"
+}
+{
+"model" "*113"
+"classname" "func_nobuild"
+}
+{
+"model" "*114"
+"classname" "func_nobuild"
+}
+{
+"model" "*115"
+"classname" "func_nobuild"
+}
+{
+"model" "*116"
+"classname" "func_nobuild"
+}
+{
+"model" "*117"
+"classname" "func_nobuild"
+}
+{
+"model" "*118"
+"classname" "func_nobuild"
+}
+{
+"model" "*119"
+"classname" "func_nobuild"
+}
+{
+"model" "*120"
+"classname" "func_nobuild"
+}
+{
+"model" "*121"
+"classname" "func_nobuild"
+}
+{
+"model" "*122"
+"classname" "func_nobuild"
+}
+{
+"model" "*123"
+"classname" "func_nobuild"
+}
+{
+"model" "*124"
+"classname" "func_nobuild"
+}
+{
+"model" "*125"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*126"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "2966 550 412"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "2966 550 407"
+"_light" "255 200 100 120"
+"classname" "light"
+}
+{
+"model" "*127"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*128"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-2970 586 412"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-2970 586 407"
+"_light" "255 200 100 120"
+"classname" "light"
+}
+{
+"model" "*129"
+"classname" "func_nobuild"
+}
+{
+"origin" "-3456 80 424"
+"group_no" "404"
+"goal_state" "3"
+"goal_no" "424"
+"netname" "red flag 4 bit"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3392 80 424"
+"group_no" "403"
+"goal_state" "3"
+"goal_no" "423"
+"netname" "red flag 3 bit"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3328 80 424"
+"group_no" "402"
+"goal_state" "3"
+"goal_no" "422"
+"netname" "red flag 2 bit"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3264 80 424"
+"group_no" "401"
+"goal_state" "3"
+"goal_no" "421"
+"netname" "red flag 1 bit"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3272 296 32"
+"non_team_broadcast" "#war_esec_flag4"
+"netname_team_broadcast" "#war_tmsec_flag4"
+"message" "#war_usec_flag4"
+"non_team_speak" "!WAR_ESEC_4"
+"team_speak" "!WAR_TSEC_4"
+"AP_speak" "!WAR_YSEC_4"
+"goal_result" "2"
+"else_goal" "5242"
+"increase_team1" "10"
+"target" "applause"
+"remove_goal_no" "424"
+"netname" "blue steals 4 result"
+"g_e" "1"
+"frags" "10"
+"if_goal_is_inactive" "424"
+"goal_no" "524"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3320 296 32"
+"non_team_broadcast" "#war_esec_flag3"
+"netname_team_broadcast" "#war_tmsec_3"
+"message" "#war_usec_flag3"
+"non_team_speak" "!WAR_ESEC_3"
+"team_speak" "!WAR_TSEC_3"
+"AP_speak" "!WAR_YSEC_3"
+"goal_result" "2"
+"else_goal" "5232"
+"increase_team1" "10"
+"target" "applause"
+"remove_goal_no" "423"
+"netname" "blue steals 3 result"
+"g_e" "1"
+"frags" "10"
+"if_goal_is_inactive" "423"
+"goal_no" "523"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3384 296 32"
+"non_team_broadcast" "#war_esec_flag2"
+"netname_team_broadcast" "#war_tmsec_flag2"
+"message" "#war_usec_flag2"
+"non_team_speak" "!WAR_ESEC_2"
+"team_speak" "!WAR_TSEC_2"
+"AP_speak" "!WAR_YSEC_2"
+"goal_result" "2"
+"else_goal" "5222"
+"increase_team1" "10"
+"target" "applause"
+"remove_goal_no" "422"
+"netname" "blue steals 2 result"
+"g_e" "1"
+"frags" "10"
+"if_goal_is_inactive" "422"
+"goal_no" "522"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3432 296 32"
+"non_team_broadcast" "#war_esec_flag1"
+"netname_team_broadcast" "#war_tmsec_flag1"
+"message" "#war_usec_flag1"
+"non_team_speak" "!WAR_ESEC_1"
+"team_speak" "!WAR_TSEC_1"
+"AP_speak" "!WAR_YSEC_1"
+"goal_result" "2"
+"else_goal" "5212"
+"increase_team1" "10"
+"target" "applause"
+"remove_goal_no" "421"
+"netname" "blue steals 1 result"
+"g_e" "1"
+"frags" "10"
+"if_goal_is_inactive" "421"
+"goal_no" "521"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3272 312 40"
+"goal_result" "2"
+"non_team_speak" "!WAR_ESEC_1"
+"team_speak" "!WAR_TSEC_1"
+"AP_speak" "!WAR_YSEC_1"
+"non_team_broadcast" "#war_esec_flag1"
+"netname_team_broadcast" "#war_tmsec_flag1"
+"message" "#war_usec_flag1"
+"else_goal" "5112"
+"increase_team2" "10"
+"target" "applause"
+"remove_goal_no" "411"
+"netname" "red steals 1 result"
+"g_e" "1"
+"frags" "10"
+"if_goal_is_inactive" "411"
+"goal_no" "511"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3320 312 40"
+"goal_result" "2"
+"non_team_speak" "!WAR_ESEC_2"
+"team_speak" "!WAR_TSEC_2"
+"AP_speak" "!WAR_YSEC_2"
+"non_team_broadcast" "#war_esec_flag2"
+"netname_team_broadcast" "#war_tmsec_flag2"
+"message" "#war_usec_flag2"
+"else_goal" "5122"
+"increase_team2" "10"
+"target" "applause"
+"remove_goal_no" "412"
+"netname" "red steals 2 result"
+"g_e" "1"
+"frags" "10"
+"if_goal_is_inactive" "412"
+"goal_no" "512"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3384 312 40"
+"goal_result" "2"
+"non_team_broadcast" "#war_esec_flag3"
+"netname_team_broadcast" "#war_tmsec_flag3"
+"message" "#war_usec_flag3"
+"non_team_speak" "!WAR_ESEC_3"
+"team_speak" "!WAR_TSEC_3"
+"AP_speak" "!WAR_YSEC_3"
+"else_goal" "5132"
+"increase_team2" "10"
+"target" "applause"
+"remove_goal_no" "413"
+"netname" "red steals 3 result"
+"g_e" "1"
+"frags" "10"
+"if_goal_is_inactive" "413"
+"goal_no" "513"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3432 312 40"
+"goal_result" "2"
+"non_team_broadcast" "#war_esec_flag4"
+"netname_team_broadcast" "#war_tmsec_flag4"
+"message" "#war_usec_flag4"
+"non_team_speak" "!WAR_ESEC_4"
+"team_speak" "!WAR_TSEC_4"
+"AP_speak" "!WAR_YSEC_4"
+"else_goal" "5142"
+"increase_team2" "10"
+"target" "applause"
+"remove_goal_no" "414"
+"netname" "red steals 4 result"
+"g_e" "1"
+"frags" "10"
+"if_goal_is_inactive" "414"
+"goal_no" "514"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3256 40 360"
+"group_no" "404"
+"goal_state" "3"
+"goal_no" "414"
+"netname" "blue flag 4 bit"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3320 40 360"
+"group_no" "403"
+"goal_state" "3"
+"goal_no" "413"
+"netname" "blue flag 3 bit"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3384 40 360"
+"group_no" "402"
+"goal_state" "3"
+"goal_no" "412"
+"netname" "blue flag 2 bit"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3448 40 360"
+"group_no" "401"
+"goal_state" "3"
+"goal_no" "411"
+"netname" "blue flag 1 bit"
+"classname" ""
+}
+{
+"origin" "-1712 2160 -276"
+"classname" "info_tfdetect"
+}
+{
+"origin" "2784 -784 271"
+"health" "15"
+"armorvalue" "85"
+"angles" "0 48 0"
+"noise" "weapons/scock1.wav"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_shells" "100"
+"wait" "5"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3601 1328 287"
+"health" "20"
+"else_goal" "123"
+"team_no" "2"
+"angles" "0 238 0"
+"noise" "weapons/scock1.wav"
+"ammo_nails" "100"
+"ammo_rockets" "10"
+"ammo_cells" "100"
+"ammo_shells" "50"
+"wait" "10"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3600 1328 287"
+"health" "20"
+"else_goal" "123"
+"team_no" "1"
+"angles" "0 238 0"
+"noise" "weapons/scock1.wav"
+"ammo_nails" "100"
+"ammo_rockets" "10"
+"ammo_cells" "100"
+"ammo_shells" "50"
+"wait" "10"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1839 929 271"
+"angles" "0 180 0"
+"noise" "weapons/scock1.wav"
+"team_no" "1"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_shells" "100"
+"wait" "2"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-2785 -784 271"
+"health" "15"
+"armorvalue" "85"
+"angles" "0 112 0"
+"noise" "weapons/scock1.wav"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_shells" "100"
+"wait" "5"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1840 945 271"
+"angles" "0 180 0"
+"ammo_medikit" "20"
+"noise" "weapons/scock1.wav"
+"team_no" "2"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_shells" "100"
+"wait" "2"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1520 2208 -273"
+"volstart" "10"
+"message" "ambience/goal_1.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"targetname" "applause"
+"spawnflags" "49"
+"classname" "ambient_generic"
+}
+{
+"model" "*130"
+"targetname" "red_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*131"
+"targetname" "red_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*132"
+"targetname" "red_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*133"
+"targetname" "red_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*134"
+"targetname" "blue_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*135"
+"targetname" "blue_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*136"
+"targetname" "blue_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*137"
+"targetname" "blue_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*138"
+"targetname" "red_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*139"
+"targetname" "red_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*140"
+"targetname" "red_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*141"
+"targetname" "red_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*142"
+"targetname" "blue_button_4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*143"
+"targetname" "blue_button_3"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*144"
+"targetname" "blue_button_2"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*145"
+"targetname" "blue_button_1"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*146"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*147"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "2966 854 412"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "2966 854 407"
+"_light" "255 200 100 120"
+"classname" "light"
+}
+{
+"model" "*148"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*149"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-2970 922 412"
+"model" "sprites/glow01.spr"
+"framerate" "10.0"
+"rendercolor" "255 200 100"
+"renderamt" "255"
+"rendermode" "3"
+"spawnflags" "1"
+"classname" "env_sprite"
+}
+{
+"origin" "-2970 922 407"
+"_light" "255 200 100 120"
+"classname" "light"
+}
+{
+"origin" "32 1040 397"
+"group_no" "3"
+"netname" "flag 2 neutral"
+"angles" "0 270 0"
+"goal_result" "16"
+"g_a" "1"
+"activate_goal_no" "25"
+"goal_no" "24"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-32 1040 397"
+"group_no" "3"
+"netname" "flag 3 neutral"
+"angles" "0 270 0"
+"goal_result" "16"
+"g_a" "1"
+"activate_goal_no" "35"
+"goal_no" "34"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-96 1040 397"
+"goal_state" "3"
+"group_no" "3"
+"netname" "flag 1 neutral"
+"angles" "0 270 0"
+"goal_result" "16"
+"g_a" "1"
+"activate_goal_no" "15"
+"goal_no" "14"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "96 1040 397"
+"goal_state" "3"
+"group_no" "3"
+"netname" "flag 4 neutral"
+"angles" "0 270 0"
+"goal_result" "16"
+"g_a" "1"
+"activate_goal_no" "45"
+"goal_no" "44"
+"mdl" "models/flag.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "576 -344 368"
+"angles" "0 129 0"
+"classname" "info_player_start"
+}
+{
+"model" "*150"
+"lip" "-8"
+"wait" "-1"
+"speed" "1000"
+"targetname" "start_doors"
+"renderamt" "255"
+"rendermode" "4"
+"angles" "90 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"origin" "16 1320 -49"
+"message" "#dustbowl_grenades"
+"health" "25"
+"no_grenades_2" "2"
+"no_grenades_1" "4"
+"angles" "0 270 0"
+"noise" "weapons/scock1.wav"
+"wait" "5"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"model" "*151"
+"skin" "-1"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*152"
+"classname" "func_ladder"
+}
+{
+"model" "*153"
+"skin" "-1"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*154"
+"classname" "func_ladder"
+}
+{
+"model" "*155"
+"lip" "-8"
+"wait" "-1"
+"speed" "1000"
+"targetname" "start_doors"
+"renderamt" "255"
+"rendermode" "4"
+"angles" "90 0 0"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"model" "*156"
+"targetname" "flag_door1"
+"lip" "16"
+"wait" "0.7"
+"stopsnd" "4"
+"speed" "800"
+"angles" "-90 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*157"
+"style" "32"
+"target" "flag_door1"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*158"
+"targetname" "flag_door2"
+"lip" "16"
+"wait" "0.7"
+"stopsnd" "4"
+"speed" "800"
+"angles" "-90 0 0"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*159"
+"style" "32"
+"target" "flag_door2"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*160"
+"angles" "0 90 0"
+"classname" "func_nobuild"
+}
+{
+"model" "*161"
+"angles" "0 90 0"
+"classname" "func_nobuild"
+}
+{
+"model" "*162"
+"angles" "0 90 0"
+"classname" "func_nobuild"
+}
+{
+"model" "*163"
+"angles" "0 90 0"
+"classname" "func_nobuild"
+}
+{
+"model" "*164"
+"angles" "0 90 0"
+"classname" "func_nobuild"
+}
+{
+"model" "*165"
+"skin" "-1"
+"rendermode" "2"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-1408 960 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 280 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1216 960 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1296 1024 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 273 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1536 1008 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 289 0"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1224 968 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1319 1031 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 265 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1416 968 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 270 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1120 944 291"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "100"
+"angles" "0 315 0"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1376 96 271"
+"else_goal" "123"
+"armorvalue" "75"
+"angles" "0 230 0"
+"ammo_medikit" "35"
+"noise" "weapons/scock1.wav"
+"team_no" "1"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_shells" "100"
+"wait" "5"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1376 96 271"
+"else_goal" "123"
+"armorvalue" "75"
+"angles" "0 288 0"
+"ammo_medikit" "35"
+"noise" "weapons/scock1.wav"
+"team_no" "2"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_shells" "100"
+"wait" "5"
+"mdl" "models/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"model" "*166"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*167"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*168"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*169"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-1120 2240 -276"
+"remove_goal_no" "301"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-928 2240 -276"
+"remove_goal_no" "304"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1056 2240 -276"
+"restore_goal_no" "302"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-992 2240 -276"
+"restore_goal_no" "303"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1280 2144 -276"
+"restore_goal_no" "321"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1216 2144 -276"
+"remove_goal_no" "322"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1152 2144 -276"
+"remove_goal_no" "323"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1088 2144 -276"
+"remove_goal_no" "324"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-768 2144 -276"
+"restore_goal_no" "314"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-832 2144 -276"
+"remove_goal_no" "313"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-896 2144 -276"
+"remove_goal_no" "312"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-960 2144 -276"
+"remove_goal_no" "311"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1336 2040 -276"
+"restore_goal_no" "214"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1272 2040 -276"
+"remove_goal_no" "224"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1208 2040 -276"
+"remove_goal_no" "234"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1144 2040 -276"
+"remove_goal_no" "244"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-728 2040 -276"
+"restore_goal_no" "144"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-792 2040 -276"
+"remove_goal_no" "134"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-856 2040 -276"
+"remove_goal_no" "124"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-920 2040 -276"
+"remove_goal_no" "114"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1024 2400 -280"
+"armor_value" "300"
+"health" "100"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"netname" "forced respawn"
+"goal_result" "112"
+"goal_effects" "9"
+"targetname" "force_respawn"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3484 260 376"
+"target" "red_endgame_check"
+"targetname" "red_1_on"
+"netname" "call red endgame check 1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3388 260 376"
+"target" "red_endgame_check"
+"targetname" "red_2_on"
+"netname" "call red endgame check 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3292 260 376"
+"target" "red_endgame_check"
+"targetname" "red_3_on"
+"netname" "call red endgame check 3"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3196 260 376"
+"target" "red_endgame_check"
+"targetname" "red_4_on"
+"netname" "call red endgame check 4"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3216 208 376"
+"target" "blue_endgame_check"
+"targetname" "blue_1_on"
+"netname" "call blue endgame check 1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3312 208 376"
+"target" "blue_endgame_check"
+"targetname" "blue_2_on"
+"netname" "call blue endgame check 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3408 208 376"
+"target" "blue_endgame_check"
+"targetname" "blue_3_on"
+"netname" "call blue endgame check 3"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3504 208 376"
+"target" "blue_endgame_check"
+"targetname" "blue_4_on"
+"netname" "call blue endgame check 4"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1024 2316 -280"
+"force_respawn" "5"
+"resetflags" "1"
+"classname" "multi_manager"
+}
+{
+"origin" "-1088 1968 -276"
+"restore_goal_no" "24"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-992 1968 -276"
+"restore_goal_no" "34"
+"targetname" "reset_flags"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1776 2032 -280"
+"end_sound" "0"
+"start_doors_open" "60"
+"start_doors_close" "0"
+"red_button_3" "1"
+"red_button_4" "1"
+"red_button_2" "1"
+"reset_flags" "2"
+"force_respawn" "10"
+"blue_button_4" "1"
+"neutral_button_3" "1"
+"neutral_button_2" "1"
+"targetname" "red_endgame"
+"classname" "multi_manager"
+}
+{
+"origin" "-1472 2032 -280"
+"end_sound" "0"
+"start_doors_open" "60"
+"start_doors_close" "0"
+"blue_button_1" "1"
+"blue_button_3" "1"
+"blue_button_2" "1"
+"red_button_1" "1"
+"reset_flags" "2"
+"force_respawn" "10"
+"neutral_button_3" "1"
+"neutral_button_2" "1"
+"targetname" "blue_endgame"
+"classname" "multi_manager"
+}
+{
+"origin" "-1792 944 496"
+"rendercolor" "0 0 0"
+"angles" "0 312 0"
+"health" "0"
+"team_no" "1"
+"orientation" "1"
+"classname" "monster_miniturret"
+}
+{
+"origin" "-1312 1344 432"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"health" "0"
+"team_no" "1"
+"orientation" "1"
+"classname" "monster_miniturret"
+}
+{
+"origin" "-2832 96 240"
+"rendercolor" "0 0 0"
+"angles" "0 45 0"
+"health" "0"
+"team_no" "1"
+"orientation" "1"
+"classname" "monster_miniturret"
+}
+{
+"origin" "2832 96 240"
+"rendercolor" "0 0 0"
+"angles" "0 143 0"
+"health" "0"
+"team_no" "2"
+"orientation" "1"
+"classname" "monster_miniturret"
+}
+{
+"origin" "1312 1344 432"
+"rendercolor" "0 0 0"
+"angles" "0 270 0"
+"health" "0"
+"team_no" "2"
+"orientation" "1"
+"classname" "monster_miniturret"
+}
+{
+"origin" "1792 944 496"
+"rendercolor" "0 0 0"
+"angles" "0 222 0"
+"health" "0"
+"team_no" "2"
+"orientation" "1"
+"classname" "monster_miniturret"
+}
+{
+"model" "*170"
+"else_goal" "757"
+"delay" "0.3"
+"target" "blue_lift_02"
+"wait" "4"
+"style" "32"
+"rendercolor" "0 0 0"
+"classname" "trigger_multiple"
+}
+{
+"model" "*171"
+"delay" "0.3"
+"wait" "4"
+"style" "32"
+"target" "blue_lift_01"
+"classname" "trigger_multiple"
+}
+{
+"model" "*172"
+"delay" "0.3"
+"wait" "4"
+"style" "32"
+"target" "red_lift_01"
+"classname" "trigger_multiple"
+}
+{
+"model" "*173"
+"classname" "func_nobuild"
+}
+{
+"model" "*174"
+"else_goal" "757"
+"delay" "0.3"
+"target" "red_lift_02"
+"wait" "4"
+"style" "32"
+"rendercolor" "0 0 0"
+"classname" "trigger_multiple"
+}
+{
+"model" "*175"
+"lip" "-232"
+"wait" "1.5"
+"stopsnd" "6"
+"movesnd" "2"
+"speed" "200"
+"angles" "-90 0 0"
+"targetname" "red_lift_02"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*176"
+"lip" "-232"
+"wait" "1.5"
+"stopsnd" "6"
+"movesnd" "2"
+"speed" "200"
+"angles" "-90 0 0"
+"targetname" "blue_lift_02"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"origin" "3112 1720 848"
+"_light" "255 255 155 100"
+"pitch" "-65"
+"angles" "0 225 0"
+"classname" "light_environment"
+}
+{
+"origin" "-3168 1696 848"
+"_light" "255 255 155 100"
+"pitch" "-65"
+"angles" "0 315 0"
+"classname" "light_environment"
+}
+{
+"model" "*177"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*178"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*179"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*180"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-1616 1968 -280"
+"start_doors_msg" "0"
+"start_doors" "0"
+"targetname" "start_doors_open"
+"classname" "multi_manager"
+}
+{
+"origin" "-1616 1904 -280"
+"start_doors" "0"
+"targetname" "start_doors_close"
+"classname" "multi_manager"
+}
+{
+"model" "*181"
+"lip" "-8"
+"wait" "-1"
+"speed" "1000"
+"targetname" "start_doors"
+"renderamt" "255"
+"rendermode" "4"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"spawnflags" "32"
+"classname" "func_door"
+}
+{
+"origin" "-680 1904 -276"
+"message" "#2fort_door"
+"goal_no" "747"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-680 1880 -276"
+"message" "#ctf_cantuseitem"
+"goal_no" "123"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-656 1904 -276"
+"message" "#2fort_elevator"
+"goal_no" "757"
+"classname" "info_tfgoal"
+}
+{
+"model" "*182"
+"else_goal" "747"
+"team_no" "2"
+"wait" "1"
+"style" "32"
+"target" "red_door_to_cap2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*183"
+"lip" "8"
+"wait" "1"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "400"
+"targetname" "red_door_to_cap2"
+"renderamt" "255"
+"rendermode" "4"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*184"
+"lip" "8"
+"wait" "1"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "400"
+"renderamt" "255"
+"rendermode" "4"
+"targetname" "red_door_to_cap2"
+"angles" "0 270 0"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*185"
+"else_goal" "747"
+"team_no" "1"
+"wait" "1"
+"style" "32"
+"target" "blue_door_to_cap2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*186"
+"lip" "8"
+"wait" "1"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "400"
+"renderamt" "255"
+"rendermode" "4"
+"targetname" "blue_door_to_cap2"
+"angles" "0 270 0"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*187"
+"lip" "8"
+"wait" "1"
+"stopsnd" "4"
+"movesnd" "3"
+"speed" "400"
+"targetname" "blue_door_to_cap2"
+"renderamt" "255"
+"rendermode" "4"
+"angles" "0 90 0"
+"rendercolor" "0 0 0"
+"classname" "func_door"
+}
+{
+"origin" "1632 720 320"
+"else_goal" "800"
+"has_item_from_group" "100"
+"g_a" "4"
+"target" "blue_spawndoor_2"
+"targetname" "blue_spawndoor_2_itg"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1088 736 320"
+"else_goal" "800"
+"has_item_from_group" "100"
+"g_a" "4"
+"target" "blue_spawndoor_1"
+"targetname" "blue_spawndoor_1_itg"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-656 1880 -276"
+"message" "#war_cant_withflag"
+"goal_no" "800"
+"classname" "info_tfgoal"
+}
+{
+"origin" "2654 -260 48"
+"else_goal" "800"
+"has_item_from_group" "100"
+"g_a" "4"
+"target" "blue_spawndoor_4"
+"targetname" "blue_spawndoor_4_itg"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-2658 -267 48"
+"else_goal" "800"
+"has_item_from_group" "100"
+"g_a" "4"
+"target" "red_spawndoor_4"
+"targetname" "red_spawndoor_4_itg"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1648 731 296"
+"else_goal" "800"
+"has_item_from_group" "100"
+"g_a" "4"
+"target" "red_spawndoor_2"
+"targetname" "red_spawndoor_2_itg"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1086 739 296"
+"else_goal" "800"
+"has_item_from_group" "100"
+"g_a" "4"
+"target" "red_spawndoor_1"
+"targetname" "red_spawndoor_1_itg"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1576 -416 0"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "1544 -416 0"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "1496 -416 16"
+"angles" "0 270 0"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "-1544 -408 0"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1576 -408 0"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1496 -408 16"
+"angles" "0 270 0"
+"respawn_delay" "5"
+"classname" "item_armor3"
+}
+{
+"origin" "-3432 376 40"
+"non_team_broadcast" "#war_esec_flag4"
+"netname_team_broadcast" "#war_tmsec_flag4"
+"message" "#war_usec_flag4"
+"non_team_speak" "!WAR_ESEC_4"
+"team_speak" "!WAR_TSEC_4"
+"AP_speak" "!WAR_YSEC_4"
+"g_e" "1"
+"else_goal" "5143"
+"goal_no" "5142"
+"if_goal_is_removed" "424"
+"increase_team2" "10"
+"goal_result" "2"
+"netname" "red 4 capture result"
+"frags" "5"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3432 432 40"
+"non_team_broadcast" "#war_eret_flag4"
+"netname_team_broadcast" "#war_tret_flag4"
+"message" "#war_uret_flag4"
+"non_team_speak" "!WAR_RRET4"
+"team_speak" "!WAR_RRET4"
+"AP_speak" "!WAR_YRET4"
+"g_e" "1"
+"remove_goal_no" "424"
+"goal_no" "5143"
+"goal_result" "2"
+"netname" "red 4 return result"
+"frags" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3384 376 40"
+"non_team_broadcast" "#war_esec_flag3"
+"netname_team_broadcast" "#war_tmsec_flag3"
+"message" "#war_usec_flag3"
+"non_team_speak" "!WAR_ESEC_3"
+"team_speak" "!WAR_TSEC_3"
+"AP_speak" "!WAR_YSEC_3"
+"g_e" "1"
+"else_goal" "5133"
+"goal_no" "5132"
+"if_goal_is_removed" "423"
+"increase_team2" "10"
+"goal_result" "2"
+"netname" "red 3 capture result"
+"frags" "5"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3320 376 40"
+"non_team_speak" "!WAR_ESEC_2"
+"team_speak" "!WAR_TSEC_2"
+"AP_speak" "!WAR_YSEC_2"
+"non_team_broadcast" "#war_esec_flag2"
+"netname_team_broadcast" "#war_tmsec_flag2"
+"message" "#war_usec_flag2"
+"g_e" "1"
+"else_goal" "5123"
+"goal_no" "5122"
+"if_goal_is_removed" "422"
+"increase_team2" "10"
+"goal_result" "2"
+"netname" "red 2 capture result"
+"frags" "5"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3272 376 40"
+"non_team_speak" "!WAR_ESEC_1"
+"team_speak" "!WAR_TSEC_1"
+"AP_speak" "!WAR_YSEC_1"
+"non_team_broadcast" "#war_esec_flag1"
+"netname_team_broadcast" "#war_tmsec_flag1"
+"message" "#war_usec_flag1"
+"g_e" "1"
+"else_goal" "5113"
+"goal_no" "5112"
+"if_goal_is_removed" "421"
+"increase_team2" "10"
+"goal_result" "2"
+"netname" "red 1 capture result"
+"frags" "5"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3384 432 40"
+"non_team_broadcast" "#war_eret_flag3"
+"netname_team_broadcast" "#war_tret_flag3"
+"message" "#war_uret_flag3"
+"non_team_speak" "!WAR_RRET3"
+"team_speak" "!WAR_RRET3"
+"AP_speak" "!WAR_YRET3"
+"g_e" "1"
+"remove_goal_no" "423"
+"goal_no" "5133"
+"goal_result" "2"
+"netname" "red 3 return result"
+"frags" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3320 432 40"
+"non_team_broadcast" "#war_eret_flag2"
+"netname_team_broadcast" "#war_tret_flag2"
+"message" "#war_uret_flag2"
+"non_team_speak" "!WAR_RRET2"
+"team_speak" "!WAR_RRET2"
+"AP_speak" "!WAR_YRET2"
+"g_e" "1"
+"remove_goal_no" "422"
+"goal_no" "5123"
+"goal_result" "2"
+"netname" "red 2 return result"
+"frags" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-3272 432 40"
+"non_team_broadcast" "#war_eret_flag1"
+"netname_team_broadcast" "#war_tret_flag1"
+"message" "#war_uret_flag1"
+"non_team_speak" "!WAR_RRET1"
+"team_speak" "!WAR_RRET1"
+"AP_speak" "!WAR_YRET1"
+"g_e" "1"
+"remove_goal_no" "421"
+"goal_no" "5113"
+"goal_result" "2"
+"netname" "red 1 return result"
+"frags" "2"
+"classname" "info_tfgoal"
+}
+{
+"model" "*188"
+"activate_goal_no" "514"
+"goal_result" "2"
+"target" "red_4_on"
+"team_no" "2"
+"restore_goal_no" "244"
+"items_allowed" "4"
+"axhitme" "4"
+"g_e" "1"
+"g_a" "1"
+"netname" "red 4 capture point"
+"classname" "i_t_g"
+}
+{
+"origin" "3272 360 40"
+"non_team_broadcast" "#war_esec_flag4"
+"netname_team_broadcast" "#war_tmsec_flag4"
+"message" "#war_usec_flag4"
+"non_team_speak" "!WAR_ESEC_4"
+"team_speak" "!WAR_TSEC_4"
+"AP_speak" "!WAR_YSEC_4"
+"g_e" "1"
+"increase_team1" "10"
+"else_goal" "5243"
+"goal_no" "5242"
+"if_goal_is_removed" "414"
+"goal_result" "2"
+"netname" "blue 4 capture result"
+"frags" "5"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3272 416 40"
+"non_team_broadcast" "#war_eret_flag4"
+"netname_team_broadcast" "#war_tret_flag4"
+"message" "#war_uret_flag4"
+"non_team_speak" "!WAR_BRET4"
+"team_speak" "!WAR_BRET4"
+"AP_speak" "!WAR_YRET4"
+"g_e" "1"
+"remove_goal_no" "414"
+"goal_no" "5243"
+"goal_result" "2"
+"netname" "blue 4 return result"
+"frags" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3320 360 40"
+"non_team_broadcast" "#war_esec_flag3"
+"netname_team_broadcast" "#war_tmsec_3"
+"message" "#war_usec_flag3"
+"non_team_speak" "!WAR_ESEC_3"
+"team_speak" "!WAR_TSEC_3"
+"AP_speak" "!WAR_YSEC_3"
+"g_e" "1"
+"increase_team1" "10"
+"else_goal" "5233"
+"goal_no" "5232"
+"if_goal_is_removed" "413"
+"goal_result" "2"
+"netname" "blue 3 capture result"
+"frags" "5"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3384 360 40"
+"non_team_broadcast" "#war_esec_flag2"
+"netname_team_broadcast" "#war_tmsec_flag2"
+"message" "#war_usec_flag2"
+"non_team_speak" "!WAR_ESEC_2"
+"team_speak" "!WAR_TSEC_2"
+"AP_speak" "!WAR_YSEC_2"
+"g_e" "1"
+"increase_team1" "10"
+"else_goal" "5223"
+"goal_no" "5222"
+"if_goal_is_removed" "412"
+"goal_result" "2"
+"netname" "blue 2 capture result"
+"frags" "5"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3432 360 40"
+"non_team_broadcast" "#war_esec_flag1"
+"netname_team_broadcast" "#war_tmsec_flag1"
+"message" "#war_usec_flag1"
+"non_team_speak" "!WAR_ESEC_1"
+"team_speak" "!WAR_TSEC_1"
+"AP_speak" "!WAR_YSEC_1"
+"g_e" "1"
+"increase_team1" "10"
+"else_goal" "5213"
+"goal_no" "5212"
+"if_goal_is_removed" "411"
+"goal_result" "2"
+"netname" "blue 1 capture result"
+"frags" "5"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3320 416 40"
+"non_team_broadcast" "#war_eret_flag3"
+"netname_team_broadcast" "#war_tret_flag3"
+"message" "#war_uret_flag3"
+"non_team_speak" "!WAR_BRET3"
+"team_speak" "!WAR_BRET3"
+"AP_speak" "!WAR_YRET3"
+"g_e" "1"
+"remove_goal_no" "413"
+"goal_no" "5233"
+"goal_result" "2"
+"netname" "blue 3 return result"
+"frags" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3384 416 40"
+"non_team_broadcast" "#war_eret_flag2"
+"netname_team_broadcast" "#war_tret_flag2"
+"message" "#war_uret_flag2"
+"non_team_speak" "!WAR_BRET2"
+"team_speak" "!WAR_BRET2"
+"AP_speak" "!WAR_YRET2"
+"g_e" "1"
+"remove_goal_no" "412"
+"goal_no" "5223"
+"goal_result" "2"
+"netname" "blue 2 return result"
+"frags" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "3432 416 40"
+"non_team_broadcast" "#war_eret_flag1"
+"netname_team_broadcast" "#war_tret_flag1"
+"message" "#war_uret_flag1"
+"non_team_speak" "!WAR_BRET1"
+"team_speak" "!WAR_BRET1"
+"AP_speak" "!WAR_YRET1"
+"g_e" "1"
+"remove_goal_no" "411"
+"goal_no" "5213"
+"goal_result" "2"
+"netname" "blue 1 return result"
+"frags" "2"
+"classname" "info_tfgoal"
+}
+{
+"model" "*189"
+"skin" "-1"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*190"
+"classname" "func_ladder"
+}
+{
+"model" "*191"
+"skin" "-1"
+"renderamt" "255"
+"rendermode" "4"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*192"
+"classname" "func_ladder"
+}
+{
+"origin" "1712 1472 16"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "1744 1472 16"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "0 480 256"
+"maxs" "1050 850 250"
+"mins" "-1050 -850 -250"
+"areaname" "center yard"
+"classname" "info_areadef"
+}
+{
+"origin" "3136 704 256"
+"maxs" "550 850 250"
+"mins" "-650 -850 -250"
+"areaname" "blue flagroom"
+"classname" "info_areadef"
+}
+{
+"origin" "1792 -256 256"
+"maxs" "600 700 250"
+"mins" "-600 -700 -250"
+"areaname" "blue yard"
+"classname" "info_areadef"
+}
+{
+"origin" "2208 832 256"
+"maxs" "200 400 250"
+"mins" "-200 -400 -250"
+"areaname" "blue guantlet"
+"classname" "info_areadef"
+}
+{
+"origin" "2016 1280 256"
+"maxs" "500 200 250"
+"mins" "-500 -200 -250"
+"areaname" "blue guantlet"
+"classname" "info_areadef"
+}
+{
+"origin" "2976 1696 256"
+"maxs" "800 200 250"
+"mins" "-700 -200 -250"
+"areaname" "blue guantlet"
+"classname" "info_areadef"
+}
+{
+"origin" "2912 -352 304"
+"maxs" "600 200 200"
+"mins" "-500 -600 -300"
+"areaname" "blue backdoor"
+"classname" "info_areadef"
+}
+{
+"origin" "-1798 -280 256"
+"maxs" "600 700 250"
+"mins" "-600 -700 -250"
+"areaname" "red yard"
+"classname" "info_areadef"
+}
+{
+"origin" "-2214 808 256"
+"maxs" "200 400 250"
+"mins" "-200 -400 -250"
+"areaname" "red guantlet"
+"classname" "info_areadef"
+}
+{
+"origin" "-2022 1256 256"
+"maxs" "500 200 250"
+"mins" "-500 -200 -250"
+"areaname" "red guantlet"
+"classname" "info_areadef"
+}
+{
+"origin" "-3142 680 256"
+"maxs" "650 850 250"
+"mins" "-550 -850 -250"
+"areaname" "red flagroom"
+"classname" "info_areadef"
+}
+{
+"origin" "-2982 1672 256"
+"maxs" "800 200 250"
+"mins" "-700 -200 -250"
+"areaname" "red guantlet"
+"classname" "info_areadef"
+}
+{
+"origin" "-2918 -376 304"
+"maxs" "500 200 200"
+"mins" "-600 -600 -300"
+"areaname" "red backdoor"
+"classname" "info_areadef"
+}
+{
+"origin" "-688 -592 112"
+"maxs" "500 200 100"
+"mins" "-500 -200 -100"
+"areaname" "red tunnel"
+"classname" "info_areadef"
+}
+{
+"origin" "688 -592 112"
+"maxs" "500 200 100"
+"mins" "-500 -200 -100"
+"areaname" "blue tunnel"
+"classname" "info_areadef"
+}
+{
+"origin" "1584 864 368"
+"maxs" "500 200 100"
+"mins" "-500 -400 -100"
+"areaname" "blue spawncorridor"
+"classname" "info_areadef"
+}
+{
+"origin" "-1520 848 368"
+"maxs" "500 200 100"
+"mins" "-500 -400 -100"
+"areaname" "red spawncorridor"
+"classname" "info_areadef"
+}
+{
+"model" "*193"
+"classname" "func_nobuild"
+}
+{
+"model" "*194"
+"classname" "func_nogrenades"
+}
+{
+"model" "*195"
+"classname" "func_nogrenades"
+}
+{
+"model" "*196"
+"classname" "func_nogrenades"
+}
+{
+"model" "*197"
+"classname" "func_nogrenades"
+}
+{
+"model" "*198"
+"classname" "func_nogrenades"
+}
+{
+"model" "*199"
+"classname" "func_nogrenades"
+}
+{
+"model" "*200"
+"classname" "func_nogrenades"
+}
+{
+"model" "*201"
+"classname" "func_nogrenades"
+}
+{
+"model" "*202"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*203"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*204"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"model" "*205"
+"skin" "-1"
+"rendercolor" "0 0 0"
+"classname" "func_illusionary"
+}
+{
+"origin" "-1744 1472 16"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"origin" "-1712 1472 16"
+"angles" "0 270 0"
+"classname" "item_healthkit"
+}
+{
+"model" "*206"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*207"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-1616 2032 -280"
+"pitchstart" "100"
+"pitch" "100"
+"health" "10"
+"message" "misc/endgame.wav"
+"targetname" "end_sound"
+"spawnflags" "49"
+"classname" "ambient_generic"
+}
+{
+"model" "*208"
+"activate_goal_no" "46"
+"axhitme" "4"
+"items_allowed" "4"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*209"
+"activate_goal_no" "36"
+"axhitme" "3"
+"items_allowed" "3"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*210"
+"activate_goal_no" "26"
+"axhitme" "2"
+"items_allowed" "2"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*211"
+"activate_goal_no" "16"
+"axhitme" "1"
+"items_allowed" "1"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*212"
+"activate_goal_no" "46"
+"axhitme" "4"
+"items_allowed" "4"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*213"
+"activate_goal_no" "36"
+"axhitme" "3"
+"items_allowed" "3"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*214"
+"activate_goal_no" "26"
+"axhitme" "2"
+"items_allowed" "2"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*215"
+"activate_goal_no" "16"
+"axhitme" "1"
+"items_allowed" "1"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*216"
+"activate_goal_no" "16"
+"axhitme" "1"
+"items_allowed" "1"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*217"
+"activate_goal_no" "26"
+"axhitme" "2"
+"items_allowed" "2"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*218"
+"activate_goal_no" "36"
+"axhitme" "3"
+"items_allowed" "3"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*219"
+"activate_goal_no" "46"
+"axhitme" "4"
+"items_allowed" "4"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*220"
+"activate_goal_no" "46"
+"axhitme" "4"
+"items_allowed" "4"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*221"
+"activate_goal_no" "36"
+"axhitme" "3"
+"items_allowed" "3"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*222"
+"activate_goal_no" "26"
+"axhitme" "2"
+"items_allowed" "2"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*223"
+"activate_goal_no" "16"
+"axhitme" "1"
+"items_allowed" "1"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*224"
+"activate_goal_no" "16"
+"axhitme" "1"
+"items_allowed" "1"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*225"
+"activate_goal_no" "26"
+"axhitme" "2"
+"items_allowed" "2"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*226"
+"activate_goal_no" "36"
+"axhitme" "3"
+"items_allowed" "3"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*227"
+"activate_goal_no" "46"
+"axhitme" "4"
+"items_allowed" "4"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*228"
+"activate_goal_no" "46"
+"axhitme" "4"
+"items_allowed" "4"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*229"
+"activate_goal_no" "36"
+"axhitme" "3"
+"items_allowed" "3"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*230"
+"activate_goal_no" "26"
+"axhitme" "2"
+"items_allowed" "2"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*231"
+"activate_goal_no" "16"
+"axhitme" "1"
+"items_allowed" "1"
+"message" "#war_removedflag"
+"g_e" "1"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"model" "*232"
+"classname" "func_nogrenades"
+}
+{
+"model" "*233"
+"classname" "func_nogrenades"
+}

@@ -1,0 +1,311 @@
+{
+"newunit" "1"
+"skyname" "london"
+"mapversion" "220"
+"wad" "c:\projects\hlengine\cz\game\czero\cz_HRX.wad;"
+"classname" "worldspawn"
+"startdark" "1"
+"maptier" "5"
+"lightmultiplier" "30"
+}
+{
+"targetname" "SAS_commander"
+"origin" "220.00 288.00 16.00"
+"angle" "180"
+"classname" "monster_ct_sas_pistol"
+"spawnflags" "18"
+"cantmove" "2"
+"idleanim" "commander_idle"
+"model" "models/sas.mdl"
+"usetarget" "null"
+"head" "3"
+"skin" "0"
+"weapons" "64"
+}
+{
+"model" "*1"
+"spawnflags" "1"
+"targetname" "Commander_talk10"
+"classname" "trigger_autosave"
+}
+{
+"classname" "trigger_endmission"
+"targetname" "end_map2"
+"nextmap" "cz_hr02"
+"origin" "448 832 -264"
+}
+{
+"origin" "120 456 0"
+"classname" "monster_ct_sas_assaultrifle"
+"target" "walkpath2"
+"spawnflags" "2"
+}
+{
+"model" "*2"
+"target" "Commander_talk10"
+"classname" "trigger_once"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+"renderamt" "70"
+"rendermode" "2"
+}
+{
+"target" "walkpath2"
+"targetname" "walkpath1"
+"classname" "path_corner"
+"angle" "90"
+"origin" "32 456 16"
+}
+{
+"classname" "info_player_start"
+"angle" "0"
+"origin" "136 288 40"
+}
+{
+"target" "walkpath1"
+"targetname" "walkpath2"
+"origin" "336 456 16"
+"angle" "90"
+"classname" "path_corner"
+}
+{
+"angles" "0 180 0"
+"model" "models/props/desk_office-mahg.mdl"
+"origin" "180.00 304.00  0.00"
+"classname" "item_generic"
+}
+{
+"angles" "0 225 0"
+"model" "models/props/chair_cafe.mdl"
+"origin" "247.31 325.31  0.00"
+"classname" "item_generic"
+}
+{
+"classname" "item_generic"
+"origin" "180.00 150.00  0.00"
+"model" "models/props/desk_office-mahg.mdl"
+"angles" "0 180 0"
+}
+{
+"classname" "item_generic"
+"origin" "128.63 320.63  0.00"
+"model" "models/props/chair_cafe.mdl"
+"angles" "0 335 0"
+}
+{
+"origin" "304 16 74"
+"style" "0"
+"_light" "255 255 255 100"
+"classname" "light"
+}
+{
+"angles" "0 0 180"
+"model" "models/props/light_bulb.mdl"
+"origin" "304.00 16.00 98.00"
+"classname" "item_generic"
+"lightmultiplier" "1"
+}
+{
+"classname" "info_landmark"
+"targetname" "end_b"
+"origin" "160 200 40"
+}
+{
+"origin" "-192 896 -224"
+"delay" ".1"
+"target" "titletext"
+"classname" "trigger_auto"
+}
+{
+"sequence_id" "Commander_talk10"
+"sequence_file" "cz_hr01.seq"
+"origin" "80 176 64"
+"targetname" "Commander_talk10"
+"classname" "trigger_sequence"
+}
+{
+"cantmove" "2"
+"weapons" "64"
+"model" "models/npc-scientist.mdl"
+"angles" "0 180 0"
+"body" "2"
+"targetname" "welcome1"
+"spawnflags" "262"
+"classname" "monster_generic"
+"angle" "180"
+"origin" "210.00 156.00  0.00"
+"idleanim" "NPC_computer-type"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+"rendercolor" "0 0 0"
+}
+{
+"classname" "monster_generic"
+"origin" "210.00 156.00  0.00"
+"model" "models/props/chair_office-leather.mdl"
+"angles" "0 180 0"
+"deathanim" "NPC_computer-talk-chair"
+"targetname" "t5"
+}
+{
+"classname" "item_generic"
+"origin" "304.00 116.00  0.00"
+"model" "models/props/Couch_leather-black.mdl"
+"angles" "0 180 0"
+}
+{
+"angles" "0 0 0"
+"model" "models/props/coat_rack.mdl"
+"origin" "144.00 16.00  1.00"
+"classname" "item_generic"
+}
+{
+"origin" "16 104 40"
+"pitch" "-90"
+"_cone2" "128"
+"_cone" "64"
+"classname" "light_spot"
+"_light" "255 255 255 200"
+"style" "0"
+}
+{
+"classname" "item_generic"
+"origin" "131.31 235.31  0.00"
+"model" "models/props/chair_cafe.mdl"
+"angles" "0 45 0"
+}
+{
+"head" "2"
+"weapons" "64"
+"usetarget" "null"
+"idleanim" "NPC_sit_cigar"
+"cantmove" "2"
+"targetname" "guard4"
+"spawnflags" "258"
+"classname" "monster_ct_sas_grenader"
+"angle" "45"
+"origin" "131 237 0"
+}
+{
+"head" "2"
+"weapons" "64"
+"usetarget" "null"
+"idleanim" "NPC_stand_cigar"
+"cantmove" "2"
+"origin" "114 354 0"
+"angle" "315"
+"classname" "monster_ct_sas_grenader"
+"spawnflags" "258"
+"targetname" "guard5"
+}
+{
+"angles" "0 270 0"
+"model" "models/props/table_sofa-mahg.mdl"
+"origin" "100.00 386.00  1.00"
+"classname" "item_generic"
+}
+{
+"classname" "item_generic"
+"origin" "152.00 386.00  1.00"
+"model" "models/props/table_sofa-mahg.mdl"
+"angles" "0 270 0"
+}
+{
+"model" "*6"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*7"
+"classname" "func_wall"
+"rendercolor" "0 0 0"
+}
+{
+"model" "*8"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"model" "*9"
+"classname" "func_wall"
+"rendercolor" "0 0 0"
+}
+{
+"model" "*10"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"angles" "0 0 0"
+"model" "models/props/Lamp_table-brass.mdl"
+"origin" "16.00 104.00 40.00"
+"classname" "item_generic"
+}
+{
+"origin" "384 496 80"
+"message" "ambience/blackhawk_flyoff.wav"
+"pitchstart" "100"
+"pitch" "100"
+"health" "5"
+"spawnflags" "52"
+"classname" "ambient_generic"
+"targetname" "apache"
+}
+{
+"pitch" "-32"
+"_light" "205 205 150 150"
+"origin" "112 496 96"
+"classname" "light_environment"
+"angles" "0 315 0"
+}
+{
+"trackname" "sound/music/hr_intro"
+"origin" "-192 768 -288"
+"classname" "trigger_cdaudio"
+"targetname" "Start_music"
+}
+{
+"origin" "-64 736 -288"
+"targetname" "hud_off"
+"display" "0"
+"classname" "trigger_hud"
+}
+{
+"origin" "64 736 -288"
+"targetname" "freeze_player"
+"classname" "trigger_freezeplayer"
+}
+{
+"classname" "trigger_hud"
+"display" "1"
+"targetname" "hud_on"
+"origin" "-64 824 -296"
+}
+{
+"origin" "64 800 -296"
+"rendercolor" "0 0 0"
+"renderamt" "255"
+"duration" "6"
+"holdtime" "12"
+"targetname" "Commander_talk10"
+"classname" "env_fade"
+"spawnflags" "1"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"model" "*12"
+"spawnflags" "1"
+"classname" "func_wall_toggle"
+"targetname" "end_map"
+}
