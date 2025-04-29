@@ -1,0 +1,549 @@
+{
+"wad" "\tffree\ricochet\ricochet.wad"
+"mapversion" "340"
+"MaxRange" "4096"
+"no_arena" "1"
+"sounds" "1"
+"skyname" "disc"
+"classname" "worldspawn"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"classname" "trigger_fall"
+}
+{
+"origin" "-32 -64 -396"
+"pitch" "-45"
+"_light" "250 242 218 200"
+"classname" "light_environment"
+}
+{
+"model" "*2"
+"rendermode" "4"
+"renderamt" "255"
+"rendercolor" "0 0 0"
+"classname" "func_wall"
+}
+{
+"origin" "-384 256 360"
+"classname" "item_powerup"
+}
+{
+"model" "*3"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"origin" "-384 -896 128"
+"angles" "0 90 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-256 128 360"
+"classname" "info_ricochet"
+}
+{
+"origin" "-608 1152 960"
+"pitch" "-35"
+"angles" "0 293 0"
+"classname" "info_player_spectator"
+}
+{
+"origin" "-384 -896 4"
+"targetname" "red_level1_1"
+"classname" "info_target"
+}
+{
+"origin" "-384 -128 4"
+"targetname" "red_level1_2"
+"classname" "info_target"
+}
+{
+"origin" "384 -128 4"
+"targetname" "red_level1_3"
+"classname" "info_target"
+}
+{
+"model" "*4"
+"height" "128"
+"target" "red_level1_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*5"
+"height" "128"
+"target" "red_level1_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*6"
+"height" "128"
+"target" "blue_level1_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*7"
+"height" "128"
+"target" "blue_level1_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*8"
+"height" "128"
+"target" "blue_level1_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*9"
+"height" "128"
+"target" "blue_level1_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*10"
+"height" "192"
+"target" "blue_level1_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*11"
+"height" "192"
+"target" "blue_level1_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*12"
+"height" "192"
+"target" "red_level1_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*13"
+"height" "128"
+"target" "red_level1_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*14"
+"height" "128"
+"target" "red_level1_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*15"
+"height" "192"
+"target" "red_level1_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*16"
+"height" "256"
+"target" "blue_level2_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*17"
+"height" "256"
+"target" "red_level2_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*18"
+"height" "128"
+"target" "red_level2_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*19"
+"height" "192"
+"target" "red_level2_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*20"
+"height" "128"
+"target" "red_level2_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*21"
+"height" "128"
+"target" "red_level2_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*22"
+"height" "192"
+"target" "red_level2_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*23"
+"height" "128"
+"target" "red_level2_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*24"
+"height" "192"
+"target" "blue_level2_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*25"
+"height" "128"
+"target" "blue_level2_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*26"
+"height" "128"
+"target" "blue_level2_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*27"
+"height" "128"
+"target" "blue_level2_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*28"
+"height" "128"
+"target" "blue_level2_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*29"
+"height" "192"
+"target" "blue_level2_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*30"
+"height" "256"
+"target" "red_level3_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*31"
+"height" "256"
+"target" "blue_level3_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*32"
+"height" "256"
+"target" "red_level3_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*33"
+"height" "256"
+"target" "blue_level3_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*34"
+"height" "192"
+"target" "red_level3_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*35"
+"height" "256"
+"target" "red_level3_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*36"
+"height" "256"
+"target" "red_level3_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*37"
+"height" "256"
+"target" "red_level3_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*38"
+"height" "192"
+"target" "blue_level3_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*39"
+"height" "256"
+"target" "blue_level3_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*40"
+"height" "256"
+"target" "blue_level3_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*41"
+"height" "256"
+"target" "blue_level3_3"
+"classname" "trigger_jump"
+}
+{
+"model" "*42"
+"height" "312"
+"target" "red_level1_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*43"
+"height" "312"
+"target" "blue_level1_3"
+"classname" "trigger_jump"
+}
+{
+"origin" "0 -512 4"
+"targetname" "blue_level1_1"
+"classname" "info_target"
+}
+{
+"origin" "0 256 4"
+"targetname" "blue_level1_2"
+"classname" "info_target"
+}
+{
+"origin" "768 -512 4"
+"targetname" "blue_level1_3"
+"classname" "info_target"
+}
+{
+"origin" "-384 -128 260"
+"targetname" "blue_level2_1"
+"classname" "info_target"
+}
+{
+"origin" "-1152 640 260"
+"targetname" "blue_level2_2"
+"classname" "info_target"
+}
+{
+"origin" "-384 640 260"
+"targetname" "blue_level2_3"
+"classname" "info_target"
+}
+{
+"origin" "-768 256 260"
+"targetname" "red_level2_1"
+"classname" "info_target"
+}
+{
+"origin" "0 1024 260"
+"targetname" "red_level2_2"
+"classname" "info_target"
+}
+{
+"origin" "0 256 260"
+"targetname" "red_level2_3"
+"classname" "info_target"
+}
+{
+"origin" "-768 -512 516"
+"targetname" "blue_level3_1"
+"classname" "info_target"
+}
+{
+"origin" "0 1024 516"
+"targetname" "blue_level3_2"
+"classname" "info_target"
+}
+{
+"origin" "384 -128 516"
+"targetname" "blue_level3_3"
+"classname" "info_target"
+}
+{
+"origin" "-1152 -128 516"
+"targetname" "red_level3_1"
+"classname" "info_target"
+}
+{
+"origin" "384 640 516"
+"targetname" "red_level3_2"
+"classname" "info_target"
+}
+{
+"origin" "0 -512 516"
+"targetname" "red_level3_3"
+"classname" "info_target"
+}
+{
+"model" "*44"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*45"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*46"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*47"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*48"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*49"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"origin" "768 -512 128"
+"angles" "0 150 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-384 -128 128"
+"angles" "0 338 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "0 256 128"
+"angles" "0 270 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1152 640 384"
+"angles" "0 315 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "0 1024 384"
+"angles" "0 225 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "0 256 384"
+"angles" "0 180 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-384 -128 384"
+"angles" "0 90 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-768 -512 608"
+"angles" "0 45 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1152 -128 608"
+"angles" "0 45 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "0 1024 608"
+"angles" "0 225 0"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "384 640 608"
+"angles" "0 225 0"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*50"
+"classname" "trigger_discreturn"
+}
+{
+"model" "*51"
+"classname" "trigger_discreturn"
+}
+{
+"model" "*52"
+"classname" "trigger_discreturn"
+}
+{
+"model" "*53"
+"classname" "trigger_discreturn"
+}
+{
+"origin" "104 -216 600"
+"classname" "item_powerup"
+}
+{
+"origin" "-384 -896 128"
+"angles" "0 90 0"
+"classname" "info_player_start"
+}
+{
+"model" "*54"
+"height" "312"
+"target" "blue_level3_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*55"
+"height" "312"
+"target" "red_level3_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*56"
+"height" "312"
+"target" "blue_level3_2"
+"classname" "trigger_jump"
+}
+{
+"model" "*57"
+"height" "312"
+"target" "red_level3_1"
+"classname" "trigger_jump"
+}
+{
+"model" "*58"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*59"
+"angles" "0 90 0"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*60"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+}

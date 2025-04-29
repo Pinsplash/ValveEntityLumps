@@ -24,9 +24,11 @@ Goldsource games:
 * **Counter-Strike: Condition Zero:** ✔
 * **Counter-Strike: Condition Zero Deleted Scenes:** ✔
 * **Day of Defeat:** ✔
+* **Deathmatch Classic:** ✔
 * **Half-Life:** ✔
 * **Half-Life: Opposing Force:** ✔
 * **Half-Life: Blue Shift:** ✔
+* **Ricochet:** ✔
 * **Team Fortress Classic:** ✔
 
 This repo exists for the purpose of searching for certain things, but you should not use the GitHub search function because it is garbage. Please use Notepad++.
