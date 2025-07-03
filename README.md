@@ -27,7 +27,7 @@ Goldsource games:
 * **Deathmatch Classic:** ✔
 * **Half-Life:** ✔
 * **Half-Life: Opposing Force:** ✔
-* **Half-Life: Blue Shift:** ✔
+* **Half-Life: Blue Shift:** ❌
 * **Ricochet:** ✔
 * **Team Fortress Classic:** ✔
 
