@@ -1,4 +1,4 @@
-This repo contains most entity lumps from Valve Source games, including additional things like LMP, PAT, and commentary files. Some entity lumps couldn't be included because I didn't have a tool on hand to open them.
+This repo contains most entity lumps from Valve games, including additional things like LMP, PAT, and commentary files. Some entity lumps couldn't be included because I didn't have a tool on hand to open them.
 
 Source games:
 
